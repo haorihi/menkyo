@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "006_001",
+    "chapter": 6,
+    "category": "道路の使用許可",
+    "type": "truefalse",
+    "question": "道路上に看板や旗を掲げる場合は、所轄警察署長の道路使用許可が必要である。",
+    "answer": true,
+    "explanation": "道路に工作物を設置したり、祭礼などの行事で道路を使用する場合は、その場所を管轄する警察署長の許可が必要です。無許可の道路使用は禁止されています。",
+    "tags": [
+      "道路使用",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_002",
+    "chapter": 6,
+    "category": "道路の使用許可",
+    "type": "truefalse",
+    "question": "道路使用の許可は、所轄警察署長が与える。",
+    "answer": true,
+    "explanation": "道路使用許可は、使用場所を管轄する「警察署長」が与えます。公安委員会ではありませんので、混同しないよう注意が必要です。",
+    "tags": [
+      "道路使用",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "006_003",
+    "chapter": 6,
+    "category": "道路の使用許可",
+    "type": "truefalse",
+    "question": "道路使用許可を受けずに道路を使用した場合、10万円以下の罰金に処せられる。",
+    "answer": false,
+    "explanation": "【ひっかけ】無許可道路使用の罰則は10万円以下ではありません。道路交通法では、道路使用許可を受けずに道路を使用した場合、罰則の対象になりますが、具体的な罰則額は違反の内容によります。",
+    "tags": [
+      "道路使用",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "wrong_number"
+  },
+  {
+    "id": "006_004",
+    "chapter": 6,
+    "category": "道路の使用許可",
+    "type": "truefalse",
+    "question": "工事のために道路を占用する場合は、道路使用許可とは別に道路管理者の占用許可も必要である。",
+    "answer": true,
+    "explanation": "道路の占用には道路管理者（都道府県や市町村）の占用許可と、公安委員会の道路使用許可の両方が必要です。二重の許可が必要です。",
+    "tags": [
+      "道路使用",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "006_005",
+    "chapter": 6,
+    "category": "道路の使用許可",
+    "type": "truefalse",
+    "question": "祭りやイベントで道路を使用する場合も、公安委員会の許可が必要である。",
+    "answer": true,
+    "explanation": "祭りやイベントで道路を通行止めにしたり、歩行者天国にする場合も公安委員会の道路使用許可が必要です。",
+    "tags": [
+      "道路使用",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_006",
+    "chapter": 6,
+    "category": "道路の使用許可",
+    "type": "truefalse",
+    "question": "道路使用許可の有効期限は、特に定めがない限り1年である。",
+    "answer": false,
+    "explanation": "【ひっかけ】道路使用許可には有効期限が個別に定められます。「特に定めがない限り1年」という一律の規定はありません。",
+    "tags": [
+      "道路使用",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "006_007",
+    "chapter": 6,
+    "category": "道路の使用許可",
+    "type": "truefalse",
+    "question": "道路使用許可を受けた者が、その条件に違反した場合、許可を取り消されることがある。",
+    "answer": true,
+    "explanation": "道路使用許可の条件に違反した場合、公安委員会は許可を取り消し、または変更することができます。",
+    "tags": [
+      "道路使用",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_008",
+    "chapter": 6,
+    "category": "道路の使用許可",
+    "type": "truefalse",
+    "question": "道路使用許可の申請は、使用開始の3日前までに行わなければならない。",
+    "answer": false,
+    "explanation": "【ひっかけ】道路使用許可の申請は、使用開始の「3日前」ではなく、事前に十分な余裕を持って行う必要があります。具体的な期限は状況によります。",
+    "tags": [
+      "道路使用",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "wrong_number"
+  },
+  {
+    "id": "006_009",
+    "chapter": 6,
+    "category": "道路の使用許可",
+    "type": "truefalse",
+    "question": "道路を使用して工事を行う場合、危険を防止するための措置を講じなければならない。",
+    "answer": true,
+    "explanation": "道路工事中は、通行車両や歩者に対して危険を防止するための措置（標識、誘導員、柵等）を講じる義務があります。",
+    "tags": [
+      "道路使用",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_010",
+    "chapter": 6,
+    "category": "道路の使用許可",
+    "type": "truefalse",
+    "question": "公安委員会は、交通に支障がないと認めれば誰にでも道路使用許可を与えなければならない。",
+    "answer": false,
+    "explanation": "【ひっかけ】公安委員会は一定の基準を満たす場合に許可を与えますが、交通の安全と円滑を著しく阻害する場合は許可を与えないことができます。「誰にでも」は誤りです。",
+    "tags": [
+      "道路使用",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "006_011",
+    "chapter": 6,
+    "category": "違法駐車対策",
+    "type": "truefalse",
+    "question": "違法駐車に対して、放置車両確認機関が確認標章（ステッカー）を付けることがある。",
+    "answer": true,
+    "explanation": "放置違反車両の確認標章制度では、確認機関が違法駐車車両にステッカーを貼り付けることがあります。これをはがすと罰せられます。",
+    "tags": [
+      "違法駐車",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_012",
+    "chapter": 6,
+    "category": "違法駐車対策",
+    "type": "truefalse",
+    "question": "確認標章（ステッカー）を付けられた車の所有者は、速やかに車を移動しなければならない。",
+    "answer": true,
+    "explanation": "確認標章が貼られた車の使用者・所有者は、速やかに車を移動する義務があります。放置すると移動命令違反で罰せられます。",
+    "tags": [
+      "違法駐車",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_013",
+    "chapter": 6,
+    "category": "違法駐車対策",
+    "type": "truefalse",
+    "question": "確認標章を勝手にはがした場合、罰則の対象になる。",
+    "answer": true,
+    "explanation": "確認標章を他人が勝手にはがした場合、罰則の対象になります。これは証拠隠滅にあたるためです。",
+    "tags": [
+      "違法駐車",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_014",
+    "chapter": 6,
+    "category": "違法駐車対策",
+    "type": "truefalse",
+    "question": "放置違反金制度では、車の使用者が反則金を納付しなければならない。",
+    "answer": true,
+    "explanation": "放置違反金制度では、運転者ではなく「車の使用者」に対して違反金の納付命令が出されます。使用者責任が問われます。",
+    "tags": [
+      "違法駐車",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "006_015",
+    "chapter": 6,
+    "category": "違法駐車対策",
+    "type": "truefalse",
+    "question": "違法駐車は、運転者が車に乗っていれば違反にならない。",
+    "answer": false,
+    "explanation": "【ひっかけ】駐車禁止場所での駐車は、運転者が車内にいても違反です。「乗っていればOK」という例外はありません（ただし、停車として認められる短時間の乗降等は別です）。",
+    "tags": [
+      "違法駐車",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "missing_condition"
+  },
+  {
+    "id": "006_016",
+    "chapter": 6,
+    "category": "違法駐車対策",
+    "type": "truefalse",
+    "question": "駐車監視員は、警察官と同等の権限を持つ。",
+    "answer": false,
+    "explanation": "【ひっかけ】駐車監視員は違法駐車の確認・報告を行いますが、警察官と同等の権限はありません。取り締まり（切符を切る等）は警察官が行います。",
+    "tags": [
+      "違法駐車",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "006_017",
+    "chapter": 6,
+    "category": "違法駐車対策",
+    "type": "truefalse",
+    "question": "駐車違反の反則金は、車の種類によって金額が異なる。",
+    "answer": true,
+    "explanation": "駐車違反の反則金は車種によって異なります。大型車の方が普通車より高額です。",
+    "tags": [
+      "違法駐車",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_018",
+    "chapter": 6,
+    "category": "違法駐車対策",
+    "type": "truefalse",
+    "question": "放置違反金を納付しない場合、車検を受けられなくなることがある。",
+    "answer": true,
+    "explanation": "放置違反金を滞納すると、車検の申請が拒否されることがあります。また、督促後も納付しない場合は財産の差し押さえ等の措置がとられます。",
+    "tags": [
+      "違法駐車",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "006_019",
+    "chapter": 6,
+    "category": "違法駐車対策",
+    "type": "truefalse",
+    "question": "駐車場の出入口付近への駐車は、駐車場の利用者に迷惑がかかるだけで違反ではない。",
+    "answer": false,
+    "explanation": "【ひっかけ】駐車場出入口付近への駐車は、駐車場への出入りを妨げるため違反です。単なる迷惑ではなく法的違反です。",
+    "tags": [
+      "違法駐車",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "006_020",
+    "chapter": 6,
+    "category": "違法駐車対策",
+    "type": "truefalse",
+    "question": "消防車両の通行に支障がある駐車は、消火活動の妨げとして特に重く罰せられる。",
+    "answer": true,
+    "explanation": "消火栓付近や消防車の通行路を塞ぐ駐車は、火災時に消火活動を妨げる重大な違反です。通常の駐車違反より厳しく対処されます。",
+    "tags": [
+      "違法駐車",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_021",
+    "chapter": 6,
+    "category": "道路の保全",
+    "type": "truefalse",
+    "question": "道路上に障害物を放置することは、他の交通に危険を及ぼすため禁止されている。",
+    "answer": true,
+    "explanation": "道路上の障害物は通行車両や歩者に危険を及ぼします。荷物の落下や障害物の放置は禁止です。やむを得ず放置する場合は危険防止措置が必要です。",
+    "tags": [
+      "道路保全",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_022",
+    "chapter": 6,
+    "category": "道路の保全",
+    "type": "truefalse",
+    "question": "雪かきで道路に雪を積み上げることは、交通に支障がなければ認められる。",
+    "answer": false,
+    "explanation": "【ひっかけ】雪を道路に積み上げることは、交通に支障があってもなくても原則禁止です。雪は道路外に排除しなければなりません。",
+    "tags": [
+      "道路保全",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "006_023",
+    "chapter": 6,
+    "category": "道路の保全",
+    "type": "truefalse",
+    "question": "車が道路上で故障した場合、夜間は反射器材を設置しなければならない。",
+    "answer": true,
+    "explanation": "夜間の路上故障時は、反射器材（三角表示板）を後方に設置し、他車に車の存在を知らせる義務があります。",
+    "tags": [
+      "道路保全",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_024",
+    "chapter": 6,
+    "category": "道路の保全",
+    "type": "truefalse",
+    "question": "道路に泥や砂を撒き散らすことは、清掃しなければ違反である。",
+    "answer": true,
+    "explanation": "道路に土砂、泥、ガラス片等を撒き散らすことは道路の保全に反します。清掃義務があり、これを怠ると罰則の対象です。",
+    "tags": [
+      "道路保全",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_025",
+    "chapter": 6,
+    "category": "道路の保全",
+    "type": "truefalse",
+    "question": "道路に油を撒き散らした場合は、速やかに清掃するか、砂を撒くなどの措置をとらなければならない。",
+    "answer": true,
+    "explanation": "油が路面にあるとスリップの危険が高いです。撒き散らした者は速やかに清掃または危険防止措置を講じる義務があります。",
+    "tags": [
+      "道路保全",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_026",
+    "chapter": 6,
+    "category": "道路の保全",
+    "type": "truefalse",
+    "question": "道路にガラス片が散乱している場合、そのまま放置しても転倒事故が起きなければ問題ない。",
+    "answer": false,
+    "explanation": "【ひっかけ】ガラス片等の散乱物は、事故が起きていなくても放置は違反です。事故の発生を待たずに速やかに清掃する義務があります。",
+    "tags": [
+      "道路保全",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "missing_condition"
+  },
+  {
+    "id": "006_027",
+    "chapter": 6,
+    "category": "道路の保全",
+    "type": "truefalse",
+    "question": "車が故障して路上に置かれる場合、昼間は点滅表示灯をつける必要はない。",
+    "answer": true,
+    "explanation": "昼間は反射器材の設置だけで十分です。非常点滅表示灯（ハザードランプ）の点灯は夜間に限らず推奨されますが、昼間の義務は反射器材の設置です。",
+    "tags": [
+      "道路保全",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "006_028",
+    "chapter": 6,
+    "category": "道路の保全",
+    "type": "truefalse",
+    "question": "道路上に看板を置くことは、許可がなくても一時的であれば問題ない。",
+    "answer": false,
+    "explanation": "【ひっかけ】一時的であっても、道路上に看板等を設置するには公安委員会の道路使用許可が必要です。「一時的だからOK」という例外はありません。",
+    "tags": [
+      "道路保全",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "missing_condition"
+  },
+  {
+    "id": "006_029",
+    "chapter": 6,
+    "category": "道路の保全",
+    "type": "truefalse",
+    "question": "道路の掘削工事を行う場合は、道路管理者の占用許可と公安委員会の道路使用許可の両方が必要である。",
+    "answer": true,
+    "explanation": "掘削工事は道路の占用にあたるため、道路管理者の占用許可と、交通への影響について公安委員会の道路使用許可の両方が必要です。",
+    "tags": [
+      "道路保全",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "006_030",
+    "chapter": 6,
+    "category": "道路の保全",
+    "type": "truefalse",
+    "question": "道路上の工作物（ガードレール等）を損傷した場合、直ちに警察に届け出なければならない。",
+    "answer": true,
+    "explanation": "道路上の工作物を損傷した場合は直ちに警察に届け出る義務があります。物損事故として扱われます。",
+    "tags": [
+      "道路保全",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_031",
+    "chapter": 6,
+    "category": "危険物の運搬",
+    "type": "truefalse",
+    "question": "危険物（ガソリン等）を積載した車は、指定された標識を掲げなければならない。",
+    "answer": true,
+    "explanation": "危険物を積載する車は、危険物積載車であることを示す標識の掲示が義務です。他車に注意を促すためです。",
+    "tags": [
+      "危険物",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_032",
+    "chapter": 6,
+    "category": "危険物の運搬",
+    "type": "truefalse",
+    "question": "危険物を積載した車は、トンネル内を通行してはならない。",
+    "answer": false,
+    "explanation": "【ひっかけ】危険物積載車でもトンネルを通行できる場合があります。ただし、長大トンネル等では通行が制限される場合があります。「一切通行不可」ではありません。",
+    "tags": [
+      "危険物",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "006_033",
+    "chapter": 6,
+    "category": "危険物の運搬",
+    "type": "truefalse",
+    "question": "危険物の積載に際しては、容器が破損しないよう確実に固定しなければならない。",
+    "answer": true,
+    "explanation": "危険物は容器の破損や転倒を防ぐため、確実に固定して運搬します。走行中の振動で転倒しないよう措置が必要です。",
+    "tags": [
+      "危険物",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_034",
+    "chapter": 6,
+    "category": "危険物の運搬",
+    "type": "truefalse",
+    "question": "危険物輸送中に事故が発生した場合、まず警察に通報し、次に消防に通報する。",
+    "answer": true,
+    "explanation": "危険物輸送中の事故は、警察と消防の両方に通報します。火災や爆発の危険があるため、消防への早期通報が重要です。",
+    "tags": [
+      "危険物",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_035",
+    "chapter": 6,
+    "category": "危険物の運搬",
+    "type": "truefalse",
+    "question": "高圧ガスを積載した車は、他の高圧ガス積載車と並んで駐車してはならない。",
+    "answer": true,
+    "explanation": "高圧ガス積載車同士を並べて駐車すると、万が一の事故で被害が拡大します。一定の間隔を保つことが求められます。",
+    "tags": [
+      "危険物",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "006_036",
+    "chapter": 6,
+    "category": "危険物の運搬",
+    "type": "truefalse",
+    "question": "危険物積載車の運転者は、危険物取扱者の資格を持っていなくても運転できる。",
+    "answer": true,
+    "explanation": "【ひっかけ】危険物を「運搬」する運転者は、危険物取扱者免許がなくても運転できます。ただし、積卸し等の「取扱い」には危険物取扱者免許が必要です。",
+    "tags": [
+      "危険物",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "missing_condition"
+  },
+  {
+    "id": "006_037",
+    "chapter": 6,
+    "category": "危険物の運搬",
+    "type": "truefalse",
+    "question": "ガソリンをポリタンクで運搬する場合、数量の制限はない。",
+    "answer": false,
+    "explanation": "【ひっかけ】ガソリンをポリタンク等の容器で運搬する場合、容器の材質や数量に制限があります。無制限に運搬できるわけではありません。",
+    "tags": [
+      "危険物",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "006_038",
+    "chapter": 6,
+    "category": "危険物の運搬",
+    "type": "truefalse",
+    "question": "危険物を積載した車は、火気のある場所の近くに駐車してはならない。",
+    "answer": true,
+    "explanation": "危険物積載車は火気の近くへの駐車が禁止です。引火・爆発の危険があるため、火源から離れた場所に駐車します。",
+    "tags": [
+      "危険物",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_039",
+    "chapter": 6,
+    "category": "危険物の運搬",
+    "type": "truefalse",
+    "question": "危険物積載車は、他の車より速度を落として通行しなければならない。",
+    "answer": false,
+    "explanation": "【ひっかけ】危険物積載車に特別な速度制限が一律にあるわけではありません。ただし、法令で定められた最高速度は守る必要があり、積載物に応じて安全な速度で通行します。",
+    "tags": [
+      "危険物",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "006_040",
+    "chapter": 6,
+    "category": "危険物の運搬",
+    "type": "truefalse",
+    "question": "爆発性の物質を積載する車は、指定されたルートのみを通行しなければならない。",
+    "answer": true,
+    "explanation": "特定の危険物を積載する車は、あらかじめ指定されたルート（危険物通行路線）を通行しなければなりません。住宅密集地等を避けるためです。",
+    "tags": [
+      "危険物",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "006_041",
+    "chapter": 6,
+    "category": "自動車の積載物",
+    "type": "truefalse",
+    "question": "積載物は、走行中に落下しないよう確実に積載しなければならない。",
+    "answer": true,
+    "explanation": "積載物の落下は後続車に重大な危険を及ぼします。確実に固定し、走行中の振動でも落下しないよう措置が必要です。",
+    "tags": [
+      "積載",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_042",
+    "chapter": 6,
+    "category": "自動車の積載物",
+    "type": "truefalse",
+    "question": "普通自動車の積載物の長さは、自動車の長さの1.2倍まで（20%増まで）認められている。",
+    "answer": true,
+    "explanation": "【2022年改正】法改正により、積載物の長さ・幅の制限が「自動車の長さ・幅の1.2倍（1.1倍から緩和）」までとなりました。前後のはみ出しはそれぞれ自動車の長さの10%以内（合計20%以内）に収める必要があります。",
+    "tags": [
+      "積載",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "wrong_number"
+  },
+  {
+    "id": "006_043",
+    "chapter": 6,
+    "category": "自動車の積載物",
+    "type": "truefalse",
+    "question": "積載物が車体からはみ出す場合は、赤い旗や標識をつけなければならない。",
+    "answer": true,
+    "explanation": "積載物が車体からはみ出す場合は、昼間は赤い旗、夜間は赤い灯をつける義務があります。他車に注意を促すためです。",
+    "tags": [
+      "積載",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_044",
+    "chapter": 6,
+    "category": "自動車の積載物",
+    "type": "truefalse",
+    "question": "積載重量が制限を超える場合、公安委員会の許可があれば運転できる。",
+    "answer": false,
+    "explanation": "【ひっかけ】積載重量制限の超過は、公安委員会の許可では認められません。道路運送法に基づく「車両制限令」で定められた制限を超えることは基本的に禁止です。特例許可制度はありますが公安委員会の許可ではありません。",
+    "tags": [
+      "積載",
+      "ひっかけ"
+    ],
+    "difficulty": 3,
+    "trickType": "reversed_meaning"
+  },
+  {
+    "id": "006_045",
+    "chapter": 6,
+    "category": "自動車の積載物",
+    "type": "truefalse",
+    "question": "積載制限を超過した車を運転した場合、運転者だけでなく積載命令に従わなかった者も罰せられる。",
+    "answer": true,
+    "explanation": "積載制限違反は、運転者だけでなく荷主等にも責任が及びます。是正命令に従わない場合は重い罰則が科されます。",
+    "tags": [
+      "積載",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "006_046",
+    "chapter": 6,
+    "category": "自動車の積載物",
+    "type": "truefalse",
+    "question": "普通自動車の最大積載量は、車検証に記載されている。",
+    "answer": true,
+    "explanation": "車検証には最大積載量が記載されています。この重量を超える積載は違反です。常に車検証の数値を確認する必要があります。",
+    "tags": [
+      "積載",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_047",
+    "chapter": 6,
+    "category": "自動車の積載物",
+    "type": "truefalse",
+    "question": "普通自動車の積載物の高さ制限は、地上から3.8mである。",
+    "answer": true,
+    "explanation": "普通自動車や大型自動車の積載物の高さ制限は、原則として「地上から3.8m」です。ただし、排気量660cc以下の普通車（軽自動車）や三輪の車は「地上から2.5m」となる点に注意が必要です。",
+    "tags": [
+      "積載",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "wrong_number"
+  },
+  {
+    "id": "006_048",
+    "chapter": 6,
+    "category": "自動車の積載物",
+    "type": "truefalse",
+    "question": "積載制限を10%以内で超過した場合は、警告のみで罰則はない。",
+    "answer": false,
+    "explanation": "【ひっかけ】積載制限の超過は1%でも違反です。10%以内だからといって警告のみということはありません。ただし、行政処分の基準は超過率によって段階的です。",
+    "tags": [
+      "積載",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "missing_condition"
+  },
+  {
+    "id": "006_049",
+    "chapter": 6,
+    "category": "自動車の積載物",
+    "type": "truefalse",
+    "question": "建設機械等を積載して運搬する場合、特殊車両通行許可が必要なことがある。",
+    "answer": true,
+    "explanation": "大型の建設機械等を積載する場合、車両のサイズや重量が制限を超えるため、特殊車両通行許可が必要になる場合があります。",
+    "tags": [
+      "積載",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "006_050",
+    "chapter": 6,
+    "category": "自動車の積載物",
+    "type": "truefalse",
+    "question": "積載物を確実に固定しなかったことによる落下物で事故を起こした場合、運転者に過失が問われる。",
+    "answer": true,
+    "explanation": "積載物の不十分な固定による落下事故は、運転者の過失です。積載確認の義務違反として責任が問われます。",
+    "tags": [
+      "積載",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_051",
+    "chapter": 6,
+    "category": "道路での禁止行為",
+    "type": "truefalse",
+    "question": "道路上で球技をしてはならない。",
+    "answer": true,
+    "explanation": "道路上での球技は禁止です。ボールが車道に飛び出す危険や、遊ぶ人が車にはねられる危険があるためです。",
+    "tags": [
+      "禁止行為",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_052",
+    "chapter": 6,
+    "category": "道路での禁止行為",
+    "type": "truefalse",
+    "question": "道路上に石や木材を置いてはならない。",
+    "answer": true,
+    "explanation": "道路上に障害物を置くことは、通行車両や歩者に危険を及ぼすため禁止です。やむを得ず置く場合は危険防止措置が必要です。",
+    "tags": [
+      "禁止行為",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_053",
+    "chapter": 6,
+    "category": "道路での禁止行為",
+    "type": "truefalse",
+    "question": "歩道に自転車を放置することは、歩者の通行を妨げるため禁止されている。",
+    "answer": true,
+    "explanation": "歩道上の自転車放置は歩者の通行を妨げ、視覚障害者にとっても危険です。放置自転車は撤去の対象になります。",
+    "tags": [
+      "禁止行為",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_054",
+    "chapter": 6,
+    "category": "道路での禁止行為",
+    "type": "truefalse",
+    "question": "道路に水を撒くことは、凍結の危険がなければ問題ない。",
+    "answer": false,
+    "explanation": "【ひっかけ】道路に水を撒くことは、季節を問わず禁止されています。水撒きは道路を滑りやすくし、危険なためです。",
+    "tags": [
+      "禁止行為",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "missing_condition"
+  },
+  {
+    "id": "006_055",
+    "chapter": 6,
+    "category": "道路での禁止行為",
+    "type": "truefalse",
+    "question": "道路に面した店舗から道路側に商品を出すことは、道路使用許可があれば可能である。",
+    "answer": true,
+    "explanation": "道路にはみ出して商品を置く等は道路使用許可が必要です。許可を受ければ条件内で可能です。",
+    "tags": [
+      "禁止行為",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_056",
+    "chapter": 6,
+    "category": "道路での禁止行為",
+    "type": "truefalse",
+    "question": "自動車からごみを投げ捨てることは、道路環境保全の観点からも禁止されている。",
+    "answer": true,
+    "explanation": "車外へのごみ投棄は、道路交通法上の違反に加え、道路環境の保全にも反します。罰則の対象です。",
+    "tags": [
+      "禁止行為",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_057",
+    "chapter": 6,
+    "category": "道路での禁止行為",
+    "type": "truefalse",
+    "question": "道路で花火をするのは、夜間に限り認められる。",
+    "answer": false,
+    "explanation": "【ひっかけ】道路上での花火は昼夜を問わず禁止です。火災の危険と通行者への危険があるためです。",
+    "tags": [
+      "禁止行為",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "missing_condition"
+  },
+  {
+    "id": "006_058",
+    "chapter": 6,
+    "category": "道路での禁止行為",
+    "type": "truefalse",
+    "question": "工事区域の前後には、危険を示す標識や灯火を設けなければならない。",
+    "answer": true,
+    "explanation": "道路工事区間では、通行者に危険を知らせるための標識や灯火の設置が義務です。夜間は特に明確な灯火が必要です。",
+    "tags": [
+      "禁止行為",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_059",
+    "chapter": 6,
+    "category": "道路での禁止行為",
+    "type": "truefalse",
+    "question": "道路の排水溝に汚水を流すことは、水質汚濁の観点から禁止されている。",
+    "answer": true,
+    "explanation": "道路の排水溝に油や汚水を流すことは、環境保護と道路保全の観点から禁止されています。河川や地下水の汚染につながります。",
+    "tags": [
+      "禁止行為",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_060",
+    "chapter": 6,
+    "category": "道路での禁止行為",
+    "type": "truefalse",
+    "question": "道路標識にビラやポスターを貼ることは、許可がなくても軽微な場合は問題ない。",
+    "answer": false,
+    "explanation": "【ひっかけ】道路標識へのビラ等の貼付けは、軽微かどうかにかかわらず禁止です。標識の視認性を損ない危険です。",
+    "tags": [
+      "禁止行為",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "missing_condition"
+  },
+  {
+    "id": "006_061",
+    "chapter": 6,
+    "category": "放置車両",
+    "type": "truefalse",
+    "question": "放置車両とは、駐車禁止場所に駐車している車で、運転者が車を離れているものをいう。",
+    "answer": true,
+    "explanation": "放置車両＝駐車禁止場所に駐車し、運転者が車を離れている状態。放置違反金制度の対象になります。",
+    "tags": [
+      "放置車両",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_062",
+    "chapter": 6,
+    "category": "放置車両",
+    "type": "truefalse",
+    "question": "放置車両は、移動命令に従わない場合、警察が強制的に移動させることができる。",
+    "answer": true,
+    "explanation": "放置車両の所有者が移動命令に従わない場合、警察は車を強制的に移動させることができます。費用は所有者の負担です。",
+    "tags": [
+      "放置車両",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_063",
+    "chapter": 6,
+    "category": "放置車両",
+    "type": "truefalse",
+    "question": "放置違反金は、車の使用者ではなく実際の運転者が納付する。",
+    "answer": false,
+    "explanation": "【ひっかけ】放置違反金の納付義務者は「車の使用者」です。実際の運転者ではありません。使用者責任が問われます。",
+    "tags": [
+      "放置車両",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "reversed_meaning"
+  },
+  {
+    "id": "006_064",
+    "chapter": 6,
+    "category": "放置車両",
+    "type": "truefalse",
+    "question": "駐車監視員は、違法駐車の取締りを行う警察官である。",
+    "answer": false,
+    "explanation": "【ひっかけ】駐車監視員は警察官ではありません。民間の資格者で、違法駐車の確認・報告を行います。取締り権限自体は警察にあります。",
+    "tags": [
+      "放置車両",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "006_065",
+    "chapter": 6,
+    "category": "放置車両",
+    "type": "truefalse",
+    "question": "放置違反金制度は、車種に関係なく一律の金額である。",
+    "answer": false,
+    "explanation": "【ひっかけ】放置違反金の額は車種によって異なります。大型車の方が普通車より高額です。",
+    "tags": [
+      "放置車両",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "006_066",
+    "chapter": 6,
+    "category": "放置車両",
+    "type": "truefalse",
+    "question": "放置違反金の納付を怠った場合、督促が行われ、最終的に財産の差し押さえが行われることがある。",
+    "answer": true,
+    "explanation": "放置違反金を滞納すると、督促→督促手数料の加算→最終的に財産差押えという流れで回収されます。",
+    "tags": [
+      "放置車両",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "006_067",
+    "chapter": 6,
+    "category": "放置車両",
+    "type": "truefalse",
+    "question": "放置車両が移動された場合、移動費用は国が負担する。",
+    "answer": false,
+    "explanation": "【ひっかけ】強制移動の費用は車の所有者の負担です。国や自治体は負担しません。引き取り時に費用を支払う必要があります。",
+    "tags": [
+      "放置車両",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "reversed_meaning"
+  },
+  {
+    "id": "006_068",
+    "chapter": 6,
+    "category": "放置車両",
+    "type": "truefalse",
+    "question": "放置違反金を納付した車の使用者は、実際の運転者に対して求償できる。",
+    "answer": true,
+    "explanation": "使用者が納付した放置違反金について、実際の運転者（別の人物）に対して求償（立て替え分の請求）ができます。",
+    "tags": [
+      "放置車両",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "006_069",
+    "chapter": 6,
+    "category": "放置車両",
+    "type": "truefalse",
+    "question": "確認標章が貼られた車を運転して逃げた場合、証拠隠滅として重い罰則が科される。",
+    "answer": true,
+    "explanation": "確認標章が貼られた車を移動させて証拠を隠滅した場合、罰則が科されます。放置違反に加えて証拠隠滅の罪が問われます。",
+    "tags": [
+      "放置車両",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "006_070",
+    "chapter": 6,
+    "category": "放置車両",
+    "type": "truefalse",
+    "question": "駐車違反の反則金は、直ちに納付しなければならない。",
+    "answer": true,
+    "explanation": "駐車違反の反則金（交通反則告知書）は、直ちに納付する義務があります。納付しない場合は刑事罰の対象になることがあります。",
+    "tags": [
+      "放置車両",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_071",
+    "chapter": 6,
+    "category": "特定車両の規制",
+    "type": "truefalse",
+    "question": "原動機付自転車（50cc以下）は、第一種原付であれば二人乗りができる。",
+    "answer": false,
+    "explanation": "【ひっかけ】原動機付自転車は一人乗りが原則です。二人乗りはできません。「第一種・第二種」に関わらず一人乗りです。",
+    "tags": [
+      "特定車両",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "006_072",
+    "chapter": 6,
+    "category": "特定車両の規制",
+    "type": "truefalse",
+    "question": "大型自動二輪車（400cc超）は、高速道路を二人乗りで通行できる。",
+    "answer": true,
+    "explanation": "大型自動二輪車（650cc以上の二人乗り可能車）は、高速道路での二人乗りが認められています。ただし、20歳以上で3年以上の経歴が必要です。",
+    "tags": [
+      "特定車両",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "006_073",
+    "chapter": 6,
+    "category": "特定車両の規制",
+    "type": "truefalse",
+    "question": "普通自動二輪車は、二人乗りができない。",
+    "answer": false,
+    "explanation": "【ひっかけ】普通自動二輪車（125cc〜400cc）は二人乗りが可能です。ただし、高速道路での二人乗りはできません。一般道路では可能です。",
+    "tags": [
+      "特定車両",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "006_074",
+    "chapter": 6,
+    "category": "特定車両の規制",
+    "type": "truefalse",
+    "question": "自転車は、歩道と車道の区別がある道路では車道を通行するのが原則である。",
+    "answer": true,
+    "explanation": "自転車も車道通行が原則です。ただし、歩道に「自転車及び歩行者専用」の標識がある場合や、小学生以下等が運転する場合は歩道通行も認められます。",
+    "tags": [
+      "特定車両",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_075",
+    "chapter": 6,
+    "category": "特定車両の規制",
+    "type": "truefalse",
+    "question": "自転車は、夜間であってもライトをつける義務はない。",
+    "answer": false,
+    "explanation": "【ひっかけ】自転車も夜間は前照灯と赤色尾灯の点灯義務があります。自転車だからといって例外ではありません。",
+    "tags": [
+      "特定車両",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "missing_condition"
+  },
+  {
+    "id": "006_076",
+    "chapter": 6,
+    "category": "特定車両の規制",
+    "type": "truefalse",
+    "question": "自転車に乗る人は、ヘルメットを着用しなければならない。",
+    "answer": true,
+    "explanation": "2023年の法改正で、自転車乗車時のヘルメット着用が「努力義務」から「義務」に変更されました。すべての乗車時に着用が必要です。",
+    "tags": [
+      "特定車両",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_077",
+    "chapter": 6,
+    "category": "特定車両の規制",
+    "type": "truefalse",
+    "question": "自転車での酒気帯び運転は、罰則の対象になる。",
+    "answer": true,
+    "explanation": "自転車での酒気帯び運転も罰則の対象です。5年以下の懲役又は100万円以下の罰金に処せられることがあります。",
+    "tags": [
+      "特定車両",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_078",
+    "chapter": 6,
+    "category": "特定車両の規制",
+    "type": "truefalse",
+    "question": "自転車での二人乗りは、6歳未満の幼児を幼児用座席に乗せる場合以外は禁止である。",
+    "answer": false,
+    "explanation": "【ひっかけ】自転車の二人乗りは、幼児1人を幼児用座席に乗せる場合に加え、幼児2人を乗せる場合（幼児2人用の設備がある場合）も認められます。",
+    "tags": [
+      "特定車両",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "006_079",
+    "chapter": 6,
+    "category": "特定車両の規制",
+    "type": "truefalse",
+    "question": "自転車は、傘差し運転をしてはならない。",
+    "answer": true,
+    "explanation": "自転車の傘差し運転は禁止されています。片手運転となりバランスを崩す危険があるためです。雨の日は雨具を使用します。",
+    "tags": [
+      "特定車両",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_080",
+    "chapter": 6,
+    "category": "特定車両の規制",
+    "type": "truefalse",
+    "question": "自転車は、歩道を通行する場合でも歩者を優先しなければならない。",
+    "answer": true,
+    "explanation": "自転車が歩道を通行する場合、歩者が優先です。自転車は歩者の通行を妨げない速度で通行し、徐行または一時停止しなければなりません。",
+    "tags": [
+      "特定車両",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_081",
+    "chapter": 6,
+    "category": "特定車両の規制",
+    "type": "truefalse",
+    "question": "小型特殊自動車は、最高速度が時速15km以下に制限されている。",
+    "answer": true,
+    "explanation": "小型特殊自動車（農耕作業用等）は、構造上最高速度が時速15km以下です。このため法定速度が15km/hとなります。",
+    "tags": [
+      "特定車両",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "006_082",
+    "chapter": 6,
+    "category": "特定車両の規制",
+    "type": "truefalse",
+    "question": "大型特殊自動車は、自動車専用道路を通行できる。",
+    "answer": false,
+    "explanation": "【ひっかけ】大型特殊自動車（建設機械等）は、自動車専用道路を通行できません。一般道路のみ通行可能です。",
+    "tags": [
+      "特定車両",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "006_083",
+    "chapter": 6,
+    "category": "特定車両の規制",
+    "type": "truefalse",
+    "question": "ミニカー（小型特殊自動車の一種）は、普通免許で運転できる。",
+    "answer": false,
+    "explanation": "【ひっかけ】ミニカーの運転には「小型特殊免許」が必要です。普通免許では運転できません。誤解しやすいポイントです。",
+    "tags": [
+      "特定車両",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "reversed_meaning"
+  },
+  {
+    "id": "006_084",
+    "chapter": 6,
+    "category": "特定車両の規制",
+    "type": "truefalse",
+    "question": "原動機付自転車の法定速度は、時速30kmである。",
+    "answer": true,
+    "explanation": "原動機付自転車（50cc以下）の法定速度は時速30kmです。一般道路の法定速度（60km）の半分です。",
+    "tags": [
+      "特定車両",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_085",
+    "chapter": 6,
+    "category": "特定車両の規制",
+    "type": "truefalse",
+    "question": "原動機付自転車は、二段階右折をしなければならない交差点がある。",
+    "answer": true,
+    "explanation": "車両通行帯が3以上の交差点では、原付は二段階右折（一度左側に寄り、交差点内を直進してから右折する方法）が義務です。",
+    "tags": [
+      "特定車両",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_086",
+    "chapter": 6,
+    "category": "特定車両の規制",
+    "type": "truefalse",
+    "question": "二段階右折の標識がある交差点でも、交通量が少なければ通常の右折が認められる。",
+    "answer": false,
+    "explanation": "【ひっかけ】二段階右折の標識がある交差点では、交通量に関わらず二段階右折が義務です。「交通量が少なければ例外」はありません。",
+    "tags": [
+      "特定車両",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "missing_condition"
+  },
+  {
+    "id": "006_087",
+    "chapter": 6,
+    "category": "特定車両の規制",
+    "type": "truefalse",
+    "question": "軽自動車（660cc以下）の法定速度は、普通自動車と同じである。",
+    "answer": true,
+    "explanation": "軽自動車の法定速度は普通自動車と同じく、一般道路で時速60km、高速道路で時速100kmです。",
+    "tags": [
+      "特定車両",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_088",
+    "chapter": 6,
+    "category": "特定車両の規制",
+    "type": "truefalse",
+    "question": "自動二輪車の二人乗りは、排気量に関係なく高速道路ではできない。",
+    "answer": false,
+    "explanation": "【ひっかけ】大型自動二輪車（650cc以上の特定車両）で、運転者が20歳以上かつ3年以上の経歴があれば、高速道路での二人乗りが認められています。",
+    "tags": [
+      "特定車両",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "006_089",
+    "chapter": 6,
+    "category": "特定車両の規制",
+    "type": "truefalse",
+    "question": "牽引自動車（けん引車）は、被牽引車（トレーラー等）のブレーキが効く場合のみ牽引できる。",
+    "answer": true,
+    "explanation": "被牽引車のブレーキが効く構造でなければ牽引できません。制動装置のない車の牽引は非常に危険です。",
+    "tags": [
+      "特定車両",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "006_090",
+    "chapter": 6,
+    "category": "特定車両の規制",
+    "type": "truefalse",
+    "question": "車いす使用者の電動車椅子は、歩道を通行するのが原則である。",
+    "answer": true,
+    "explanation": "電動車椅子は「歩行補助車等」に分類され、歩道を通行するのが原則です。車道には出ないのが基本です。",
+    "tags": [
+      "特定車両",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_091",
+    "chapter": 6,
+    "category": "運行記録計",
+    "type": "truefalse",
+    "question": "事業用自動車には、運行記録計（タコグラフ）の取り付けが義務である。",
+    "answer": true,
+    "explanation": "事業用自動車（バス、タクシー、トラック等）にはタコグラフの取り付けが義務です。速度・運転時間等が記録されます。",
+    "tags": [
+      "運行記録",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_092",
+    "chapter": 6,
+    "category": "運行記録計",
+    "type": "truefalse",
+    "question": "タコグラフは、運転者の心拍数を記録する機器である。",
+    "answer": false,
+    "explanation": "【ひっかけ】タコグラフは走行速度、走行距離、運転時間等を記録する機器です。心拍数は記録しません。",
+    "tags": [
+      "運行記録",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "reversed_meaning"
+  },
+  {
+    "id": "006_093",
+    "chapter": 6,
+    "category": "運行記録計",
+    "type": "truefalse",
+    "question": "運行記録計の記録は、一定期間保存しなければならない。",
+    "answer": true,
+    "explanation": "タコグラフの記録は、一定期間（通常1年間）保存が義務です。事故調査や運行管理のために活用されます。",
+    "tags": [
+      "運行記録",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "006_094",
+    "chapter": 6,
+    "category": "運行記録計",
+    "type": "truefalse",
+    "question": "タコグラフの記録を改ざんすることは、罰則の対象になる。",
+    "answer": true,
+    "explanation": "タコグラフ記録の改ざんは、運行記録計の不正操作として罰則の対象です。正確な記録の保持が義務です。",
+    "tags": [
+      "運行記録",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_095",
+    "chapter": 6,
+    "category": "運行記録計",
+    "type": "truefalse",
+    "question": "タコグラフは、二種免許の運転者が運転する車にのみ必要である。",
+    "answer": false,
+    "explanation": "【ひっかけ】タコグラフは「事業用自動車」に必要で、二種免許かどうかに関わらず、事業用の車すべてに義務です。一種免許の運転者が運転する事業用車にも必要です。",
+    "tags": [
+      "運行記録",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "missing_condition"
+  },
+  {
+    "id": "006_096",
+    "chapter": 6,
+    "category": "運行記録計",
+    "type": "truefalse",
+    "question": "デジタルタコグラフの記録媒体は、運転者が携帯しなければならない。",
+    "answer": true,
+    "explanation": "デジタルタコグラフのICカード等の記録媒体は、運転者が携帯し、運転時に挿入して使用します。",
+    "tags": [
+      "運行記録",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "006_097",
+    "chapter": 6,
+    "category": "総合問題",
+    "type": "truefalse",
+    "question": "道路上の障害物を発見した運転者は、速やかに警察に通報するのが望ましい。",
+    "answer": true,
+    "explanation": "道路上の障害物は事故の原因になります。発見したら速やかに警察に通報し、二次事故を防ぐことが大切です。",
+    "tags": [
+      "総合",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_098",
+    "chapter": 6,
+    "category": "総合問題",
+    "type": "truefalse",
+    "question": "落し物をした運転者は、直ちに回収に戻らなければならない。",
+    "answer": true,
+    "explanation": "走行中に積載物を落下させた場合、直ちに安全な場所に停車して回収しなければなりません。回収せず放置すると違反です。",
+    "tags": [
+      "総合",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_099",
+    "chapter": 6,
+    "category": "総合問題",
+    "type": "truefalse",
+    "question": "道路工事の信号手（誘導員）の指示に従わなかった場合、違反になる。",
+    "answer": true,
+    "explanation": "道路工事の誘導員の指示に従わないと、安全運転義務違反等の対象になります。誘導員の指示は一時的な交通規制としての効力があります。",
+    "tags": [
+      "総合",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "006_100",
+    "chapter": 6,
+    "category": "総合問題",
+    "type": "truefalse",
+    "question": "道路の一部が通行止めになっている場合、迂回路の標識に従って通行する。",
+    "answer": true,
+    "explanation": "通行止め区間では迂回路標示に従います。指定された迂回路を通行し、通行止め区間には絶対に入りません。",
+    "tags": [
+      "総合",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  }
+]

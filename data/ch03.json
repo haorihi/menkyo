@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "003_001",
+    "chapter": 3,
+    "category": "運転免許の種類",
+    "type": "truefalse",
+    "question": "普通自動車第一種免許は、満18歳以上で取得することができる。",
+    "answer": true,
+    "explanation": "【最新基準】普通自動車第一種免許は満18歳以上で取得可能です。第二種免許は原則として「21歳以上かつ経験3年以上」ですが、2022年の法改正により、特別な教習（特定教習）を修了すれば「19歳以上かつ経験1年以上」で受験できるようになりました。",
+    "tags": [
+      "免許",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_002",
+    "chapter": 3,
+    "category": "運転免許の種類",
+    "type": "truefalse",
+    "question": "普通二種免許は、満18歳以上で取得することができる。",
+    "answer": false,
+    "explanation": "【最新基準】原則は21歳以上ですが、特別な教習を修了した場合は19歳以上で取得可能です。「一律18歳」や「一律21歳」ではない点に注意が必要です。",
+    "tags": [
+      "免許",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "wrong_number"
+  },
+  {
+    "id": "003_003",
+    "chapter": 3,
+    "category": "運転免許の種類",
+    "type": "truefalse",
+    "question": "第一種免許は自分で運転するための免許で、第二種免許は旅客運送のための免許である。",
+    "answer": true,
+    "explanation": "第一種免許＝自家用（自分で運転）、第二種免許＝営業用（旅客を運送）。タクシー運転手には第二種免許が必要です。",
+    "tags": [
+      "免許",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_004",
+    "chapter": 3,
+    "category": "運転免許の種類",
+    "type": "truefalse",
+    "question": "大型二種免許があれば、普通二種免許で運転できる車も運転できる。",
+    "answer": true,
+    "explanation": "上位の免許で下位の免許の車を運転することができます。大型二種＞普通二種＞大型一種＞普通一種の順に上位です。",
+    "tags": [
+      "免許",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_005",
+    "chapter": 3,
+    "category": "運転免許の種類",
+    "type": "truefalse",
+    "question": "原付免許（原動機付自転車免許）は、満16歳以上で取得できる。",
+    "answer": true,
+    "explanation": "原動機付自転車（50cc以下）の免許は満16歳以上で取得可能です。これは自動車免許の中で最も低い年齢要件です。",
+    "tags": [
+      "免許",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_006",
+    "chapter": 3,
+    "category": "運転免許の種類",
+    "type": "truefalse",
+    "question": "第二種免許を持っていれば、旅客自動車を運転して運賃を受け取ることができる。",
+    "answer": true,
+    "explanation": "第二種免許は旅客運送（運賃を受け取って人を運ぶこと）を行うための免許です。タクシー、ハイヤー、旅客バスなどに必要です。",
+    "tags": [
+      "免許",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_007",
+    "chapter": 3,
+    "category": "運転免許の種類",
+    "type": "truefalse",
+    "question": "普通二種免許で運転できるのは、乗車定員10人以下の普通自動車である。",
+    "answer": true,
+    "explanation": "普通二種免許で運転できる旅客自動車は、乗車定員10人以下の普通自動車です。11人以上の車は大型二種免許が必要です。",
+    "tags": [
+      "免許",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_008",
+    "chapter": 3,
+    "category": "運転免許の種類",
+    "type": "truefalse",
+    "question": "外国の運転免許を持っていれば、日本国内でもそのまま運転できる。",
+    "answer": false,
+    "explanation": "【ひっかけ】外国の免許だけでは日本国内で運転できません。国際運転免許証または日本の免許への切り替えが必要です。ただし、一定期間内であれば国際運転免許証で運転可能です。",
+    "tags": [
+      "免許",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "003_009",
+    "chapter": 3,
+    "category": "運転免許の種類",
+    "type": "truefalse",
+    "question": "仮免許は、本免許試験に合格する前の練習用に発行されるものである。",
+    "answer": true,
+    "explanation": "仮免許は技能試験（本免許）に合格する前の路上練習のために発行されます。仮免許で練習するには指導員の同乗が必須です。",
+    "tags": [
+      "免許",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_010",
+    "chapter": 3,
+    "category": "運転免許の種類",
+    "type": "truefalse",
+    "question": "二種免許の学科試験は、一種免許の学科試験と全く同じ内容である。",
+    "answer": false,
+    "explanation": "【ひっかけ】二種免許の学科試験には、一種免許の共通問題に加えて、旅客運送に関する専門問題（タクシー法规等）が追加されます。試験時間や問題数も異なります。",
+    "tags": [
+      "免許",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "003_011",
+    "chapter": 3,
+    "category": "免許の取得・更新",
+    "type": "truefalse",
+    "question": "運転免許の有効期間は、初回取得の場合は3年である。",
+    "answer": false,
+    "explanation": "【ひっかけ】初回取得の免許証（グリーン免許）は、誕生日から3ヶ月後の誕生日までです。一般的には「3年+α」ですが、正確には取得後最初の誕生日が基準です。更新後は5年（ゴールド）または3年（ブルー）です。",
+    "tags": [
+      "免許更新",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "wrong_number"
+  },
+  {
+    "id": "003_012",
+    "chapter": 3,
+    "category": "免許の取得・更新",
+    "type": "truefalse",
+    "question": "ゴールド免許の更新期間は5年である。",
+    "answer": true,
+    "explanation": "違反のない優良運転者の免許証（ゴールド免許）は5年ごとの更新です。一般（ブルー）は3年、違反運転者等（ブルー）も3年です。",
+    "tags": [
+      "免許更新",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_013",
+    "chapter": 3,
+    "category": "免許の取得・更新",
+    "type": "truefalse",
+    "question": "運転免許の更新は、誕生日の1ヶ月前から受けることができる。",
+    "answer": true,
+    "explanation": "免許更新は誕生日の1ヶ月前から受けることができます。誕生日当日でも可能ですが、誕生日を過ぎると更新ではなく「再取得」になる場合があります。",
+    "tags": [
+      "免許更新",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_014",
+    "chapter": 3,
+    "category": "免許の取得・更新",
+    "type": "truefalse",
+    "question": "免許更新時に「優良運転者講習」を受けるのは、違反がない運転者である。",
+    "answer": true,
+    "explanation": "ゴールド免許保持者（過去5年間無違反）は「優良運転者講習」を受講します。違反者は「違反運転者等講習」を受講します。講習時間も異なります。",
+    "tags": [
+      "免許更新",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_015",
+    "chapter": 3,
+    "category": "免許の取得・更新",
+    "type": "truefalse",
+    "question": "免許更新を忘れても、1年以内なら通常の更新手続きで更新できる。",
+    "answer": false,
+    "explanation": "【ひっかけ】免許の有効期間が過ぎたら、原則として「再取得」が必要です（仮免・本免の再試験）。猶予期間はありません。ただし、失効後6ヶ月以内であれば簡易な手続きで再取得できる場合があります。",
+    "tags": [
+      "免許更新",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "wrong_number"
+  },
+  {
+    "id": "003_016",
+    "chapter": 3,
+    "category": "免許の取得・更新",
+    "type": "truefalse",
+    "question": "運転免許証は、運転時に携帯していなければならない。",
+    "answer": true,
+    "explanation": "運転時の免許証携帯は義務です。携帯していない場合、免許不携帯として罰則の対象になります。",
+    "tags": [
+      "免許更新",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_017",
+    "chapter": 3,
+    "category": "免許の取得・更新",
+    "type": "truefalse",
+    "question": "運転免許証の更新に必要な書類は、免許証と写真のみである。",
+    "answer": false,
+    "explanation": "【ひっかけ】更新には免許証のほか、写真（ゴールドは不要の場合あり）、住民票等の身分証明書が必要です。「写真のみ」ではありません。",
+    "tags": [
+      "免許更新",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "003_018",
+    "chapter": 3,
+    "category": "免許の取得・更新",
+    "type": "truefalse",
+    "question": "二種免許の学科試験は95問で、90点以上が合格点である。",
+    "answer": true,
+    "explanation": "普通二種免許の学科試験は95問、100点満点で90点以上が合格です。非常に高い合格基準で、9割以上の正答が必要です。",
+    "tags": [
+      "免許",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "003_019",
+    "chapter": 3,
+    "category": "免許の取得・更新",
+    "type": "truefalse",
+    "question": "免許更新時に「違反運転者等講習」を受けるのは、過去5年間に違反のない運転者である。",
+    "answer": false,
+    "explanation": "【ひっかけ】違反運転者等講習を受けるのは「違反のあった」運転者です。違反のない優良運転者は「優良運転者講習」です。逆にしないよう注意。",
+    "tags": [
+      "免許更新",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "reversed_meaning"
+  },
+  {
+    "id": "003_020",
+    "chapter": 3,
+    "category": "免許の取得・更新",
+    "type": "truefalse",
+    "question": "運転免許証を紛失した場合、再交付を申請しなければならない。",
+    "answer": true,
+    "explanation": "免許証を紛失・汚損した場合、すみやかに再交付申請を行う必要があります。再交付までの間は運転できません。",
+    "tags": [
+      "免許更新",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_021",
+    "chapter": 3,
+    "category": "免許の取消・停止",
+    "type": "truefalse",
+    "question": "飲酒運転で免許を取り消された場合、欠格期間は原則5年である。",
+    "answer": true,
+    "explanation": "飲酒運転による免許取消しの欠格期間は原則5年です。この期間中は免許の再取得ができません。",
+    "tags": [
+      "免許取消",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_022",
+    "chapter": 3,
+    "category": "免許の取消・停止",
+    "type": "truefalse",
+    "question": "すべての免許取消しの欠格期間は5年である。",
+    "answer": false,
+    "explanation": "【ひっかけ】欠格期間は取消しの理由によって異なります。飲酒運転は5年ですが、一部の違反では1〜3年の欠格期間です。「すべて5年」ではありません。",
+    "tags": [
+      "免許取消",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "003_023",
+    "chapter": 3,
+    "category": "免許の取消・停止",
+    "type": "truefalse",
+    "question": "免許停止処分を受けた場合、停止期間中は一切運転できない。",
+    "answer": true,
+    "explanation": "免許停止期間中は、その免許で運転できる一切の車を運転できません。停止期間が過ぎれば再び運転可能です。",
+    "tags": [
+      "免許停止",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_024",
+    "chapter": 3,
+    "category": "免許の取消・停止",
+    "type": "truefalse",
+    "question": "点数が累積して免許停止になった場合、講習を受講すれば停止期間を短縮できる。",
+    "answer": true,
+    "explanation": "一定の条件を満たす場合、停止期間短縮講習（免除講習）を受講することで停止期間を短縮できます。ただし、すべてのケースで可能とは限りません。",
+    "tags": [
+      "免許停止",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "003_025",
+    "chapter": 3,
+    "category": "免許の取消・停止",
+    "type": "truefalse",
+    "question": "交通違反の点数は、違反から3年でリセットされる。",
+    "answer": false,
+    "explanation": "【ひっかけ】基準日は違反日ではなく、「免許の基準日（誕生日）」で3年間を区切ります。違反日から3年ではなく、直近3回の誕生日までの期間で累積点数を判定します。",
+    "tags": [
+      "免許停止",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "wrong_number"
+  },
+  {
+    "id": "003_026",
+    "chapter": 3,
+    "category": "免許の取消・停止",
+    "type": "truefalse",
+    "question": "免許取消処分は、運転者ご本人の意見陳述の機会が与えられる。",
+    "answer": true,
+    "explanation": "免許取消前に、運転者は意見陳述（聴聞）の機会が与えられます。これにより、処分に対する異議を述べることができます。",
+    "tags": [
+      "免許取消",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "003_027",
+    "chapter": 3,
+    "category": "免許の取消・停止",
+    "type": "truefalse",
+    "question": "無免許運転で事故を起こした場合、免許取消ではなく、免許取得ができなくなるだけである。",
+    "answer": false,
+    "explanation": "【ひっかけ】無免許運転は重大な違反であり、免許取消だけでなく刑事罰の対象にもなります。また無免許で運転していたという事実自体が犯罪です。",
+    "tags": [
+      "免許取消",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "003_028",
+    "chapter": 3,
+    "category": "免許の取消・停止",
+    "type": "truefalse",
+    "question": "免許停止中に運転すると、無免許運転として扱われる。",
+    "answer": true,
+    "explanation": "免許停止期間中の運転は、無免許運転と同等に扱われます。重大な違反として罰せられます。",
+    "tags": [
+      "免許停止",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_029",
+    "chapter": 3,
+    "category": "免許の取消・停止",
+    "type": "truefalse",
+    "question": "初心運転者（免許取得後1年以内）が特定の違反をした場合、初心者講習を受講しなければならない。",
+    "answer": true,
+    "explanation": "初心運転者が違反をした場合、初心運転者講習の受講が義務付けられます。これを怠ると免許取消しの対象になります。",
+    "tags": [
+      "免許停止",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "003_030",
+    "chapter": 3,
+    "category": "免許の取消・停止",
+    "type": "truefalse",
+    "question": "行政処分（免許停止・取消）と刑事処分（罰金等）は、どちらか一方しか受けない。",
+    "answer": false,
+    "explanation": "【ひっかけ】交通違反に対しては、行政処分と刑事処分の両方が科される場合があります。例えば飲酒運転は、免許取消（行政処分）と罰金・懲役（刑事処分）の両方を受けます。",
+    "tags": [
+      "免許取消",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "003_031",
+    "chapter": 3,
+    "category": "自動車の点検",
+    "type": "truefalse",
+    "question": "日常点検は、運転者が毎日行うことが望ましいが、法的義務ではない。",
+    "answer": false,
+    "explanation": "【ひっかけ】日常点検は運転者の「義務」です（道路交通法）。エンジン始動前の点検を怠ると安全運転義務違反に問われる場合があります。",
+    "tags": [
+      "点検",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "missing_condition"
+  },
+  {
+    "id": "003_032",
+    "chapter": 3,
+    "category": "自動車の点検",
+    "type": "truefalse",
+    "question": "日常点検の項目には、タイヤの空気圧確認が含まれる。",
+    "answer": true,
+    "explanation": "日常点検では、タイヤの空気圧・損傷・溝の深さの確認が含まれます。タイヤは走行の安全性に直結する重要な点検項目です。",
+    "tags": [
+      "点検",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_033",
+    "chapter": 3,
+    "category": "自動車の点検",
+    "type": "truefalse",
+    "question": "定期点検は3ヶ月に1回実施しなければならない。",
+    "answer": false,
+    "explanation": "【ひっかけ】営業用自動車は3ヶ月に1回の定期点検が義務ですが、自家用自動車は6ヶ月に1回（または1年に1回）が目安です。「すべての車が3ヶ月に1回」ではありません。",
+    "tags": [
+      "点検",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "003_034",
+    "chapter": 3,
+    "category": "自動車の点検",
+    "type": "truefalse",
+    "question": "二種免許の車（タクシー等）は、3ヶ月に1回の定期点検が義務である。",
+    "answer": true,
+    "explanation": "営業用自動車（タクシー等）は、3ヶ月に1回の定期点検が義務付けられています。自家用車より厳しい基準が適用されます。",
+    "tags": [
+      "点検",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "003_035",
+    "chapter": 3,
+    "category": "自動車の点検",
+    "type": "truefalse",
+    "question": "ブレーキの効きは、走行中にしか確認できない。",
+    "answer": false,
+    "explanation": "【ひっかけ】ブレーキの効きは、走行前の日常点検でも確認できます。低速で軽くブレーキを踏んで効きを確認する方法があります。",
+    "tags": [
+      "点検",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "003_036",
+    "chapter": 3,
+    "category": "自動車の点検",
+    "type": "truefalse",
+    "question": "タイヤの溝の深さは、1.6mm以上なければならない。",
+    "answer": true,
+    "explanation": "タイヤの溝は法律で1.6mm以上と定められています。これを下回るタイヤで走行するとスリップサインが出ており、整備不良として罰せられます。",
+    "tags": [
+      "点検",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_037",
+    "chapter": 3,
+    "category": "自動車の点検",
+    "type": "truefalse",
+    "question": "日常点検で確認する項目には、ブレーキ液の量が含まれる。",
+    "answer": true,
+    "explanation": "ブレーキ液の量確認は日常点検の重要項目です。ブレーキ液が不足するとブレーキが効かなくなり、非常に危険です。",
+    "tags": [
+      "点検",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_038",
+    "chapter": 3,
+    "category": "自動車の点検",
+    "type": "truefalse",
+    "question": "エンジンのオイル量は、走行後すぐに確認するのが最も正確である。",
+    "answer": false,
+    "explanation": "【ひっかけ】エンジンオイルは、エンジン停止後しばらく待ってから確認するのが正確です。走行直後はオイルが各部に散布されており、正確な量が測れません。",
+    "tags": [
+      "点検",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "reversed_meaning"
+  },
+  {
+    "id": "003_039",
+    "chapter": 3,
+    "category": "自動車の点検",
+    "type": "truefalse",
+    "question": "方向指示器（ウインカー）の点灯確認も日常点検の項目である。",
+    "answer": true,
+    "explanation": "ウインカーの正常動作確認は日常点検に含まれます。球切れや点滅異常がないか、全ランプの確認が必要です。",
+    "tags": [
+      "点検",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_040",
+    "chapter": 3,
+    "category": "自動車の点検",
+    "type": "truefalse",
+    "question": "自動車検査証（車検証）の有効期限が切れても、自家用車なら1ヶ月以内は走行できる。",
+    "answer": false,
+    "explanation": "【ひっかけ】車検証の有効期限が切れた時点で公道の走行はできません。1日でも過ぎれば違反です。事前の更新手続きが必要です。",
+    "tags": [
+      "点検",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "003_041",
+    "chapter": 3,
+    "category": "乗車と積載",
+    "type": "truefalse",
+    "question": "12歳未満の子供3人は、大人2人とみなして乗車定員に算入する。",
+    "answer": true,
+    "explanation": "乗車定員の計算で、12歳未満の子供3人＝大人2人として扱います。例えば5人乗りの車なら、大人3人＋子供3人で定員内です。",
+    "tags": [
+      "積載",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_042",
+    "chapter": 3,
+    "category": "乗車と積載",
+    "type": "truefalse",
+    "question": "12歳未満の子供1人は、大人1人とみなして乗車定員に算入する。",
+    "answer": false,
+    "explanation": "【ひっかけ】12歳未満の子供は3人で大人2人です。「1人＝1人」ではありません。2人で大人1人ともみなしません。3人単位で換算します。",
+    "tags": [
+      "積載",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "wrong_number"
+  },
+  {
+    "id": "003_043",
+    "chapter": 3,
+    "category": "乗車と積載",
+    "type": "truefalse",
+    "question": "乗車定員を超えて乗車した場合、過積載違反として罰せられる。",
+    "answer": true,
+    "explanation": "乗車定員超過は違反です。人数の過積載は重量制限違反と同様に罰則の対象になります。",
+    "tags": [
+      "積載",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_044",
+    "chapter": 3,
+    "category": "乗車と積載",
+    "type": "truefalse",
+    "question": "荷物の積載物は、自動車の長さの1.2倍（20%増）まで認められている。",
+    "answer": true,
+    "explanation": "【2022年改正】はみ出し制限が「車体の長さの10%」から「20%（合計1.2倍）」に緩和されました。前後のはみ出しはそれぞれ車体長の10%以内（合計20%以内）に収める必要があります。",
+    "tags": [
+      "積載",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "003_045",
+    "chapter": 3,
+    "category": "乗車と積載",
+    "type": "truefalse",
+    "question": "荷物の積載制限を超えた場合、車両重量の10倍以下の罰金に処せられる。",
+    "answer": false,
+    "explanation": "【ひっかけ】過積載の罰金は「車両重量の10倍」ではありません。過積載の罰則は、5万円以下の罰金です。数字のひっかけに注意。",
+    "tags": [
+      "積載",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "wrong_number"
+  },
+  {
+    "id": "003_046",
+    "chapter": 3,
+    "category": "乗車と積載",
+    "type": "truefalse",
+    "question": "幼児（6歳未満）を自動車に乗せる場合、子供用シートの使用が義務である。",
+    "answer": true,
+    "explanation": "6歳未満の幼児を乗せる場合、子供用シートの使用が義務です。例外として、授乳等のやむを得ない理由で一時的に外すことは認められます。",
+    "tags": [
+      "積載",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_047",
+    "chapter": 3,
+    "category": "乗車と積載",
+    "type": "truefalse",
+    "question": "荷台に人を乗せることは、どのような場合でも禁止されている。",
+    "answer": false,
+    "explanation": "【ひっかけ】荷台への乗車は原則禁止ですが、貨物自動車の荷台でやむを得ない場合（例：荷物の積卸しに同行等）は例外として認められる場合があります。ただし、普通乗用車の荷台（トランク）への乗車は禁止です。",
+    "tags": [
+      "積載",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "003_048",
+    "chapter": 3,
+    "category": "乗車と積載",
+    "type": "truefalse",
+    "question": "自動車の総重量には、乗員と荷物の重量も含まれる。",
+    "answer": true,
+    "explanation": "総重量＝車両重量＋乗員重量＋荷物重量です。制限重量は車検証に記載されています。これを超えると過積載違反です。",
+    "tags": [
+      "積載",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_049",
+    "chapter": 3,
+    "category": "乗車と積載",
+    "type": "truefalse",
+    "question": "荷物を車の屋根に積載する場合、高さ制限はない。",
+    "answer": false,
+    "explanation": "【ひっかけ】車の屋根に荷物を積載する場合、地上から3.8m（普通車）または3.8mを超える高さ制限があります。「高さ制限がない」は誤りです。",
+    "tags": [
+      "積載",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "003_050",
+    "chapter": 3,
+    "category": "乗車と積載",
+    "type": "truefalse",
+    "question": "車に乗車する全員がシートベルトを着用する義務がある。",
+    "answer": true,
+    "explanation": "運転者・助手席・後部座席の全員にシートベルト着用の義務（または努力義務）があります。運転者は乗員に着用を促す義務もあります。",
+    "tags": [
+      "積載",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_051",
+    "chapter": 3,
+    "category": "飲酒運転・薬物運転",
+    "type": "truefalse",
+    "question": "飲酒運転の罰則は、5年以下の懲役又は100万円以下の罰金である。",
+    "answer": true,
+    "explanation": "飲酒運転（酒気帯び運転）の罰則は、5年以下の懲役又は100万円以下の罰金です。飲酒運転で人を死亡させた場合は危険運転致死罪が適用されます。",
+    "tags": [
+      "飲酒",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_052",
+    "chapter": 3,
+    "category": "飲酒運転・薬物運転",
+    "type": "truefalse",
+    "question": "酒気帯び運転の基準は、呼気1リットル中0.15mg以上である。",
+    "answer": true,
+    "explanation": "酒気帯び運転の基準は呼気1L中0.15mg以上のアルコールです。これ以上の値が出れば罰則の対象になります。",
+    "tags": [
+      "飲酒",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "003_053",
+    "chapter": 3,
+    "category": "飲酒運転・薬物運転",
+    "type": "truefalse",
+    "question": "飲酒運転の車に同乗することは、運転者以外は罰則の対象にならない。",
+    "answer": false,
+    "explanation": "【ひっかけ】飲酒運転の車への同乗は「飲酒運転容認」で罰則の対象です。酒を提供した者も「酒類提供罪」で罰せられます。2007年の法改正で厳罰化されました。",
+    "tags": [
+      "飲酒",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "missing_condition"
+  },
+  {
+    "id": "003_054",
+    "chapter": 3,
+    "category": "飲酒運転・薬物運転",
+    "type": "truefalse",
+    "question": "飲酒運転で他人にケガをさせた場合、危険運転致死傷罪が適用される。",
+    "answer": true,
+    "explanation": "飲酒運転で人を死傷させた場合、通常の過失運転致死傷罪ではなく「危険運転致死傷罪」が適用され、より重い罰（最高20年の懲役）が科されます。",
+    "tags": [
+      "飲酒",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "003_055",
+    "chapter": 3,
+    "category": "飲酒運転・薬物運転",
+    "type": "truefalse",
+    "question": "酒に酔っていない状態でも、基準値以上のアルコールが検出されれば酒気帯び運転になる。",
+    "answer": true,
+    "explanation": "自覚的な酔いの有無に関わらず、基準値以上のアルコールが検出されれば酒気帯び運転です。自分は酔っていないと思っても違反になります。",
+    "tags": [
+      "飲酒",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_056",
+    "chapter": 3,
+    "category": "飲酒運転・薬物運転",
+    "type": "truefalse",
+    "question": "薬物（麻薬等）を使用しての運転は、飲酒運転より罰則が軽い。",
+    "answer": false,
+    "explanation": "【ひっかけ】麻薬等の影響下での運転は、飲酒運転と同等以上の罰則が科されます。麻薬等の使用自体が犯罪であり、運転と合わせてより重い処罰を受けます。",
+    "tags": [
+      "薬物",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "reversed_meaning"
+  },
+  {
+    "id": "003_057",
+    "chapter": 3,
+    "category": "飲酒運転・薬物運転",
+    "type": "truefalse",
+    "question": "飲酒運転に対する罰則は、運転者本人だけに適用される。",
+    "answer": false,
+    "explanation": "【ひっかけ】飲酒運転の罰則は運転者だけでなく、酒を提供した者（酒類提供罪）、車を提供した者（車両提供罪）、同乗者（同乗罪）にも及びます。",
+    "tags": [
+      "飲酒",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "003_058",
+    "chapter": 3,
+    "category": "飲酒運転・薬物運転",
+    "type": "truefalse",
+    "question": "前夜に飲酒した場合、翌朝でもアルコールが残っていれば酒気帯び運転になる。",
+    "answer": true,
+    "explanation": "前夜の飲酒で翌朝もアルコールが残っている場合、酒気帯び運転になります。時間が経過しても基準値以上なら違反です。「翌朝だから大丈夫」は誤り。",
+    "tags": [
+      "飲酒",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_059",
+    "chapter": 3,
+    "category": "飲酒運転・薬物運転",
+    "type": "truefalse",
+    "question": "酒気帯び運転で検挙された場合、免許取消しのほかに刑事罰も受ける。",
+    "answer": true,
+    "explanation": "飲酒運転は行政処分（免許取消）と刑事処分（罰金・懲役）の両方が科されます。二重の処罰を受けるのが特徴です。",
+    "tags": [
+      "飲酒",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_060",
+    "chapter": 3,
+    "category": "飲酒運転・薬物運転",
+    "type": "truefalse",
+    "question": "飲酒運転の車に同乗した場合、最大で3年以下の懲役に処せられる。",
+    "answer": false,
+    "explanation": "【ひっかけ】飲酒運転への同乗罪の罰則は、3年以下の懲役「又は」50万円以下の罰金です。必ず懲役になるわけではありません。",
+    "tags": [
+      "飲酒",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "003_061",
+    "chapter": 3,
+    "category": "自動車の装置",
+    "type": "truefalse",
+    "question": "自動車には、消火器の搭載が義務付けられている。",
+    "answer": false,
+    "explanation": "【ひっかけ】普通乗用車への消火器搭載は義務ではありません。ただし、事業用自動車（タクシー等）や大型貨物車には積載義務がある場合があります。",
+    "tags": [
+      "装置",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "003_062",
+    "chapter": 3,
+    "category": "自動車の装置",
+    "type": "truefalse",
+    "question": "自動車には、非常点滅表示灯（ハザードランプ）が備えられていなければならない。",
+    "answer": true,
+    "explanation": "非常点滅表示灯は法定の保安基準に定められた必須装置です。故障時や緊急時に他車に知らせるために使います。",
+    "tags": [
+      "装置",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_063",
+    "chapter": 3,
+    "category": "自動車の装置",
+    "type": "truefalse",
+    "question": "バックミラー（内後視鏡）は、運転席から後方を確認するためのもので、法定装備である。",
+    "answer": true,
+    "explanation": "内後視鏡は法定装備です。ミラーで確認できない範囲（死角）があるため、進路変更時は目視確認も必要です。",
+    "tags": [
+      "装置",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_064",
+    "chapter": 3,
+    "category": "自動車の装置",
+    "type": "truefalse",
+    "question": "自動車には、速度計（スピードメーター）の搭載が義務付けられている。",
+    "answer": true,
+    "explanation": "速度計は法定装備です。現在の走行速度を把握することは安全運転の基本であり、すべての自動車に装備義務があります。",
+    "tags": [
+      "装置",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_065",
+    "chapter": 3,
+    "category": "自動車の装置",
+    "type": "truefalse",
+    "question": "トランクにスペアタイヤを搭載することは、法律で義務付けられている。",
+    "answer": false,
+    "explanation": "【ひっかけ】スペアタイヤの搭載は義務ではありません。パンク時の応急措置はパンク修理キット等でも対応可能です。ただし、携帯は推奨されています。",
+    "tags": [
+      "装置",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "003_066",
+    "chapter": 3,
+    "category": "自動車の装置",
+    "type": "truefalse",
+    "question": "ワイパーは、すべての自動車に法定装備として義務付けられている。",
+    "answer": true,
+    "explanation": "ワイパーは前窓の視界確保に不可欠な装置で、法定装備です。故障したままの走行は整備不良として罰せられます。",
+    "tags": [
+      "装置",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_067",
+    "chapter": 3,
+    "category": "自動車の装置",
+    "type": "truefalse",
+    "question": "方向指示器（ウインカー）は、進路変更の30m手前で点灯しなければならない。",
+    "answer": true,
+    "explanation": "進路変更時は、その30m手前で方向指示器を操作することが義務です。早めの合図で周囲に意図を伝えることが大切です。",
+    "tags": [
+      "装置",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_068",
+    "chapter": 3,
+    "category": "自動車の装置",
+    "type": "truefalse",
+    "question": "制動灯（ブレーキランプ）は、ブレーキを踏んだことを後続車に知らせる装置である。",
+    "answer": true,
+    "explanation": "制動灯はブレーキ操作を後続車に伝える法定装置です。球切れのまま走行すると、後続車に追突される危険が高まります。",
+    "tags": [
+      "装置",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_069",
+    "chapter": 3,
+    "category": "自動車の装置",
+    "type": "truefalse",
+    "question": " horn（クラクション）は、法令で定められた場所以外では鳴らしてはならない。",
+    "answer": true,
+    "explanation": "クラクションは危険防止のための合図に限定されており、法令で定められた場所以外での不要な鳴らしは禁止されています。",
+    "tags": [
+      "装置",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_070",
+    "chapter": 3,
+    "category": "自動車の装置",
+    "type": "truefalse",
+    "question": "排気ガスの排出基準に適合しない自動車は、公道を走行できない。",
+    "answer": true,
+    "explanation": "排気ガスの排出基準に適合しない車両は検査に合格できず、公道を走行できません。環境保全の観点から厳しい基準が設けられています。",
+    "tags": [
+      "装置",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_071",
+    "chapter": 3,
+    "category": "安全装置・応急救護",
+    "type": "truefalse",
+    "question": "事故を起こした場合、負傷者がいなければそのまま立ち去ってよい。",
+    "answer": false,
+    "explanation": "【ひっかけ】負傷者がいなくても、事故を起こした場合は直ちに車を停止し、事故状況を確認する義務があります。物損事故でも逃走（ひき逃げ）は犯罪です。",
+    "tags": [
+      "応急救護",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "003_072",
+    "chapter": 3,
+    "category": "安全装置・応急救護",
+    "type": "truefalse",
+    "question": "交通事故で負傷者が出た場合、運転者は直ちに警察に通報しなければならない。",
+    "answer": true,
+    "explanation": "人身事故発生時は、直ちに警察（110番）へ通報する義務があります。救急車の手配と警察への報告を並行して行います。",
+    "tags": [
+      "応急救護",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_073",
+    "chapter": 3,
+    "category": "安全装置・応急救護",
+    "type": "truefalse",
+    "question": "交通事故の負傷者を動かす場合は、まず周囲の人に協力を求めることが大切である。",
+    "answer": true,
+    "explanation": "負傷者の搬送は一人で行わず、周囲の人に協力を求めましょう。特に首や背骨の怪我が疑われる場合は、不用意に動かさないことが重要です。",
+    "tags": [
+      "応急救護",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_074",
+    "chapter": 3,
+    "category": "安全装置・応急救護",
+    "type": "truefalse",
+    "question": "交通事故で負傷者がいる場合、救急車が来るまで何もしてはならない。",
+    "answer": false,
+    "explanation": "【ひっかけ】救急車到着まで応急処置（止血、意識確認、保暖等）を行うことが求められます。「何もしてはならない」は誤りです。ただし、不用意に動かすのはNGです。",
+    "tags": [
+      "応急救護",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "003_075",
+    "chapter": 3,
+    "category": "安全装置・応急救護",
+    "type": "truefalse",
+    "question": "自動車には、反射器材（三角表示板）の搭載が義務付けられている。",
+    "answer": true,
+    "explanation": "故障時の安全確保のため、反射器材（三角表示板）の搭載が義務です。夜間の故障時には必ず後方に設置しなければなりません。",
+    "tags": [
+      "装置",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_076",
+    "chapter": 3,
+    "category": "安全装置・応急救護",
+    "type": "truefalse",
+    "question": "事故現場に立ち入ってはならないが、負傷者の救助のためであれば通行規制を無視できる。",
+    "answer": false,
+    "explanation": "【ひっかけ】負傷者の救助は重要ですが、通行規制を無視してよいわけではありません。救助活動も安全な方法で行う必要があります。",
+    "tags": [
+      "応急救護",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "003_077",
+    "chapter": 3,
+    "category": "安全装置・応急救護",
+    "type": "truefalse",
+    "question": "事故現場を通過する車は、徐行して安全に通行しなければならない。",
+    "answer": true,
+    "explanation": "事故現場付近を通過する車は、徐行し、警察官の指示に従って通行しなければなりません。安全確認を怠ると二次事故の原因になります。",
+    "tags": [
+      "応急救護",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_078",
+    "chapter": 3,
+    "category": "安全装置・応急救護",
+    "type": "truefalse",
+    "question": "ひき逃げ（救護義務違反）の罰則は、10年以下の懲役又は50万円以下の罰金である。",
+    "answer": false,
+    "explanation": "【ひっかけ】ひき逃げ（道路交通法第72条違反：救護義務違反）の罰則は、5年以下の懲役又は50万円以下の罰金です。10年ではありません。",
+    "tags": [
+      "応急救護",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "wrong_number"
+  },
+  {
+    "id": "003_079",
+    "chapter": 3,
+    "category": "安全装置・応急救護",
+    "type": "truefalse",
+    "question": "交通事故で人身事故を起こした場合、警察に報告する義務がある。",
+    "answer": true,
+    "explanation": "人身事故は直ちに警察に通報する義務があります。物損事故も報告義務がありますが、人身事故は特に緊急性が高いです。",
+    "tags": [
+      "応急救護",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_080",
+    "chapter": 3,
+    "category": "安全装置・応急救護",
+    "type": "truefalse",
+    "question": "交通事故の加害者は、被害者への応急処置を警察に到着するまで待つ必要はない。",
+    "answer": true,
+    "explanation": "加害者は直ちに負傷者の救護にあたる義務があります。警察到着を待つ必要はなく、むしろ待たずに迅速な応急処置が求められます。",
+    "tags": [
+      "応急救護",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_081",
+    "chapter": 3,
+    "category": "自動車の保険",
+    "type": "truefalse",
+    "question": "自賠責保険（強制保険）は、すべての自動車に加入が義務である。",
+    "answer": true,
+    "explanation": "自賠責保険は自動車損害賠償保障法に基づく強制加入保険です。未加入の車は車検を受けられず、公道を走行できません。",
+    "tags": [
+      "保険",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_082",
+    "chapter": 3,
+    "category": "自動車の保険",
+    "type": "truefalse",
+    "question": "自賠責保険は、自分の車の修理費もカバーする保険である。",
+    "answer": false,
+    "explanation": "【ひっかけ】自賠責保険は「他人への賠償」のみをカバーします。自分の車の修理や自分の怪我は対象外です。自分の車をカバーするには任意保険（車両保険等）が必要です。",
+    "tags": [
+      "保険",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "reversed_meaning"
+  },
+  {
+    "id": "003_083",
+    "chapter": 3,
+    "category": "自動車の保険",
+    "type": "truefalse",
+    "question": "自賠責保険の補償限度額は、死亡の場合は最大3,000万円である。",
+    "answer": false,
+    "explanation": "【ひっかけ】自賠責保険の死亡補償限度額は3,000万円ではありません。現在は死亡で最高7,500万円、傷害で最高120万円、後遺障害で最高4,000万円です。",
+    "tags": [
+      "保険",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "wrong_number"
+  },
+  {
+    "id": "003_084",
+    "chapter": 3,
+    "category": "自動車の保険",
+    "type": "truefalse",
+    "question": "任意保険は、法律で加入が義務付けられていない。",
+    "answer": true,
+    "explanation": "任意保険（自動車保険）は法的義務ではありませんが、自賠責保険を超える賠償に備えるために加入が強く推奨されています。",
+    "tags": [
+      "保険",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_085",
+    "chapter": 3,
+    "category": "自動車の保険",
+    "type": "truefalse",
+    "question": "自賠責保険に未加入で運転した場合、罰則はない。",
+    "answer": false,
+    "explanation": "【ひっかけ】自賠責保険未加入での運転は違反で、6ヶ月以下の懲役又は30万円以下の罰金に処せられます。車検も通らないため公道走行自体が違法です。",
+    "tags": [
+      "保険",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "003_086",
+    "chapter": 3,
+    "category": "自動車の保険",
+    "type": "truefalse",
+    "question": "自賠責保険は、加入していればどのような事故でも補償される。",
+    "answer": false,
+    "explanation": "【ひっかけ】自賠責保険は「他人への人身損害」のみが対象です。物損（車や建物）は対象外、自分の怪我も対象外です。範囲が限定されています。",
+    "tags": [
+      "保険",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "003_087",
+    "chapter": 3,
+    "category": "自動車の保険",
+    "type": "truefalse",
+    "question": "事故を起こした場合、自賠責保険と任意保険の両方から補償を受けることができる。",
+    "answer": true,
+    "explanation": "自賠責保険の補償限度額を超える賠償については、任意保険から補償を受けることができます。二重補償にはなりませんが、両方を組み合わせて補償されます。",
+    "tags": [
+      "保険",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "003_088",
+    "chapter": 3,
+    "category": "自動車の保険",
+    "type": "truefalse",
+    "question": "自動車保険の等級は、事故を起こさなければ毎年1等級ずつ上がる。",
+    "answer": true,
+    "explanation": "ノンフリート等級制度では、事故がなければ毎年1等級ずつ上がり（最大20等級）、保険料が安くなります。事故を起こすと3等級ダウンします。",
+    "tags": [
+      "保険",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_089",
+    "chapter": 3,
+    "category": "自動車の保険",
+    "type": "truefalse",
+    "question": "自賠責保険の加入期間は、車検期間と同じでなければならない。",
+    "answer": true,
+    "explanation": "自賠責保険の加入期間は車検期間と連動しています。車検時に保険の更新手続きも行われます。",
+    "tags": [
+      "保険",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_090",
+    "chapter": 3,
+    "category": "自動車の保険",
+    "type": "truefalse",
+    "question": "物損事故（人身以外の事故）では、自賠責保険から補償を受けることはできない。",
+    "answer": true,
+    "explanation": "自賠責保険は人身事故（死傷）のみが対象です。物損事故（車同士の接触等）は自賠責保険の補償対象外で、任意保険で対応します。",
+    "tags": [
+      "保険",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_091",
+    "chapter": 3,
+    "category": "総合問題",
+    "type": "truefalse",
+    "question": "二種免許を持つ運転者は、点呼制度和点検制度など、一種免許にはない義務が課せられる。",
+    "answer": true,
+    "explanation": "二種免許（営業運転者）には、運行前後の点呼義務、定期点検の義務、乗務員台帳の作成など、一種免許にはない独自の義務があります。",
+    "tags": [
+      "総合",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "003_092",
+    "chapter": 3,
+    "category": "総合問題",
+    "type": "truefalse",
+    "question": "初心運転者標識（初心者マーク）は、免許取得後1年間は掲示しなければならない。",
+    "answer": true,
+    "explanation": "初心運転者標識（若葉マーク）は免許取得後1年間の掲示義務です。掲示を怠ると罰則の対象になります。",
+    "tags": [
+      "総合",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_093",
+    "chapter": 3,
+    "category": "総合問題",
+    "type": "truefalse",
+    "question": "初心運転者標識をつけている車に対して、幅寄せや割り込みをした場合、罰則が加重される。",
+    "answer": true,
+    "explanation": "初心者マークをつけた車への幅寄せ等は、通常の危険行為より罰則が重く設定されています。初心者を保護するための制度です。",
+    "tags": [
+      "総合",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "003_094",
+    "chapter": 3,
+    "category": "総合問題",
+    "type": "truefalse",
+    "question": "70歳以上の運転者は、高齢運転者標識（四つ葉マーク）を必ず掲示する義務がある。",
+    "answer": false,
+    "explanation": "【ひっかけ】70歳以上の運転者が高齢運転者標識を掲示することは「努力義務」であり、罰則のある「義務（掲示しなければならない）」ではありません。また、現在は「もみじマーク」より「四つ葉のクローバーマーク」が標準です。",
+    "tags": [
+      "総合",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "wrong_number"
+  },
+  {
+    "id": "003_095",
+    "chapter": 3,
+    "category": "総合問題",
+    "type": "truefalse",
+    "question": "身体障害者標識をつけている車は、安全な方法で通行するよう特别な注意を払う必要がある。",
+    "answer": true,
+    "explanation": "身体障害者標識（クローバーマーク）の車は、運転に特別な注意が必要な方が運転しています。周囲の車は安全な通行に配慮する必要があります。",
+    "tags": [
+      "総合",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_096",
+    "chapter": 3,
+    "category": "総合問題",
+    "type": "truefalse",
+    "question": "運転免許証を他人に貸与することは禁止されている。",
+    "answer": true,
+    "explanation": "免許証の貸与は禁止されています。他人の免許証を使って運転することは無免許運転と同罪です。",
+    "tags": [
+      "総合",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_097",
+    "chapter": 3,
+    "category": "総合問題",
+    "type": "truefalse",
+    "question": "偽りの免許証を取得した場合、その免許は無効となり、1年以下の懲役又は30万円以下の罰金に処せられる。",
+    "answer": true,
+    "explanation": "不正な手段で免許を取得した場合、その免許は無効となり、刑事罰の対象になります。",
+    "tags": [
+      "総合",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "003_098",
+    "chapter": 3,
+    "category": "総合問題",
+    "type": "truefalse",
+    "question": "安全運転管理者は、事業用自動車の運転者に対して安全指導を行う義務がある。",
+    "answer": true,
+    "explanation": "安全運転管理者は、事業用自動車の運行の安全を確保するため、運転者への安全指導や点検の監督を行う義務があります。",
+    "tags": [
+      "総合",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "003_099",
+    "chapter": 3,
+    "category": "総合問題",
+    "type": "truefalse",
+    "question": "自動車検査証（車検証）は、常に自動車内に備え付けておかなければならない。",
+    "answer": true,
+    "explanation": "車検証は自動車内への備え付けが義務です。警察の検問等で提示を求められた場合、直ちに提示できなければなりません。",
+    "tags": [
+      "総合",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "003_100",
+    "chapter": 3,
+    "category": "総合問題",
+    "type": "truefalse",
+    "question": "自動車の登録事項に変更があった場合、15日以内に変更登録を行わなければならない。",
+    "answer": true,
+    "explanation": "住所変更等の登録事項に変更があった場合、15日以内に変更登録（届出）を行う義務があります。これを怠ると罰則の対象になります。",
+    "tags": [
+      "総合",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  }
+]

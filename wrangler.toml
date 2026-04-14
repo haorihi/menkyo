@@ -1,0 +1,11 @@
+name = "menkyo-app"
+pages_build_output_dir = "."
+compatibility_date = "2024-04-14"
+
+[[kv_namespaces]]
+binding = "HISTORY_KV"
+# Replace this ID with the output of `wrangler kv:namespace create HISTORY_KV`
+id = "00000000000000000000000000000000"
+
+[vars]
+SYNC_TOKEN = "my-secret-token" # Change this in Cloudflare dashboard for production

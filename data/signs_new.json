@@ -1,0 +1,2570 @@
+[
+  {
+    "sign_id": "301",
+    "metadata": {
+      "name_jp": "通行止め",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_301.png"
+    },
+    "problems": [
+      {
+        "id": "q_301_01",
+        "type": "truefalse",
+        "question": "この標識がある場所では、歩行者、車両、路面電車のすべてが通行できない。",
+        "answer": true,
+        "explanation": "「通行止め」は、歩行者も含めたすべての通行を禁止する規制です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_301_02",
+        "type": "truefalse",
+        "question": "この標識がある場所であっても、自転車を押して歩く場合は通行してもよい。",
+        "answer": false,
+        "explanation": "通行止めは歩行者の通行も禁止しているため、自転車を押して歩く場合も通行できません。",
+        "hikkake_point": "歩行者の扱い",
+        "difficulty": 2
+      },
+      {
+        "id": "q_301_03",
+        "type": "truefalse",
+        "question": "この標識は、災害や工事などで一時的に設置されることもある。",
+        "answer": true,
+        "explanation": "状況に応じて一時的に設置される場合があります。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_301_04",
+        "type": "truefalse",
+        "question": "この標識がある場所を二種免許保持者が通行する場合、一般の運転者より高い注意義務が課せられる。",
+        "answer": true,
+        "explanation": "プロドライバーとしてより高い安全意識が求められます。",
+        "hikkake_point": "二種免許の責任",
+        "difficulty": 3
+      }
+    ]
+  },
+  {
+    "sign_id": "302",
+    "metadata": {
+      "name_jp": "車両通行止め",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_302.png"
+    },
+    "problems": [
+      {
+        "id": "q_302_01",
+        "type": "truefalse",
+        "question": "この標識がある場所では、すべての車両（自動車、原付、軽車両）の通行が禁止されている。",
+        "answer": true,
+        "explanation": "「車両通行止め」の規制標識です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_302_02",
+        "type": "truefalse",
+        "question": "この標識がある場所であっても、歩行者は通行することができる。",
+        "answer": true,
+        "explanation": "車両通行止めは車両を対象としており、歩行者は除外されます。",
+        "hikkake_point": "301との違い",
+        "difficulty": 2
+      },
+      {
+        "id": "q_302_03",
+        "type": "truefalse",
+        "question": "この標識がある場所では、自転車に乗って通行することは禁止されている。",
+        "answer": true,
+        "explanation": "自転車は「軽車両」に含まれるため、車両通行止めの対象となります。",
+        "hikkake_point": "自転車の扱い",
+        "difficulty": 2
+      },
+      {
+        "id": "q_302_04",
+        "type": "truefalse",
+        "question": "この標識がある場所を二種免許保持者が通行する場合、一般の運転者より高い注意義務が課せられる。",
+        "answer": true,
+        "explanation": "プロドライバーとしてより高い安全意識が求められます。",
+        "hikkake_point": "二種免許の責任",
+        "difficulty": 3
+      }
+    ]
+  },
+  {
+    "sign_id": "303",
+    "metadata": {
+      "name_jp": "車両進入禁止",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_303.png"
+    },
+    "problems": [
+      {
+        "id": "q_303_01",
+        "type": "truefalse",
+        "question": "この標識がある場所は、一方通行の出口などに設置され、正面からの進入を禁止している。",
+        "answer": true,
+        "explanation": "「進入禁止」は、標識に面する方向からの進入を制限します。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_303_02",
+        "type": "truefalse",
+        "question": "この標識がある道路へは、いかなる場合も入ることはできない。",
+        "answer": false,
+        "explanation": "標識の反対側（出口側）からは進入可能です。",
+        "hikkake_point": "絶対・すべて",
+        "difficulty": 2
+      },
+      {
+        "id": "q_303_03",
+        "type": "truefalse",
+        "question": "この標識は、緊急自動車が緊急用務で通行する場合でも適用される。",
+        "answer": false,
+        "explanation": "緊急自動車は特例により進入禁止場所を通行できる場合があります。",
+        "hikkake_point": "特例の無視",
+        "difficulty": 2
+      },
+      {
+        "id": "q_303_04",
+        "type": "truefalse",
+        "question": "この標識がある場所を二種免許保持者が通行する場合、一般の運転者より高い注意義務が課せられる。",
+        "answer": true,
+        "explanation": "プロドライバーとしてより高い安全意識が求められます。",
+        "hikkake_point": "二種免許の責任",
+        "difficulty": 3
+      }
+    ]
+  },
+  {
+    "sign_id": "304",
+    "metadata": {
+      "name_jp": "二輪の自動車以外の自動車通行止め",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_304.png"
+    },
+    "problems": [
+      {
+        "id": "q_304_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「二輪の自動車以外の自動車通行止め」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「二輪の自動車以外の自動車通行止め」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_304_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、二輪の自動車以外の自動車通行止めのルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_304_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「二輪の自動車以外の自動車通行止め」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      },
+      {
+        "id": "q_304_04",
+        "type": "truefalse",
+        "question": "この標識がある場所を二種免許保持者が通行する場合、一般の運転者より高い注意義務が課せられる。",
+        "answer": true,
+        "explanation": "プロドライバーとしてより高い安全意識が求められます。",
+        "hikkake_point": "二種免許の責任",
+        "difficulty": 3
+      }
+    ]
+  },
+  {
+    "sign_id": "305",
+    "metadata": {
+      "name_jp": "大型貨物自動車等通行止め",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_305.png"
+    },
+    "problems": [
+      {
+        "id": "q_305_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「大型貨物自動車等通行止め」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「大型貨物自動車等通行止め」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_305_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、大型貨物自動車等通行止めのルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_305_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「大型貨物自動車等通行止め」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      },
+      {
+        "id": "q_305_04",
+        "type": "truefalse",
+        "question": "この標識がある場所を二種免許保持者が通行する場合、一般の運転者より高い注意義務が課せられる。",
+        "answer": true,
+        "explanation": "プロドライバーとしてより高い安全意識が求められます。",
+        "hikkake_point": "二種免許の責任",
+        "difficulty": 3
+      }
+    ]
+  },
+  {
+    "sign_id": "308",
+    "metadata": {
+      "name_jp": "自転車以外の軽車両通行止め",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_308.png"
+    },
+    "problems": [
+      {
+        "id": "q_308_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「自転車以外の軽車両通行止め」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「自転車以外の軽車両通行止め」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_308_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、自転車以外の軽車両通行止めのルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_308_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「自転車以外の軽車両通行止め」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      },
+      {
+        "id": "q_308_04",
+        "type": "truefalse",
+        "question": "この標識がある場所を二種免許保持者が通行する場合、一般の運転者より高い注意義務が課せられる。",
+        "answer": true,
+        "explanation": "プロドライバーとしてより高い安全意識が求められます。",
+        "hikkake_point": "二種免許の責任",
+        "difficulty": 3
+      }
+    ]
+  },
+  {
+    "sign_id": "310",
+    "metadata": {
+      "name_jp": "車両(組合せ)通行止め",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_310.png"
+    },
+    "problems": [
+      {
+        "id": "q_310_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「車両(組合せ)通行止め」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「車両(組合せ)通行止め」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_310_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、車両(組合せ)通行止めのルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_310_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「車両(組合せ)通行止め」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      },
+      {
+        "id": "q_310_04",
+        "type": "truefalse",
+        "question": "この標識がある場所を二種免許保持者が通行する場合、一般の運転者より高い注意義務が課せられる。",
+        "answer": true,
+        "explanation": "プロドライバーとしてより高い安全意識が求められます。",
+        "hikkake_point": "二種免許の責任",
+        "difficulty": 3
+      }
+    ]
+  },
+  {
+    "sign_id": "311-A",
+    "metadata": {
+      "name_jp": "指定方向以外進行禁止(左・直進)",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_311-A.png"
+    },
+    "problems": [
+      {
+        "id": "q_311-A_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「指定方向以外進行禁止(左・直進)」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「指定方向以外進行禁止(左・直進)」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_311-A_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、指定方向以外進行禁止(左・直進)のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_311-A_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「指定方向以外進行禁止(左・直進)」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      },
+      {
+        "id": "q_311-A_04",
+        "type": "truefalse",
+        "question": "この標識がある場所を二種免許保持者が通行する場合、一般の運転者より高い注意義務が課せられる。",
+        "answer": true,
+        "explanation": "プロドライバーとしてより高い安全意識が求められます。",
+        "hikkake_point": "二種免許の責任",
+        "difficulty": 3
+      }
+    ]
+  },
+  {
+    "sign_id": "311-B",
+    "metadata": {
+      "name_jp": "指定方向以外進行禁止(右・直進)",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_311-B.png"
+    },
+    "problems": [
+      {
+        "id": "q_311-B_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「指定方向以外進行禁止(右・直進)」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「指定方向以外進行禁止(右・直進)」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_311-B_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、指定方向以外進行禁止(右・直進)のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_311-B_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「指定方向以外進行禁止(右・直進)」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      },
+      {
+        "id": "q_311-B_04",
+        "type": "truefalse",
+        "question": "この標識がある場所を二種免許保持者が通行する場合、一般の運転者より高い注意義務が課せられる。",
+        "answer": true,
+        "explanation": "プロドライバーとしてより高い安全意識が求められます。",
+        "hikkake_point": "二種免許の責任",
+        "difficulty": 3
+      }
+    ]
+  },
+  {
+    "sign_id": "311-C",
+    "metadata": {
+      "name_jp": "指定方向以外進行禁止(直進)",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_311-C.png"
+    },
+    "problems": [
+      {
+        "id": "q_311-C_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「指定方向以外進行禁止(直進)」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「指定方向以外進行禁止(直進)」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_311-C_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、指定方向以外進行禁止(直進)のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_311-C_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「指定方向以外進行禁止(直進)」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      },
+      {
+        "id": "q_311-C_04",
+        "type": "truefalse",
+        "question": "この標識がある場所を二種免許保持者が通行する場合、一般の運転者より高い注意義務が課せられる。",
+        "answer": true,
+        "explanation": "プロドライバーとしてより高い安全意識が求められます。",
+        "hikkake_point": "二種免許の責任",
+        "difficulty": 3
+      }
+    ]
+  },
+  {
+    "sign_id": "311-D",
+    "metadata": {
+      "name_jp": "指定方向以外進行禁止(左・直進)",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_311-D.png"
+    },
+    "problems": [
+      {
+        "id": "q_311-D_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「指定方向以外進行禁止(左・直進)」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「指定方向以外進行禁止(左・直進)」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_311-D_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、指定方向以外進行禁止(左・直進)のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_311-D_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「指定方向以外進行禁止(左・直進)」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      },
+      {
+        "id": "q_311-D_04",
+        "type": "truefalse",
+        "question": "この標識がある場所を二種免許保持者が通行する場合、一般の運転者より高い注意義務が課せられる。",
+        "answer": true,
+        "explanation": "プロドライバーとしてより高い安全意識が求められます。",
+        "hikkake_point": "二種免許の責任",
+        "difficulty": 3
+      }
+    ]
+  },
+  {
+    "sign_id": "311-E",
+    "metadata": {
+      "name_jp": "指定方向以外進行禁止(右・直進)",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_311-E.png"
+    },
+    "problems": [
+      {
+        "id": "q_311-E_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「指定方向以外進行禁止(右・直進)」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「指定方向以外進行禁止(右・直進)」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_311-E_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、指定方向以外進行禁止(右・直進)のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_311-E_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「指定方向以外進行禁止(右・直進)」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      },
+      {
+        "id": "q_311-E_04",
+        "type": "truefalse",
+        "question": "この標識がある場所を二種免許保持者が通行する場合、一般の運転者より高い注意義務が課せられる。",
+        "answer": true,
+        "explanation": "プロドライバーとしてより高い安全意識が求められます。",
+        "hikkake_point": "二種免許の責任",
+        "difficulty": 3
+      }
+    ]
+  },
+  {
+    "sign_id": "311-F",
+    "metadata": {
+      "name_jp": "指定方向以外進行禁止(左右)",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_311-F.png"
+    },
+    "problems": [
+      {
+        "id": "q_311-F_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「指定方向以外進行禁止(左右)」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「指定方向以外進行禁止(左右)」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_311-F_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、指定方向以外進行禁止(左右)のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_311-F_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「指定方向以外進行禁止(左右)」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      },
+      {
+        "id": "q_311-F_04",
+        "type": "truefalse",
+        "question": "この標識がある場所を二種免許保持者が通行する場合、一般の運転者より高い注意義務が課せられる。",
+        "answer": true,
+        "explanation": "プロドライバーとしてより高い安全意識が求められます。",
+        "hikkake_point": "二種免許の責任",
+        "difficulty": 3
+      }
+    ]
+  },
+  {
+    "sign_id": "312",
+    "metadata": {
+      "name_jp": "転回禁止",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_312.png"
+    },
+    "problems": [
+      {
+        "id": "q_312_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「転回禁止」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「転回禁止」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_312_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、転回禁止のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_312_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「転回禁止」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      },
+      {
+        "id": "q_312_04",
+        "type": "truefalse",
+        "question": "この標識がある場所を二種免許保持者が通行する場合、一般の運転者より高い注意義務が課せられる。",
+        "answer": true,
+        "explanation": "プロドライバーとしてより高い安全意識が求められます。",
+        "hikkake_point": "二種免許の責任",
+        "difficulty": 3
+      }
+    ]
+  },
+  {
+    "sign_id": "313",
+    "metadata": {
+      "name_jp": "追い越しのための右側部分はみ出し通行禁止",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_313.png"
+    },
+    "problems": [
+      {
+        "id": "q_313_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「追い越しのための右側部分はみ出し通行禁止」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「追い越しのための右側部分はみ出し通行禁止」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_313_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、追い越しのための右側部分はみ出し通行禁止のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_313_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「追い越しのための右側部分はみ出し通行禁止」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      },
+      {
+        "id": "q_313_04",
+        "type": "truefalse",
+        "question": "この標識がある場所を二種免許保持者が通行する場合、一般の運転者より高い注意義務が課せられる。",
+        "answer": true,
+        "explanation": "プロドライバーとしてより高い安全意識が求められます。",
+        "hikkake_point": "二種免許の責任",
+        "difficulty": 3
+      }
+    ]
+  },
+  {
+    "sign_id": "314",
+    "metadata": {
+      "name_jp": "追い越し禁止",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_314.png"
+    },
+    "problems": [
+      {
+        "id": "q_314_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「追い越し禁止」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「追い越し禁止」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_314_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、追い越し禁止のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_314_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「追い越し禁止」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      },
+      {
+        "id": "q_314_04",
+        "type": "truefalse",
+        "question": "この標識がある場所を二種免許保持者が通行する場合、一般の運転者より高い注意義務が課せられる。",
+        "answer": true,
+        "explanation": "プロドライバーとしてより高い安全意識が求められます。",
+        "hikkake_point": "二種免許の責任",
+        "difficulty": 3
+      }
+    ]
+  },
+  {
+    "sign_id": "315",
+    "metadata": {
+      "name_jp": "駐停車禁止",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_315.png"
+    },
+    "problems": [
+      {
+        "id": "q_315_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「駐停車禁止」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「駐停車禁止」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_315_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、駐停車禁止のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_315_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「駐停車禁止」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      },
+      {
+        "id": "q_315_04",
+        "type": "truefalse",
+        "question": "この標識がある場所を二種免許保持者が通行する場合、一般の運転者より高い注意義務が課せられる。",
+        "answer": true,
+        "explanation": "プロドライバーとしてより高い安全意識が求められます。",
+        "hikkake_point": "二種免許の責任",
+        "difficulty": 3
+      }
+    ]
+  },
+  {
+    "sign_id": "316",
+    "metadata": {
+      "name_jp": "駐車禁止",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_316.png"
+    },
+    "problems": [
+      {
+        "id": "q_316_01",
+        "type": "truefalse",
+        "question": "この標識がある場所では、人の乗り降りのための停車は認められている。",
+        "answer": true,
+        "explanation": "駐車禁止の場所でも「停車」は可能です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_316_02",
+        "type": "truefalse",
+        "question": "この標識がある場所で、運転者が車内で休憩しながら10分間止まっていた。",
+        "answer": false,
+        "explanation": "5分を超える停止は「駐車」とみなされ、運転者が車内にいても違反となります。",
+        "hikkake_point": "時間定義",
+        "difficulty": 2
+      },
+      {
+        "id": "q_316_03",
+        "type": "truefalse",
+        "question": "貨物の積卸しで5分を超えないものは「停車」とみなされるため、この標識があっても可能である。",
+        "answer": true,
+        "explanation": "5分以内の貨物積卸しは停車扱いです。",
+        "hikkake_point": null,
+        "difficulty": 2
+      },
+      {
+        "id": "q_316_04",
+        "type": "truefalse",
+        "question": "この標識がある場所を二種免許保持者が通行する場合、一般の運転者より高い注意義務が課せられる。",
+        "answer": true,
+        "explanation": "プロドライバーとしてより高い安全意識が求められます。",
+        "hikkake_point": "二種免許の責任",
+        "difficulty": 3
+      }
+    ]
+  },
+  {
+    "sign_id": "317",
+    "metadata": {
+      "name_jp": "時間制限駐車区間",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_317.png"
+    },
+    "problems": [
+      {
+        "id": "q_317_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「時間制限駐車区間」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「時間制限駐車区間」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_317_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、時間制限駐車区間のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_317_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「時間制限駐車区間」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      },
+      {
+        "id": "q_317_04",
+        "type": "truefalse",
+        "question": "この標識がある場所を二種免許保持者が通行する場合、一般の運転者より高い注意義務が課せられる。",
+        "answer": true,
+        "explanation": "プロドライバーとしてより高い安全意識が求められます。",
+        "hikkake_point": "二種免許の責任",
+        "difficulty": 3
+      }
+    ]
+  },
+  {
+    "sign_id": "322-50",
+    "metadata": {
+      "name_jp": "最高速度 (50)",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_322-50.png"
+    },
+    "problems": [
+      {
+        "id": "q_322-50_01",
+        "type": "truefalse",
+        "question": "この標識がある道路では、時速50kmを超えて運転してはならない。",
+        "answer": true,
+        "explanation": "最高速度を指定しています。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_322-50_02",
+        "type": "truefalse",
+        "question": "標識の数字が「50」であっても、原動機付自転車は時速30kmを超えて走行してはならない。",
+        "answer": true,
+        "explanation": "原付の法定速度（30km/h）は標識の指定速度より優先されます。",
+        "hikkake_point": "原付の特例",
+        "difficulty": 3
+      },
+      {
+        "id": "q_322-50_03",
+        "type": "truefalse",
+        "question": "この標識の指定速度は、緊急自動車が緊急用務で走行する場合にも制限として適用される。",
+        "answer": false,
+        "explanation": "緊急自動車には異なる最高速度制限（一般道80km/hなど）が適用されます。",
+        "hikkake_point": "緊急自動車の特例",
+        "difficulty": 3
+      },
+      {
+        "id": "q_322-50_04",
+        "type": "truefalse",
+        "question": "この標識がある場所を二種免許保持者が通行する場合、一般の運転者より高い注意義務が課せられる。",
+        "answer": true,
+        "explanation": "プロドライバーとしてより高い安全意識が求められます。",
+        "hikkake_point": "二種免許の責任",
+        "difficulty": 3
+      }
+    ]
+  },
+  {
+    "sign_id": "323-30",
+    "metadata": {
+      "name_jp": "最低速度 (30)",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_323-30.png"
+    },
+    "problems": [
+      {
+        "id": "q_323-30_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「最低速度 (30)」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「最低速度 (30)」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_323-30_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、最低速度 (30)のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_323-30_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「最低速度 (30)」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "324",
+    "metadata": {
+      "name_jp": "自動車専用",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_324.png"
+    },
+    "problems": [
+      {
+        "id": "q_324_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「自動車専用」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「自動車専用」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_324_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、自動車専用のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_324_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「自動車専用」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "325",
+    "metadata": {
+      "name_jp": "自転車専用",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_325.png"
+    },
+    "problems": [
+      {
+        "id": "q_325_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「自転車専用」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「自転車専用」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_325_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、自転車専用のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_325_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「自転車専用」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "325-2",
+    "metadata": {
+      "name_jp": "自転車及び歩行者専用",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_325-2.png"
+    },
+    "problems": [
+      {
+        "id": "q_325-2_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「自転車及び歩行者専用」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「自転車及び歩行者専用」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_325-2_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、自転車及び歩行者専用のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_325-2_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「自転車及び歩行者専用」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "325-3",
+    "metadata": {
+      "name_jp": "歩行者専用",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_325-3.png"
+    },
+    "problems": [
+      {
+        "id": "q_325-3_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「歩行者専用」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「歩行者専用」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_325-3_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、歩行者専用のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_325-3_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「歩行者専用」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "325-4",
+    "metadata": {
+      "name_jp": "一方通行 (左)",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_325-4.png"
+    },
+    "problems": [
+      {
+        "id": "q_325-4_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「一方通行 (左)」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「一方通行 (左)」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_325-4_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、一方通行 (左)のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_325-4_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「一方通行 (左)」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "326",
+    "metadata": {
+      "name_jp": "一方通行 (上)",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_326.png"
+    },
+    "problems": [
+      {
+        "id": "q_326_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「一方通行 (上)」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「一方通行 (上)」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_326_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、一方通行 (上)のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_326_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「一方通行 (上)」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "326-B",
+    "metadata": {
+      "name_jp": "一方通行 (右)",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_326-B.png"
+    },
+    "problems": [
+      {
+        "id": "q_326-B_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「一方通行 (右)」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「一方通行 (右)」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_326-B_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、一方通行 (右)のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_326-B_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「一方通行 (右)」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "327",
+    "metadata": {
+      "name_jp": "車両通行区分",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_327.png"
+    },
+    "problems": [
+      {
+        "id": "q_327_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「車両通行区分」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「車両通行区分」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_327_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、車両通行区分のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_327_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「車両通行区分」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "327-2-バス",
+    "metadata": {
+      "name_jp": "バス専用通行帯",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_327-2-バス.png"
+    },
+    "problems": [
+      {
+        "id": "q_327-2-バス_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「バス専用通行帯」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「バス専用通行帯」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_327-2-バス_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、バス専用通行帯のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_327-2-バス_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「バス専用通行帯」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "327-6",
+    "metadata": {
+      "name_jp": "路線バス等優先通行帯",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_327-6.png"
+    },
+    "problems": [
+      {
+        "id": "q_327-6_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「路線バス等優先通行帯」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「路線バス等優先通行帯」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_327-6_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、路線バス等優先通行帯のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_327-6_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「路線バス等優先通行帯」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "329",
+    "metadata": {
+      "name_jp": "進行方向別通行区分",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_329.png"
+    },
+    "problems": [
+      {
+        "id": "q_329_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「進行方向別通行区分」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「進行方向別通行区分」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_329_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、進行方向別通行区分のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_329_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「進行方向別通行区分」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "329-2",
+    "metadata": {
+      "name_jp": "原動機付自転車の右折方法(二段階)",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_329-2.png"
+    },
+    "problems": [
+      {
+        "id": "q_329-2_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「原動機付自転車の右折方法(二段階)」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「原動機付自転車の右折方法(二段階)」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_329-2_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、原動機付自転車の右折方法(二段階)のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_329-2_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「原動機付自転車の右折方法(二段階)」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "330",
+    "metadata": {
+      "name_jp": "一時停止",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_330.png"
+    },
+    "problems": [
+      {
+        "id": "q_330_01",
+        "type": "truefalse",
+        "question": "この標識がある場所では、停止線の直前で一時停止しなければならない。",
+        "answer": true,
+        "explanation": "「止まれ」は完全停止を義務付けています。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_330_02",
+        "type": "truefalse",
+        "question": "一時停止とは、タイヤが完全に止まるまで停車することである。",
+        "answer": true,
+        "explanation": "徐行では一時停止とは認められません。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_330_03",
+        "type": "truefalse",
+        "question": "左右の見通しが良い交差点であれば、一時停止せずに徐行して通過してもよい。",
+        "answer": false,
+        "explanation": "見通しに関わらず、標識がある以上は必ず一時停止が必要です。",
+        "hikkake_point": "安全確認の代用不可",
+        "difficulty": 2
+      },
+      {
+        "id": "q_330_04",
+        "type": "truefalse",
+        "question": "この標識がある場所で一時停止しなかった場合、指定場所一時停止不停止違反となる。",
+        "answer": true,
+        "explanation": "道路交通法第43条の違反となります。",
+        "hikkake_point": null,
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "331",
+    "metadata": {
+      "name_jp": "前方優先道路",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_331.png"
+    },
+    "problems": [
+      {
+        "id": "q_331_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「前方優先道路」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「前方優先道路」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_331_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、前方優先道路のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_331_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「前方優先道路」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "332",
+    "metadata": {
+      "name_jp": "徐行",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_332.png"
+    },
+    "problems": [
+      {
+        "id": "q_332_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「徐行」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「徐行」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_332_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、徐行のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_332_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「徐行」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "333",
+    "metadata": {
+      "name_jp": "歩行者横断禁止",
+      "category": "規制標識"
+    },
+    "image": {
+      "filename": "sign_333.png"
+    },
+    "problems": [
+      {
+        "id": "q_333_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「歩行者横断禁止」である。",
+        "answer": true,
+        "explanation": "これは規制標識の「歩行者横断禁止」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_333_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、歩行者横断禁止のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_333_03",
+        "type": "truefalse",
+        "question": "この標識は「規制標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「歩行者横断禁止」は規制標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "201",
+    "metadata": {
+      "name_jp": "十字路交差点",
+      "category": "警戒標識"
+    },
+    "image": {
+      "filename": "sign_201.png"
+    },
+    "problems": [
+      {
+        "id": "q_201_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「十字路交差点」である。",
+        "answer": true,
+        "explanation": "これは警戒標識の「十字路交差点」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_201_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、十字路交差点のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_201_03",
+        "type": "truefalse",
+        "question": "この標識は「警戒標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「十字路交差点」は警戒標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "201-2",
+    "metadata": {
+      "name_jp": "T字路交差点",
+      "category": "警戒標識"
+    },
+    "image": {
+      "filename": "sign_201-2.png"
+    },
+    "problems": [
+      {
+        "id": "q_201-2_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「T字路交差点」である。",
+        "answer": true,
+        "explanation": "これは警戒標識の「T字路交差点」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_201-2_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、T字路交差点のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_201-2_03",
+        "type": "truefalse",
+        "question": "この標識は「警戒標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「T字路交差点」は警戒標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "209",
+    "metadata": {
+      "name_jp": "車線数減少",
+      "category": "警戒標識"
+    },
+    "image": {
+      "filename": "sign_209.png"
+    },
+    "problems": [
+      {
+        "id": "q_209_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「車線数減少」である。",
+        "answer": true,
+        "explanation": "これは警戒標識の「車線数減少」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_209_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、車線数減少のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_209_03",
+        "type": "truefalse",
+        "question": "この標識は「警戒標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「車線数減少」は警戒標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "210",
+    "metadata": {
+      "name_jp": "幅員減少",
+      "category": "警戒標識"
+    },
+    "image": {
+      "filename": "sign_210.png"
+    },
+    "problems": [
+      {
+        "id": "q_210_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「幅員減少」である。",
+        "answer": true,
+        "explanation": "これは警戒標識の「幅員減少」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_210_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、幅員減少のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_210_03",
+        "type": "truefalse",
+        "question": "この標識は「警戒標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「幅員減少」は警戒標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "212-3",
+    "metadata": {
+      "name_jp": "踏切あり",
+      "category": "警戒標識"
+    },
+    "image": {
+      "filename": "sign_212-3.png"
+    },
+    "problems": [
+      {
+        "id": "q_212-3_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「踏切あり」である。",
+        "answer": true,
+        "explanation": "これは警戒標識の「踏切あり」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_212-3_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、踏切ありのルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_212-3_03",
+        "type": "truefalse",
+        "question": "この標識は「警戒標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「踏切あり」は警戒標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "214",
+    "metadata": {
+      "name_jp": "学校、幼稚園、保育所等あり",
+      "category": "警戒標識"
+    },
+    "image": {
+      "filename": "sign_214.png"
+    },
+    "problems": [
+      {
+        "id": "q_214_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「学校、幼稚園、保育所等あり」である。",
+        "answer": true,
+        "explanation": "これは警戒標識の「学校、幼稚園、保育所等あり」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_214_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、学校、幼稚園、保育所等ありのルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_214_03",
+        "type": "truefalse",
+        "question": "この標識は「警戒標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「学校、幼稚園、保育所等あり」は警戒標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "214-2",
+    "metadata": {
+      "name_jp": "信号機あり",
+      "category": "警戒標識"
+    },
+    "image": {
+      "filename": "sign_214-2.png"
+    },
+    "problems": [
+      {
+        "id": "q_214-2_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「信号機あり」である。",
+        "answer": true,
+        "explanation": "これは警戒標識の「信号機あり」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_214-2_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、信号機ありのルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_214-2_03",
+        "type": "truefalse",
+        "question": "この標識は「警戒標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「信号機あり」は警戒標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "215",
+    "metadata": {
+      "name_jp": "すべりやすい",
+      "category": "警戒標識"
+    },
+    "image": {
+      "filename": "sign_215.png"
+    },
+    "problems": [
+      {
+        "id": "q_215_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「すべりやすい」である。",
+        "answer": true,
+        "explanation": "これは警戒標識の「すべりやすい」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_215_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、すべりやすいのルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_215_03",
+        "type": "truefalse",
+        "question": "この標識は「警戒標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「すべりやすい」は警戒標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "216",
+    "metadata": {
+      "name_jp": "落石のおそれあり",
+      "category": "警戒標識"
+    },
+    "image": {
+      "filename": "sign_216.png"
+    },
+    "problems": [
+      {
+        "id": "q_216_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「落石のおそれあり」である。",
+        "answer": true,
+        "explanation": "これは警戒標識の「落石のおそれあり」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_216_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、落石のおそれありのルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_216_03",
+        "type": "truefalse",
+        "question": "この標識は「警戒標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「落石のおそれあり」は警戒標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "217",
+    "metadata": {
+      "name_jp": "路面凹凸あり",
+      "category": "警戒標識"
+    },
+    "image": {
+      "filename": "sign_217.png"
+    },
+    "problems": [
+      {
+        "id": "q_217_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「路面凹凸あり」である。",
+        "answer": true,
+        "explanation": "これは警戒標識の「路面凹凸あり」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_217_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、路面凹凸ありのルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_217_03",
+        "type": "truefalse",
+        "question": "この標識は「警戒標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「路面凹凸あり」は警戒標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "219",
+    "metadata": {
+      "name_jp": "横風注意",
+      "category": "警戒標識"
+    },
+    "image": {
+      "filename": "sign_219.png"
+    },
+    "problems": [
+      {
+        "id": "q_219_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「横風注意」である。",
+        "answer": true,
+        "explanation": "これは警戒標識の「横風注意」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_219_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、横風注意のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_219_03",
+        "type": "truefalse",
+        "question": "この標識は「警戒標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「横風注意」は警戒標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "220",
+    "metadata": {
+      "name_jp": "動物が飛び出すおそれあり",
+      "category": "警戒標識"
+    },
+    "image": {
+      "filename": "sign_220.png"
+    },
+    "problems": [
+      {
+        "id": "q_220_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「動物が飛び出すおそれあり」である。",
+        "answer": true,
+        "explanation": "これは警戒標識の「動物が飛び出すおそれあり」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_220_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、動物が飛び出すおそれありのルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_220_03",
+        "type": "truefalse",
+        "question": "この標識は「警戒標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「動物が飛び出すおそれあり」は警戒標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "401",
+    "metadata": {
+      "name_jp": "並進可",
+      "category": "指示標識"
+    },
+    "image": {
+      "filename": "sign_401.png"
+    },
+    "problems": [
+      {
+        "id": "q_401_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「並進可」である。",
+        "answer": true,
+        "explanation": "これは指示標識の「並進可」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_401_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、並進可のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_401_03",
+        "type": "truefalse",
+        "question": "この標識は「指示標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「並進可」は指示標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "402",
+    "metadata": {
+      "name_jp": "軌道敷内通行可",
+      "category": "指示標識"
+    },
+    "image": {
+      "filename": "sign_402.png"
+    },
+    "problems": [
+      {
+        "id": "q_402_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「軌道敷内通行可」である。",
+        "answer": true,
+        "explanation": "これは指示標識の「軌道敷内通行可」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_402_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、軌道敷内通行可のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_402_03",
+        "type": "truefalse",
+        "question": "この標識は「指示標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「軌道敷内通行可」は指示標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "405",
+    "metadata": {
+      "name_jp": "優先道路",
+      "category": "指示標識"
+    },
+    "image": {
+      "filename": "sign_405.png"
+    },
+    "problems": [
+      {
+        "id": "q_405_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「優先道路」である。",
+        "answer": true,
+        "explanation": "これは指示標識の「優先道路」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_405_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、優先道路のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_405_03",
+        "type": "truefalse",
+        "question": "この標識は「指示標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「優先道路」は指示標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "406",
+    "metadata": {
+      "name_jp": "中央線",
+      "category": "指示標識"
+    },
+    "image": {
+      "filename": "sign_406.png"
+    },
+    "problems": [
+      {
+        "id": "q_406_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「中央線」である。",
+        "answer": true,
+        "explanation": "これは指示標識の「中央線」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_406_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、中央線のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_406_03",
+        "type": "truefalse",
+        "question": "この標識は「指示標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「中央線」は指示標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "407",
+    "metadata": {
+      "name_jp": "停止線",
+      "category": "指示標識"
+    },
+    "image": {
+      "filename": "sign_407.png"
+    },
+    "problems": [
+      {
+        "id": "q_407_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「停止線」である。",
+        "answer": true,
+        "explanation": "これは指示標識の「停止線」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_407_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、停止線のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_407_03",
+        "type": "truefalse",
+        "question": "この標識は「指示標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「停止線」は指示標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "407-3",
+    "metadata": {
+      "name_jp": "横断歩道",
+      "category": "指示標識"
+    },
+    "image": {
+      "filename": "sign_407-3.png"
+    },
+    "problems": [
+      {
+        "id": "q_407-3_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「横断歩道」である。",
+        "answer": true,
+        "explanation": "これは指示標識の「横断歩道」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_407-3_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、横断歩道のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_407-3_03",
+        "type": "truefalse",
+        "question": "この標識は「指示標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「横断歩道」は指示標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "408",
+    "metadata": {
+      "name_jp": "安全地帯",
+      "category": "指示標識"
+    },
+    "image": {
+      "filename": "sign_408.png"
+    },
+    "problems": [
+      {
+        "id": "q_408_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「安全地帯」である。",
+        "answer": true,
+        "explanation": "これは指示標識の「安全地帯」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_408_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、安全地帯のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_408_03",
+        "type": "truefalse",
+        "question": "この標識は「指示標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「安全地帯」は指示標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "501",
+    "metadata": {
+      "name_jp": "距離・区域",
+      "category": "補助標識"
+    },
+    "image": {
+      "filename": "sign_501.png"
+    },
+    "problems": [
+      {
+        "id": "q_501_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「距離・区域」である。",
+        "answer": true,
+        "explanation": "これは補助標識の「距離・区域」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_501_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、距離・区域のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_501_03",
+        "type": "truefalse",
+        "question": "この標識は「補助標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「距離・区域」は補助標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "503",
+    "metadata": {
+      "name_jp": "時間",
+      "category": "補助標識"
+    },
+    "image": {
+      "filename": "sign_503.png"
+    },
+    "problems": [
+      {
+        "id": "q_503_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「時間」である。",
+        "answer": true,
+        "explanation": "これは補助標識の「時間」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_503_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、時間のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_503_03",
+        "type": "truefalse",
+        "question": "この標識は「補助標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「時間」は補助標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "506",
+    "metadata": {
+      "name_jp": "車両の種類",
+      "category": "補助標識"
+    },
+    "image": {
+      "filename": "sign_506.png"
+    },
+    "problems": [
+      {
+        "id": "q_506_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「車両の種類」である。",
+        "answer": true,
+        "explanation": "これは補助標識の「車両の種類」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_506_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、車両の種類のルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_506_03",
+        "type": "truefalse",
+        "question": "この標識は「補助標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「車両の種類」は補助標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "507-A",
+    "metadata": {
+      "name_jp": "始まり",
+      "category": "補助標識"
+    },
+    "image": {
+      "filename": "sign_507-A.png"
+    },
+    "problems": [
+      {
+        "id": "q_507-A_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「始まり」である。",
+        "answer": true,
+        "explanation": "これは補助標識の「始まり」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_507-A_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、始まりのルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_507-A_03",
+        "type": "truefalse",
+        "question": "この標識は「補助標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「始まり」は補助標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  },
+  {
+    "sign_id": "507-C",
+    "metadata": {
+      "name_jp": "終わり",
+      "category": "補助標識"
+    },
+    "image": {
+      "filename": "sign_507-C.png"
+    },
+    "problems": [
+      {
+        "id": "q_507-C_01",
+        "type": "truefalse",
+        "question": "この標識の名称は「終わり」である。",
+        "answer": true,
+        "explanation": "これは補助標識の「終わり」です。",
+        "hikkake_point": null,
+        "difficulty": 1
+      },
+      {
+        "id": "q_507-C_02",
+        "type": "truefalse",
+        "question": "この標識がある場所では、終わりのルールを無視して走行してもよい。",
+        "answer": false,
+        "explanation": "標識には従う義務があります。",
+        "hikkake_point": "ルールの無視",
+        "difficulty": 1
+      },
+      {
+        "id": "q_507-C_03",
+        "type": "truefalse",
+        "question": "この標識は「補助標識」に分類されるものである。",
+        "answer": true,
+        "explanation": "「終わり」は補助標識の一つです。",
+        "hikkake_point": "分類の知識",
+        "difficulty": 2
+      }
+    ]
+  }
+]

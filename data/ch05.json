@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "005_001",
+    "chapter": 5,
+    "category": "安全な速度と車間距離",
+    "type": "truefalse",
+    "question": "法定速度は、普通自動車の場合、一般道路で時速60kmである。",
+    "answer": true,
+    "explanation": "普通自動車の法定速度は一般道路で時速60km、高速道路で時速100kmです。ただし、標識で異なる速度が指定されている場合は標識が優先します。",
+    "tags": [
+      "速度",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_002",
+    "chapter": 5,
+    "category": "安全な速度と車間距離",
+    "type": "truefalse",
+    "question": "自動車専用道路の法定速度は、時速80kmである。",
+    "answer": false,
+    "explanation": "【ひっかけ】自動車専用道路の法定速度は時速60kmです（一般道路と同じ）。時速80kmではありません。高速道路の法定速度が時速100kmです。",
+    "tags": [
+      "速度",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "wrong_number"
+  },
+  {
+    "id": "005_003",
+    "chapter": 5,
+    "category": "安全な速度と車間距離",
+    "type": "truefalse",
+    "question": "一般道路での車間距離の目安は、走行速度の数値から15を引いた数字（メートル）である。",
+    "answer": true,
+    "explanation": "【最新基準】一般道（時速30〜60km）での車間距離の目安は「速度マイナス15」です（例：時速60kmなら45m）。なお、高速道路や時速60kmを超える場合は「速度と同じ数字」が目安となります。",
+    "tags": [
+      "車間距離",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_004",
+    "chapter": 5,
+    "category": "安全な速度と車間距離",
+    "type": "truefalse",
+    "question": "雨の日は、晴天時の車間距離の約2倍が必要である。",
+    "answer": false,
+    "explanation": "【ひっかけ】雨天時は約2倍ではなく、「さらに長い車間距離」が必要です。正確な倍数は定められていませんが、速度も落とす必要があります。",
+    "tags": [
+      "車間距離",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "wrong_number"
+  },
+  {
+    "id": "005_005",
+    "chapter": 5,
+    "category": "安全な速度と車間距離",
+    "type": "truefalse",
+    "question": "制動距離は速度の2乗に比例するため、速度が3倍になると制動距離は9倍になる。",
+    "answer": true,
+    "explanation": "制動距離＝速度の2乗に比例。速度3倍→制動距離9倍。これは物理法則で、速度を上げるほど停止に必要な距離が急激に長くなります。",
+    "tags": [
+      "速度",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "005_006",
+    "chapter": 5,
+    "category": "安全な速度と車間距離",
+    "type": "truefalse",
+    "question": "停止距離は、空走距離と制動距離の合計である。",
+    "answer": true,
+    "explanation": "停止距離＝空走距離（危険を認識してからブレーキを踏むまでの距離）＋制動距離（ブレーキを踏んでから止まるまでの距離）。",
+    "tags": [
+      "速度",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_007",
+    "chapter": 5,
+    "category": "安全な速度と車間距離",
+    "type": "truefalse",
+    "question": "空走距離は、走行速度が速いほど長くなる。",
+    "answer": true,
+    "explanation": "空走距離は認識時間×速度で計算されます。速度が速いほど、同じ認識時間でも進む距離が長くなります。",
+    "tags": [
+      "速度",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_008",
+    "chapter": 5,
+    "category": "安全な速度と車間距離",
+    "type": "truefalse",
+    "question": "高速道路での車間距離の目安は、時速100kmで100m以上である。",
+    "answer": true,
+    "explanation": "高速道路でも基本は同じ。時速100km→100m以上の車間距離が必要です。高速道路の車間距離標識（50m間隔）が参考になります。",
+    "tags": [
+      "車間距離",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_009",
+    "chapter": 5,
+    "category": "安全な速度と車間距離",
+    "type": "truefalse",
+    "question": "徐行とは、時速10km以下で通行することである。",
+    "answer": false,
+    "explanation": "【ひっかけ】徐行は「すぐに停止できる速度」で通行することです。時速10kmという明確な数字はありません。状況によっては時速5km以下が必要な場合もあります。",
+    "tags": [
+      "速度",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "wrong_number"
+  },
+  {
+    "id": "005_010",
+    "chapter": 5,
+    "category": "安全な速度と車間距離",
+    "type": "truefalse",
+    "question": "見通しのきかない交差点では、徐行しなければならない。",
+    "answer": true,
+    "explanation": "見通しのきかない交差点では徐行義務があります。対向車や歩行者がいつ出てくるか分からないため、すぐに停止できる速度で通行します。",
+    "tags": [
+      "速度",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_011",
+    "chapter": 5,
+    "category": "安全な速度と車間距離",
+    "type": "truefalse",
+    "question": "最高速度標識がない道路では、法定速度を超えても違反にならない。",
+    "answer": false,
+    "explanation": "【ひっかけ】最高速度標識がない場合でも、法定速度（一般道路60km/h）が適用されます。標識がないからといって法定速度を超えると違反です。",
+    "tags": [
+      "速度",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "005_012",
+    "chapter": 5,
+    "category": "安全な速度と車間距離",
+    "type": "truefalse",
+    "question": "カーブの手前では、カーブに進入する前に減速しておくことが大切である。",
+    "answer": true,
+    "explanation": "カーブ中にブレーキをかけると遠心力でふらつき危険です。カーブの手前で適切な速度まで減速し、カーブ中は一定速度で通行するのが基本です。",
+    "tags": [
+      "速度",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_013",
+    "chapter": 5,
+    "category": "安全な速度と車間距離",
+    "type": "truefalse",
+    "question": "下り坂では、エンジンブレーキを利用するのが効果的である。",
+    "answer": true,
+    "explanation": "下り坂ではフットブレーキだけに頼るとフェード現象（ブレーキが効かなくなる）が起こる危険があります。エンジンブレーキと併用するのが安全です。",
+    "tags": [
+      "速度",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_014",
+    "chapter": 5,
+    "category": "安全な速度と車間距離",
+    "type": "truefalse",
+    "question": "速度が2倍になると、衝突時の運動エネルギーは2倍になる。",
+    "answer": false,
+    "explanation": "【ひっかけ】運動エネルギーは速度の2乗に比例します。速度が2倍になると運動エネルギーは「4倍」になります。これが高速走行の危険性の理由です。",
+    "tags": [
+      "速度",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "wrong_number"
+  },
+  {
+    "id": "005_015",
+    "chapter": 5,
+    "category": "安全な速度と車間距離",
+    "type": "truefalse",
+    "question": "速度が2倍になると、空走距離も2倍になる。",
+    "answer": true,
+    "explanation": "空走距離＝速度×認識時間。速度が2倍になれば、同じ認識時間でも空走距離は2倍になります。これは比例関係です。",
+    "tags": [
+      "速度",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "005_016",
+    "chapter": 5,
+    "category": "安全な速度と車間距離",
+    "type": "truefalse",
+    "question": "最高速度に+30km/h以上の速度違反は、即時免許停止の対象になる。",
+    "answer": true,
+    "explanation": "最高速度+30km/h以上の速度違反は、即時行政処分（免許停止等）の対象です。特に高速道路では+40km/h以上で即停止の可能性が高いです。",
+    "tags": [
+      "速度",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "005_017",
+    "chapter": 5,
+    "category": "安全な速度と車間距離",
+    "type": "truefalse",
+    "question": "速度超過の違反点数は、超過幅度が大きいほど高い。",
+    "answer": true,
+    "explanation": "速度違反の点数は超過幅度に応じて段階的に増加します。+15km/h未満、+15〜19km/h、+20〜24km/h等で点数が異なります。",
+    "tags": [
+      "速度",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_018",
+    "chapter": 5,
+    "category": "安全な速度と車間距離",
+    "type": "truefalse",
+    "question": "制動距離は、路面が濡れている場合は乾燥時の約2倍になる。",
+    "answer": false,
+    "explanation": "【ひっかけ】雨天時の制動距離は約2倍ではありませんが、確実に長くなります。正確な倍率は路面の状態やタイヤの状態によって異なります。「約2倍」という固定数字はありません。",
+    "tags": [
+      "速度",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "wrong_number"
+  },
+  {
+    "id": "005_019",
+    "chapter": 5,
+    "category": "安全な速度と車間距離",
+    "type": "truefalse",
+    "question": "高速道路での最低速度は、法定速度の半分である。",
+    "answer": false,
+    "explanation": "【ひっかけ】高速道路の最低速度は一律で時速50kmです（本線車道）。法定速度の半分（50km/h）ではありますが、「法定速度の半分」という規定ではなく、法律で50km/hと直接定められています。",
+    "tags": [
+      "速度",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "wrong_number"
+  },
+  {
+    "id": "005_020",
+    "chapter": 5,
+    "category": "安全な速度と車間距離",
+    "type": "truefalse",
+    "question": "時速60kmで走行中、前方に障害物を発見してから停止するまでに必要な停止距離は、約44mである。",
+    "answer": true,
+    "explanation": "時速60kmの場合、空走距離約12m＋制動距離約32m＝停止距離約44mが目安です。この距離を常に意識して車間距離を保つ必要があります。",
+    "tags": [
+      "速度",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "005_021",
+    "chapter": 5,
+    "category": "通行する場所",
+    "type": "truefalse",
+    "question": "車は、車道と歩道の区別がある道路では、必ず車道を通行しなければならない。",
+    "answer": true,
+    "explanation": "車は原則車道を通行します。歩道は歩行者の通行空間であり、車が通行できるのは例外（歩道のない道路など）に限られます。",
+    "tags": [
+      "通行場所",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_022",
+    "chapter": 5,
+    "category": "通行する場所",
+    "type": "truefalse",
+    "question": "車は、道路の左側（左半分）を通行しなければならない。",
+    "answer": true,
+    "explanation": "日本は左側通行です。車は道路の左半分を通行します。中央線を超えて右半分にはみ出すことは原則禁止です。",
+    "tags": [
+      "通行場所",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_023",
+    "chapter": 5,
+    "category": "通行する場所",
+    "type": "truefalse",
+    "question": "車は、路側帯（道路の左端の白線外側）を通行してもよい。",
+    "answer": false,
+    "explanation": "【ひっかけ】路側帯は歩行者の通行空間であり、車は原則通行できません。ただし、やむを得ない場合（駐車等）は歩行者の通行を妨げない範囲で例外があります。",
+    "tags": [
+      "通行場所",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "missing_condition"
+  },
+  {
+    "id": "005_024",
+    "chapter": 5,
+    "category": "通行する場所",
+    "type": "truefalse",
+    "question": "一方通行の道路では、指定された方向にのみ通行できる。",
+    "answer": true,
+    "explanation": "一方通行の道路では、指定された方向（矢印の方向）のみ通行できます。逆方向への通行は禁止で、違反すると罰せられます。",
+    "tags": [
+      "通行場所",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_025",
+    "chapter": 5,
+    "category": "通行する場所",
+    "type": "truefalse",
+    "question": "車は、専用通行帯が指定されている場合、その通行帯を通行しなければならない。",
+    "answer": true,
+    "explanation": "専用通行帯（バス専用等）は、指定された車両のみが通行できます。指定車両以外はその通行帯を通行してはなりません。",
+    "tags": [
+      "通行場所",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_026",
+    "chapter": 5,
+    "category": "通行する場所",
+    "type": "truefalse",
+    "question": "車は、優先通行帯に入っても、優先車両が来たら速やかに譲らなければならない。",
+    "answer": true,
+    "explanation": "優先通行帯は優先車両以外も通行できますが、優先車両が接近した場合は速やかに譲る義務があります。",
+    "tags": [
+      "通行場所",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "005_027",
+    "chapter": 5,
+    "category": "通行する場所",
+    "type": "truefalse",
+    "question": "車は、交差点の30m以内では、進路変更（車線変更）をしてはならない。",
+    "answer": false,
+    "explanation": "【ひっかけ】交差点の30m以内で「追越しのための」進路変更は禁止です。右折・左折のための進路変更は可能です。「すべての進路変更」が禁止ではありません。",
+    "tags": [
+      "通行場所",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "005_028",
+    "chapter": 5,
+    "category": "通行する場所",
+    "type": "truefalse",
+    "question": "車は、自動車専用道路には一切進入できない。",
+    "answer": false,
+    "explanation": "【ひっかけ】自動車専用道路は「自動車」が通行できる道路です。「専用」という名前ですが、すべての自動車が通行可能です（一部の小型特殊自動車等を除く）。",
+    "tags": [
+      "通行場所",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "005_029",
+    "chapter": 5,
+    "category": "通行する場所",
+    "type": "truefalse",
+    "question": "歩行者は、歩道がない道路では道路の右側を通行するのが原則である。",
+    "answer": true,
+    "explanation": "歩行者は歩道がない場合、道路の右側端を通行するのが原則です。対向車を正面から確認できるため安全です。",
+    "tags": [
+      "通行場所",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_030",
+    "chapter": 5,
+    "category": "通行する場所",
+    "type": "truefalse",
+    "question": "車は、中央分離帯や側帯を越えて通行してはならない。",
+    "answer": true,
+    "explanation": "中央分離帯は道路の左右を分離するもので、越えて通行することは禁止です。側帯も同様に通行できません。",
+    "tags": [
+      "通行場所",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_031",
+    "chapter": 5,
+    "category": "通行する場所",
+    "type": "truefalse",
+    "question": "交差点で右折する場合、交差点の中心の内側を通行しなければならない。",
+    "answer": true,
+    "explanation": "右折時は交差点の中心の「すぐ内側」を通行します。外側を大きく回る右折は対向車と衝突する危険があります。",
+    "tags": [
+      "通行場所",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_032",
+    "chapter": 5,
+    "category": "通行する場所",
+    "type": "truefalse",
+    "question": "交差点で左折する場合、あらかじめ道路の左側端に寄り、交差点の角に沿ってゆっくり左折する。",
+    "answer": true,
+    "explanation": "左折時は道路の左側端に寄り、交差点の角に沿って通行します。左折時は内輪差に注意し、左後方の歩行者・自転車を確認する必要があります。",
+    "tags": [
+      "通行場所",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_033",
+    "chapter": 5,
+    "category": "通行する場所",
+    "type": "truefalse",
+    "question": "車は、転回（Uターン）をする場合、他の交通に注意して安全な方法で行えばよい。",
+    "answer": true,
+    "explanation": "転回は、他の交通に注意し、安全な方法で行う必要があります。ただし、転回禁止の場所ではできません。",
+    "tags": [
+      "通行場所",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_034",
+    "chapter": 5,
+    "category": "通行する場所",
+    "type": "truefalse",
+    "question": "転回禁止の場所は、標識で指定されている場所だけである。",
+    "answer": false,
+    "explanation": "【ひっかけ】転回禁止は標識の場所だけでなく、見通しのきかない曲がり角付近、坂の頂上付近、トンネル内などでも禁止されています。標識がない場所でも禁止の場合があります。",
+    "tags": [
+      "通行場所",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "005_035",
+    "chapter": 5,
+    "category": "通行する場所",
+    "type": "truefalse",
+    "question": "車は、路面電車の停留所で乗降する客がいる場合、その客の後方に一時停止しなければならない。",
+    "answer": false,
+    "explanation": "【ひっかけ】路面電車の停留所では、客の「後方」ではなく「後方の安全な場所」で一時停止します。客が乗降を終えるまで待つ必要がありますが、必ずしも直後方ではありません。",
+    "tags": [
+      "通行場所",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "reversed_meaning"
+  },
+  {
+    "id": "005_036",
+    "chapter": 5,
+    "category": "通行する場所",
+    "type": "truefalse",
+    "question": "安全地帯に入ろうとする歩行者がいる場合、車は安全地帯のすぐそばを通行してはならない。",
+    "answer": true,
+    "explanation": "安全地帯に出入りする歩行者の安全を確保するため、車は歩行者の通行を妨げないように通行しなければなりません。",
+    "tags": [
+      "通行場所",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "005_037",
+    "chapter": 5,
+    "category": "通行する場所",
+    "type": "truefalse",
+    "question": "車は、横断歩道や横断歩道橋のない場所で道路を横断する歩行者がいる場合も、その通行を妨げてはならない。",
+    "answer": true,
+    "explanation": "横断歩道がなくても、道路を横断する歩行者がいる場合は、その通行を妨げてはなりません。歩行者優先は常に適用されます。",
+    "tags": [
+      "通行場所",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_038",
+    "chapter": 5,
+    "category": "通行する場所",
+    "type": "truefalse",
+    "question": "車は、交差点において、優先道路を通行する車が優先される。",
+    "answer": true,
+    "explanation": "優先道路を通行する車は、非優先道路から進入する車に対して優先通行権があります。非優先道路の車は一時停止して優先車を譲らなければなりません。",
+    "tags": [
+      "通行場所",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_039",
+    "chapter": 5,
+    "category": "通行する場所",
+    "type": "truefalse",
+    "question": "車は、同一方向に進行中の他の車の右側から追越しをしてはならない。",
+    "answer": false,
+    "explanation": "【ひっかけ】追越しは「右側から」行うのが原則です。「右側から追越ししてはならない」は誤りです。左側からの追越しが禁止です。",
+    "tags": [
+      "通行場所",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "reversed_meaning"
+  },
+  {
+    "id": "005_040",
+    "chapter": 5,
+    "category": "通行する場所",
+    "type": "truefalse",
+    "question": "車は、他の車の左側から追越しをすることは原則として禁止されている。",
+    "answer": true,
+    "explanation": "左側からの追越しは原則禁止です。例外として、前方の車が左折や停止のため減速している場合の追抜きは認められます。",
+    "tags": [
+      "通行場所",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_041",
+    "chapter": 5,
+    "category": "信号機の意味",
+    "type": "truefalse",
+    "question": "青信号は、車が直進しても左折しても右折してもよいことを示す。",
+    "answer": true,
+    "explanation": "青信号はすべての方向への進行が可能です。ただし、右折時は対向車に注意し、左折時は歩行者に注意する義務があります。",
+    "tags": [
+      "信号",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_042",
+    "chapter": 5,
+    "category": "信号機の意味",
+    "type": "truefalse",
+    "question": "黄色信号は「注意」を意味し、原則として停止しなければならない。",
+    "answer": true,
+    "explanation": "黄色信号は「注意」の信号で、原則として停止しなければなりません。ただし、急ブレーキになる場合はそのまま進行が認められます。",
+    "tags": [
+      "信号",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_043",
+    "chapter": 5,
+    "category": "信号機の意味",
+    "type": "truefalse",
+    "question": "赤信号では、すべての車は進行してはならない。",
+    "answer": false,
+    "explanation": "【ひっかけ】赤信号でも「矢印信号」が点灯している方向には進行できます。また、すでに交差点内にいる車はそのまま退出できます。「すべての車」が絶対表現です。",
+    "tags": [
+      "信号",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "005_044",
+    "chapter": 5,
+    "category": "信号機の意味",
+    "type": "truefalse",
+    "question": "赤信号で左折できるのは、矢印信号が左折方向を示している場合だけである。",
+    "answer": true,
+    "explanation": "赤信号での左折は、左折矢印信号が点灯している場合のみ可能です。それ以外の赤信号での左折は禁止です。",
+    "tags": [
+      "信号",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_045",
+    "chapter": 5,
+    "category": "信号機の意味",
+    "type": "truefalse",
+    "question": "歩行者用信号の青色が点滅しているとき、車両用信号が青の場合は車は進行できる。",
+    "answer": true,
+    "explanation": "歩行者用信号と車両用信号は別のものです。歩行者用が点滅していても、車両用が青なら車は進行できます。ただし歩行者に注意が必要です。",
+    "tags": [
+      "信号",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "005_046",
+    "chapter": 5,
+    "category": "信号機の意味",
+    "type": "truefalse",
+    "question": "黄色の点滅信号は、一時停止して安全確認しなければならないことを示す。",
+    "answer": false,
+    "explanation": "【ひっかけ】黄色の点滅は「注意して進行」です。一時停止は赤の点滅信号です。黄色＝注意、赤＝一時停止と覚えましょう。",
+    "tags": [
+      "信号",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "reversed_meaning"
+  },
+  {
+    "id": "005_047",
+    "chapter": 5,
+    "category": "信号機の意味",
+    "type": "truefalse",
+    "question": "赤の点滅信号がある交差点では、一時停止して安全確認しなければならない。",
+    "answer": true,
+    "explanation": "赤の点滅信号は「一時停止」を意味します。完全に停止し、左右の安全を確認してから通行します。",
+    "tags": [
+      "信号",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_048",
+    "chapter": 5,
+    "category": "信号機の意味",
+    "type": "truefalse",
+    "question": "矢印信号が右折方向のみ点灯している場合、直進や左折はできない。",
+    "answer": true,
+    "explanation": "右折矢印のみの場合、右折のみ許可されます。直進・左折は赤信号と同じ扱いで禁止です。",
+    "tags": [
+      "信号",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_049",
+    "chapter": 5,
+    "category": "信号機の意味",
+    "type": "truefalse",
+    "question": "信号が青から黄に変わった瞬間に停止線を越えた車は、そのまま通行してよい。",
+    "answer": true,
+    "explanation": "信号が変わった瞬間に停止線を越えていた（越えざるを得ない）車は、そのまま通行が認められます。急ブレーキによる追突の危険を防ぐためです。",
+    "tags": [
+      "信号",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_050",
+    "chapter": 5,
+    "category": "信号機の意味",
+    "type": "truefalse",
+    "question": "信号機のない交差点では、左方から来る車が優先である。",
+    "answer": false,
+    "explanation": "【ひっかけ】信号のない同格の交差点では、「右方」から来る車が優先です。左方ではありません。同じ幅の道路の場合は右方優先が鉄則です。",
+    "tags": [
+      "信号",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "reversed_meaning"
+  },
+  {
+    "id": "005_051",
+    "chapter": 5,
+    "category": "信号機の意味",
+    "type": "truefalse",
+    "question": "信号のない交差点で、広い道路から来る車が優先される。",
+    "answer": true,
+    "explanation": "信号のない交差点では、道路の幅が明らかに違う場合、広い道路を通行する車が優先です。狭い道路からは一時停止が必要です。",
+    "tags": [
+      "信号",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_052",
+    "chapter": 5,
+    "category": "信号機の意味",
+    "type": "truefalse",
+    "question": "手信号は、信号機より優先される。",
+    "answer": true,
+    "explanation": "警察官の手信号は信号機より優先です。手信号と信号機が矛盾する場合は、手信号に従わなければなりません。",
+    "tags": [
+      "信号",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_053",
+    "chapter": 5,
+    "category": "信号機の意味",
+    "type": "truefalse",
+    "question": "警察官が胸を向けている方向の車は、進行してもよい。",
+    "answer": false,
+    "explanation": "【ひっかけ】警察官の「胸」に向けている方向＝停止。「背中」に向けている方向＝進行可。胸＝止まれ、背中＝進め、と覚えましょう。",
+    "tags": [
+      "信号",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "reversed_meaning"
+  },
+  {
+    "id": "005_054",
+    "chapter": 5,
+    "category": "信号機の意味",
+    "type": "truefalse",
+    "question": "信号機が故障している交差点では、安全確認の上で通行できる。",
+    "answer": true,
+    "explanation": "信号機故障時は、他車と譲り合い、安全確認して通行します。優先関係は道路の幅や右方優先の原則に従います。",
+    "tags": [
+      "信号",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_055",
+    "chapter": 5,
+    "category": "信号機の意味",
+    "type": "truefalse",
+    "question": "青信号で交差点に入った車は、信号が赤に変わったら交差点内で停止しなければならない。",
+    "answer": false,
+    "explanation": "【ひっかけ】すでに交差点内にいる車は、信号が赤に変わってもそのまま交差点を退出します。交差点内で停止すると交差する車の妨げになります。",
+    "tags": [
+      "信号",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "005_056",
+    "chapter": 5,
+    "category": "追越しのルール",
+    "type": "truefalse",
+    "question": "追越しは、前の車の右側から行うのが原則である。",
+    "answer": true,
+    "explanation": "追越しの原則は右側からです。これは日本が左側通行だからで、右側にはみ出して前の車を追い越します。",
+    "tags": [
+      "追越し",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_057",
+    "chapter": 5,
+    "category": "追越しのルール",
+    "type": "truefalse",
+    "question": "前の車が左折するために減速している場合、その左側から追抜くことができる。",
+    "answer": true,
+    "explanation": "前方の車が左折待ちで減速している場合、左側から追抜くことができます。これは追越しではなく追抜きで、左側からの追抜きが認められる例外です。",
+    "tags": [
+      "追越し",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "005_058",
+    "chapter": 5,
+    "category": "追越しのルール",
+    "type": "truefalse",
+    "question": "追越し禁止の場所は、標識で指定された場所だけである。",
+    "answer": false,
+    "explanation": "【ひっかけ】追越し禁止は標識の場所だけでなく、法律で定められた場所（交差点、坂の頂上、トンネル等）でも禁止です。標識がなくても禁止の場所があります。",
+    "tags": [
+      "追越し",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "005_059",
+    "chapter": 5,
+    "category": "追越しのルール",
+    "type": "truefalse",
+    "question": "交差点とその手前30m以内は、追越し禁止である。",
+    "answer": true,
+    "explanation": "交差点とその手前30m以内は追越し禁止場所です。他の方向から来る車との衝突を防ぐためです。",
+    "tags": [
+      "追越し",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_060",
+    "chapter": 5,
+    "category": "追越しのルール",
+    "type": "truefalse",
+    "question": "横断歩道とその手前30m以内は、追越し禁止である。",
+    "answer": true,
+    "explanation": "横断歩道とその手前30m以内は追越し禁止です。歩行者がいる可能性が高く、追越しのための加速は非常に危険です。",
+    "tags": [
+      "追越し",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_061",
+    "chapter": 5,
+    "category": "追越しのルール",
+    "type": "truefalse",
+    "question": "トンネル内は、車線が複数あっても追越し禁止である。",
+    "answer": false,
+    "explanation": "【ひっかけ】トンネル内が追越し禁止なのは「見通しのきかない」場合です。車線が複数あり見通しがきく大型トンネルでは、追越し（車線変更による追越し）が可能です。すべてのトンネルが禁止ではありません。",
+    "tags": [
+      "追越し",
+      "ひっかけ"
+    ],
+    "difficulty": 3,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "005_062",
+    "chapter": 5,
+    "category": "追越しのルール",
+    "type": "truefalse",
+    "question": "坂の頂上付近は、追越し禁止である。",
+    "answer": true,
+    "explanation": "坂の頂上付近は対向車が見えないため、追越し禁止です。勾配の急な上り坂の頂上付近も同様に禁止です。",
+    "tags": [
+      "追越し",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_063",
+    "chapter": 5,
+    "category": "追越しのルール",
+    "type": "truefalse",
+    "question": "見通しのきかない曲がり角の付近は、追越し禁止である。",
+    "answer": true,
+    "explanation": "見通しのきかない曲がり角付近は対向車の存在を確認できないため、追越し禁止です。",
+    "tags": [
+      "追越し",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_064",
+    "chapter": 5,
+    "category": "追越しのルール",
+    "type": "truefalse",
+    "question": "踏切の手前と踏切内は、追越し禁止である。",
+    "answer": true,
+    "explanation": "踏切付近は一時停止や徐行が必要な場所であり、追越し禁止です。踏切内も当然禁止です。",
+    "tags": [
+      "追越し",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_065",
+    "chapter": 5,
+    "category": "追越しのルール",
+    "type": "truefalse",
+    "question": "追越しのとき、合図（ウインカー）は出さなくてもよい。",
+    "answer": false,
+    "explanation": "【ひっかけ】追越し時は必ず進路変更の合図（ウインカー）を出さなければなりません。右へはみ出すときは右ウインカー、元の車線に戻るときも右ウインカーです。",
+    "tags": [
+      "追越し",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "missing_condition"
+  },
+  {
+    "id": "005_066",
+    "chapter": 5,
+    "category": "追越しのルール",
+    "type": "truefalse",
+    "question": "追越しは、前の車がさらにその前の車を追越しているときに行ってはならない。",
+    "answer": true,
+    "explanation": "前の車が別の車を追越している（連続追越しの）最中に、さらにその後ろから追越しをするのは禁止です。追越しの連鎖は非常に危険です。",
+    "tags": [
+      "追越し",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "005_067",
+    "chapter": 5,
+    "category": "横断歩道と歩行者保護",
+    "type": "truefalse",
+    "question": "横断歩道で歩行者が横断しようとしている場合、車は必ず一時停止しなければならない。",
+    "answer": true,
+    "explanation": "横断歩道で歩行者が横断しようとしている（または横断中の）場合、車はその手前で一時停止する義務があります。",
+    "tags": [
+      "横断歩道",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_068",
+    "chapter": 5,
+    "category": "横断歩道と歩行者保護",
+    "type": "truefalse",
+    "question": "横断歩道での一時停止義務は、歩行者が小走りしている場合でも適用される。",
+    "answer": true,
+    "explanation": "歩者の速度や様子にかかわらず、横断歩道で横断しようとしている歩行者がいれば一時停止義務があります。小走りでも対象です。",
+    "tags": [
+      "横断歩道",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_069",
+    "chapter": 5,
+    "category": "横断歩道と歩行者保護",
+    "type": "truefalse",
+    "question": "車は、横断歩道のない場所で道路を横断している歩者の通行を妨げてはならない。",
+    "answer": true,
+    "explanation": "横断歩道がなくても、道路を横断している歩行者の通行を妨げてはなりません。歩行者保護は場所を問わず適用されます。",
+    "tags": [
+      "横断歩道",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_070",
+    "chapter": 5,
+    "category": "横断歩道と歩行者保護",
+    "type": "truefalse",
+    "question": "車は、横断歩道の手前で停止している他の車がある場合、その横を通過してもよい。",
+    "answer": false,
+    "explanation": "横断歩道手前の停止車の横を通過するのは危険です。停止の理由（歩者の横断）が予想されるため、十分注意して通行する必要があります。",
+    "tags": [
+      "横断歩道",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "005_071",
+    "chapter": 5,
+    "category": "横断歩道と歩行者保護",
+    "type": "truefalse",
+    "question": "左折時に横断歩道を渡る歩者にぶつかりそうになった場合、まずクラクションを鳴らすべきである。",
+    "answer": false,
+    "explanation": "【ひっかけ】左折時に歩者に気づいたら、まず減速・停止して歩者を優先します。クラクションは危険防止の最終手段で、歩者に警告するのが目的ではありません。",
+    "tags": [
+      "横断歩道",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "reversed_meaning"
+  },
+  {
+    "id": "005_072",
+    "chapter": 5,
+    "category": "横断歩道と歩行者保護",
+    "type": "truefalse",
+    "question": "右折時は、対向車にばかり気を取られず、左側の歩者にも注意しなければならない。",
+    "answer": true,
+    "explanation": "右折時は対向直進車に注意が向きがちですが、右折先の横断歩道を渡る歩者にも注意が必要です。視線を左右に振って確認します。",
+    "tags": [
+      "横断歩道",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_073",
+    "chapter": 5,
+    "category": "横断歩道と歩行者保護",
+    "type": "truefalse",
+    "question": "横断歩道を渡る歩者が自転車に乗っている場合、歩者と同じ扱いになる。",
+    "answer": true,
+    "explanation": "自転車は「軽車両」ですが、横断歩道を渡る場合は「歩行者等」として扱われます。車は自転車にも歩者と同じ配慮が必要です。",
+    "tags": [
+      "横断歩道",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "005_074",
+    "chapter": 5,
+    "category": "横断歩道と歩行者保護",
+    "type": "truefalse",
+    "question": "横断歩道の歩者保護は、昼夜を問わず適用される。",
+    "answer": true,
+    "explanation": "歩者保護は24時間適用されます。夜間は視界が悪い分、より一層の注意が必要です。",
+    "tags": [
+      "横断歩道",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_075",
+    "chapter": 5,
+    "category": "横断歩道と歩行者保護",
+    "type": "truefalse",
+    "question": "横断歩道で停止した車の横を、後続車が追い越して歩者を危険にさらした場合、後続車の運転者が罰せられる。",
+    "answer": true,
+    "explanation": "横断歩道手前での追越しは禁止であり、違反した場合は罰せられます。歩者に危険を及ぼした場合は罪が重くなります。",
+    "tags": [
+      "横断歩道",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "005_076",
+    "chapter": 5,
+    "category": "踏切の通行",
+    "type": "truefalse",
+    "question": "車は、踏切を通過するときは、安全を確認して通行しなければならない。",
+    "answer": true,
+    "explanation": "踏切通過時は安全確認が必須です。一時停止標識がある場合は完全停止し、ない場合でも左右の確認が必要です。",
+    "tags": [
+      "踏切",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_077",
+    "chapter": 5,
+    "category": "踏切の通行",
+    "type": "truefalse",
+    "question": "踏切内で車が故障した場合、運転者は速やかに列車に危険を知らせる措置をとらなければならない。",
+    "answer": true,
+    "explanation": "踏切内故障時は、非常信号（発炎信号等）や警報装置の操作で列車に知らせる義務があります。乗客を安全な場所に避難させることも必要です。",
+    "tags": [
+      "踏切",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_078",
+    "chapter": 5,
+    "category": "踏切の通行",
+    "type": "truefalse",
+    "question": "踏切の遮断機が上がっていても、警報機が鳴っている間は進入してはならない。",
+    "answer": true,
+    "explanation": "遮断機が上がっていても警報機が鳴っていれば列車が接近しています。進入は非常に危険で禁止されています。",
+    "tags": [
+      "踏切",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_079",
+    "chapter": 5,
+    "category": "踏切の通行",
+    "type": "truefalse",
+    "question": "踏切に進入する前に、前方の車が踏切を抜けていることを確認しなければならない。",
+    "answer": true,
+    "explanation": "踏切内で停止すると大変危険です。前方の車が踏切の向こう側に抜けていることを確認してから進入します。",
+    "tags": [
+      "踏切",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_080",
+    "chapter": 5,
+    "category": "踏切の通行",
+    "type": "truefalse",
+    "question": "踏切内では変速（ギアチェンジ）せずに一気に通過するのが望ましい。",
+    "answer": true,
+    "explanation": "踏切内での変速や停止は危険です。進入前に適切なギアに入れ、そのまま一気に通過するのが安全です。",
+    "tags": [
+      "踏切",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_081",
+    "chapter": 5,
+    "category": "駐車と停車",
+    "type": "truefalse",
+    "question": "「駐車」とは、客待ち・荷待ち・貨物の積卸しその他の用事のために継続して停止することである。",
+    "answer": true,
+    "explanation": "駐車＝用事のための継続停止（5分超など）。停車＝客の乗降や荷物の積卸しのための短い停止。この区別は試験に頻出します。",
+    "tags": [
+      "駐停車",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_082",
+    "chapter": 5,
+    "category": "駐車と停車",
+    "type": "truefalse",
+    "question": "「停車」とは、5分以内の停止をいう。",
+    "answer": true,
+    "explanation": "停車は5分以内の乗降や積卸しのための停止です。5分を超えると駐車に変わります。",
+    "tags": [
+      "駐停車",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_083",
+    "chapter": 5,
+    "category": "駐車と停車",
+    "type": "truefalse",
+    "question": "駐車禁止の場所では、5分以内の停車（乗降等）もできない。",
+    "answer": false,
+    "explanation": "【ひっかけ】駐車禁止の場所では「駐車」は禁止ですが、「停車」（5分以内の乗降等）は認められます。「駐停車禁止」の場所では停車も禁止です。",
+    "tags": [
+      "駐停車",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "005_084",
+    "chapter": 5,
+    "category": "駐車と停車",
+    "type": "truefalse",
+    "question": "交差点内は駐停車ともに禁止されている。",
+    "answer": true,
+    "explanation": "交差点内は駐車も停車も禁止です。他車の通行を妨げるため非常に危険です。",
+    "tags": [
+      "駐停車",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_085",
+    "chapter": 5,
+    "category": "駐車と停車",
+    "type": "truefalse",
+    "question": "横断歩道上は駐停車禁止である。",
+    "answer": true,
+    "explanation": "横断歩道上は歩者の通行空間であり、駐停車ともに禁止です。歩者がいるかどうかにかかわらず禁止です。",
+    "tags": [
+      "駐停車",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_086",
+    "chapter": 5,
+    "category": "駐車と停車",
+    "type": "truefalse",
+    "question": "消防用設備（消火栓等）の付近は駐停車禁止である。",
+    "answer": true,
+    "explanation": "消火栓や防火水槽などの付近は駐停車禁止です。火災発生時に消防活動の妨げになるためです。",
+    "tags": [
+      "駐停車",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_087",
+    "chapter": 5,
+    "category": "駐車と停車",
+    "type": "truefalse",
+    "question": "坂道に駐車する場合、下り坂では前輪を縁石に向けて切り、上り坂では後輪を縁石に向けて切る。",
+    "answer": false,
+    "explanation": "【ひっかけ】坂道の駐車では、上り坂・下り坂ともに「前輪を縁石に向けて」切ります。後輪ではありません。",
+    "tags": [
+      "駐停車",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "reversed_meaning"
+  },
+  {
+    "id": "005_088",
+    "chapter": 5,
+    "category": "駐車と停車",
+    "type": "truefalse",
+    "question": "車を駐車するとき、運転者が車を離れる場合はエンジンを止め、確実にブレーキをかけなければならない。",
+    "answer": true,
+    "explanation": "運転者が車を離れるときは、エンジン停止と確実なブレーキ（サイドブレーキ）が義務です。坂道では輪止めも必要です。",
+    "tags": [
+      "駐停車",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_089",
+    "chapter": 5,
+    "category": "駐車と停車",
+    "type": "truefalse",
+    "question": "夜間道路上に駐車する場合、車幅灯または前照灯をつけなければならない。",
+    "answer": true,
+    "explanation": "夜間の道路上駐車は、車幅灯または前照灯を点灯して他車に車の存在を知らせる義務があります。",
+    "tags": [
+      "駐停車",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_090",
+    "chapter": 5,
+    "category": "駐車と停車",
+    "type": "truefalse",
+    "question": "駐車禁止の標識に「日曜日を除く」の補助標識がある場合、日曜日は駐車できる。",
+    "answer": true,
+    "explanation": "「日曜日を除く」の補助標識は、日曜日に限り駐車禁止が解除されることを意味します。日曜日は駐車可能です。",
+    "tags": [
+      "駐停車",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_091",
+    "chapter": 5,
+    "category": "安全な運転",
+    "type": "truefalse",
+    "question": "安全運転の基本は、危険を予測して事前に対策をとることである。",
+    "answer": true,
+    "explanation": "危険予測運転が安全運転の基本です。危険が発生する前に予測し、回避行動をとることが最も重要です。",
+    "tags": [
+      "安全運転",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_092",
+    "chapter": 5,
+    "category": "安全な運転",
+    "type": "truefalse",
+    "question": "あおり運転は、危険運転行為として重い罰則が科される。",
+    "answer": true,
+    "explanation": "あおり運転は危険運転致死傷罪の対象で、最大20年の懲役に処される場合があります。2019年の法改正で罰則が大幅に強化されました。",
+    "tags": [
+      "安全運転",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_093",
+    "chapter": 5,
+    "category": "安全な運転",
+    "type": "truefalse",
+    "question": "運転中の携帯電話の使用は、ハンズフリーであればまったく問題ない。",
+    "answer": false,
+    "explanation": "【ひっかけ】ハンズフリーでも、通話に気を取られて安全運転に必要な注意を欠けば安全運転義務違反です。通話中も前方注視と周囲確認は必須です。",
+    "tags": [
+      "安全運転",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "005_094",
+    "chapter": 5,
+    "category": "安全な運転",
+    "type": "truefalse",
+    "question": "安全運転義務違反で人を死亡させた場合、7年以下の懲役又は禁錮に処せられる。",
+    "answer": true,
+    "explanation": "安全運転義務違反（ハンドル操作を怠る等）による致死は、7年以下の懲役又は禁錮です。重大な結果を招く可能性を常に意識すべきです。",
+    "tags": [
+      "安全運転",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "005_095",
+    "chapter": 5,
+    "category": "安全な運転",
+    "type": "truefalse",
+    "question": "運転者がシートベルトを着用しなかった場合、罰則の対象になる。",
+    "answer": true,
+    "explanation": "運転者のシートベルト不着用は罰則の対象です。乗員にも着用義務（または努力義務）があります。",
+    "tags": [
+      "安全運転",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_096",
+    "chapter": 5,
+    "category": "安全な運転",
+    "type": "truefalse",
+    "question": "後部座席のシートベルト着用は、高速道路に限り義務である。",
+    "answer": false,
+    "explanation": "【ひっかけ】後部座席のシートベルトは、すべての道路で着用の努力義務があります。高速道路上では特に強く推奨されますが、一般道でも着用すべきです。",
+    "tags": [
+      "安全運転",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "missing_condition"
+  },
+  {
+    "id": "005_097",
+    "chapter": 5,
+    "category": "安全な運転",
+    "type": "truefalse",
+    "question": "6歳未満の子供を乗せる場合、子供用シートの使用が義務である。",
+    "answer": true,
+    "explanation": "6歳未満の幼児はチャイルドシートの使用が義務です。体格に合ったものを正しく取り付ける必要があります。",
+    "tags": [
+      "安全運転",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_098",
+    "chapter": 5,
+    "category": "安全な運転",
+    "type": "truefalse",
+    "question": "疲労運転は、注意力の低下を招き重大事故の原因になる。",
+    "answer": true,
+    "explanation": "疲労運転は反応が遅れ、判断ミスを招きます。2時間に1回の休息が推奨されています。",
+    "tags": [
+      "安全運転",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_099",
+    "chapter": 5,
+    "category": "安全な運転",
+    "type": "truefalse",
+    "question": "居眠り運転の危険性が高いのは、午後2時〜4時と午前2時〜4時である。",
+    "answer": true,
+    "explanation": "人間の眠気のピークは午後2〜4時と午前2〜4時です。これらの時間帯は特に注意が必要で、無理な運転は避けるべきです。",
+    "tags": [
+      "安全運転",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "005_100",
+    "chapter": 5,
+    "category": "安全な運転",
+    "type": "truefalse",
+    "question": "高齢運転者の事故は、右折時の事故が多い傾向がある。",
+    "answer": true,
+    "explanation": "高齢運転者は右折時の判断ミスや_confirmation不足による事故が多い傾向があります。周囲の運転者も高齢者標識に配慮が必要です。",
+    "tags": [
+      "安全運転",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "005_101",
+    "chapter": 5,
+    "category": "夜間の運転",
+    "type": "truefalse",
+    "question": "夜間（日没から日出まで）は、前照灯をつけなければならない。",
+    "answer": true,
+    "explanation": "夜間の前照灯点灯は義務です。自車の視界確保と他車からの被視認性の両方の目的があります。",
+    "tags": [
+      "夜間",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_102",
+    "chapter": 5,
+    "category": "夜間の運転",
+    "type": "truefalse",
+    "question": "夜間、対向車とすれ違うときは、前照灯を下向きに切り替えなければならない。",
+    "answer": true,
+    "explanation": "対向車とのすれ違い時は下向き（ロービーム）への切り替えが義務です。上向きのままでは対向車を眩ませ非常に危険です。",
+    "tags": [
+      "夜間",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_103",
+    "chapter": 5,
+    "category": "夜間の運転",
+    "type": "truefalse",
+    "question": "夜間、前の車に続いて走るときは、上向き（ハイビーム）のままでよい。",
+    "answer": false,
+    "explanation": "前の車に続く場合、上向きだと前車のバックミラーを眩ませます。下向きに切り替える義務があります。",
+    "tags": [
+      "夜間",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_104",
+    "chapter": 5,
+    "category": "夜間の運転",
+    "type": "truefalse",
+    "question": "夜間は視界が限られるため、昼間より前方を遠くまで注視する必要がある。",
+    "answer": true,
+    "explanation": "夜間は前照灯の照射範囲しか見えないため、昼間以上に遠くを注視し、障害物を早期発見することが重要です。",
+    "tags": [
+      "夜間",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_105",
+    "chapter": 5,
+    "category": "夜間の運転",
+    "type": "truefalse",
+    "question": "霧の中では、ハイビームにした方が遠くまで見える。",
+    "answer": false,
+    "explanation": "【ひっかけ】霧の中でハイビームを使うと光が霧の粒子に散乱し、かえって視界が悪くなります。ロービームかフォグランプを使用します。",
+    "tags": [
+      "夜間",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "reversed_meaning"
+  },
+  {
+    "id": "005_106",
+    "chapter": 5,
+    "category": "夜間の運転",
+    "type": "truefalse",
+    "question": "街灯が明るい道路でも、夜間は前照灯をつけなければならない。",
+    "answer": true,
+    "explanation": "街灯の明るさに関わらず、夜間は前照灯の点灯が義務です。他車からの被視認性確保のためです。",
+    "tags": [
+      "夜間",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_107",
+    "chapter": 5,
+    "category": "夜間の運転",
+    "type": "truefalse",
+    "question": "トンネル内は昼夜を問わず前照灯をつけなければならない。",
+    "answer": true,
+    "explanation": "トンネル内は暗いため、昼夜に関わらず前照灯の点灯が義務です。短いトンネルでも例外ではありません。",
+    "tags": [
+      "夜間",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_108",
+    "chapter": 5,
+    "category": "夜間の運転",
+    "type": "truefalse",
+    "question": "夜間は制動距離が長くなるため、昼間より車間距離を長くとる必要がある。",
+    "answer": true,
+    "explanation": "夜間は視界が限られ、障害物の発見が遅れるため、より長い車間距離が必要です。法定速度以内でも速度を落とすことが求められます。",
+    "tags": [
+      "夜間",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_109",
+    "chapter": 5,
+    "category": "雨天・悪天候時の運転",
+    "type": "truefalse",
+    "question": "雨天時は、制動距離が長くなるため速度を落とす必要がある。",
+    "answer": true,
+    "explanation": "雨天時は路面が滑りやすく制動距離が長くなります。速度を落とし、車間距離を長くとることが必要です。",
+    "tags": [
+      "悪天候",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_110",
+    "chapter": 5,
+    "category": "雨天・悪天候時の運転",
+    "type": "truefalse",
+    "question": "ハイドロプレーニング現象は、高速走行時にタイヤと路面の間に水膜ができ、タイヤが浮く現象である。",
+    "answer": true,
+    "explanation": "ハイドロプレーニングは、水たまりを高速で通過するとタイヤが浮き上がり、ステアリングやブレーキが効かなくなる危険な現象です。",
+    "tags": [
+      "悪天候",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "005_111",
+    "chapter": 5,
+    "category": "雨天・悪天候時の運転",
+    "type": "truefalse",
+    "question": "雪道では、急ブレーキや急ハンドルを避け、ゆっくりとした操作が必要である。",
+    "answer": true,
+    "explanation": "雪道は摩擦係数が低く、急操作はスピンや横滑りの原因になります。ゆっくりとした操作が安全の基本です。",
+    "tags": [
+      "悪天候",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_112",
+    "chapter": 5,
+    "category": "雨天・悪天候時の運転",
+    "type": "truefalse",
+    "question": "凍結路面上では、スタッドレスタイヤを履いていれば通常通り運転してよい。",
+    "answer": false,
+    "explanation": "【ひっかけ】スタッドレスタイヤでも凍結路面上の制動距離は大幅に長くなります。通常通りではなく、さらに速度を落として慎重な運転が必要です。",
+    "tags": [
+      "悪天候",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "005_113",
+    "chapter": 5,
+    "category": "雨天・悪天候時の運転",
+    "type": "truefalse",
+    "question": "濃霧の時は、前車のテールランプを目安にして走行するのが安全である。",
+    "answer": false,
+    "explanation": "【ひっかけ】前車のテールランプを目安にすると、前車が急停止した場合に追突する危険があります。適切な車間距離を保ち、速度を落とすことが重要です。",
+    "tags": [
+      "悪天候",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "reversed_meaning"
+  },
+  {
+    "id": "005_114",
+    "chapter": 5,
+    "category": "雨天・悪天候時の運転",
+    "type": "truefalse",
+    "question": "水たまりを通過した後は、ブレーキが効きにくくなることがあるため、軽くブレーキを数回踏んで乾かすのがよい。",
+    "answer": true,
+    "explanation": "水たまり通過後はブレーキドラムに水が入り効きが低下します。軽くブレーキを何度か踏んで摩擦熱で水分を飛ばすと安全です。",
+    "tags": [
+      "悪天候",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "005_115",
+    "chapter": 5,
+    "category": "雨天・悪天候時の運転",
+    "type": "truefalse",
+    "question": "強風時は、ハンドルをしっかり握り、風の影響を受けやすい橋の上やトンネル出口では特に注意が必要である。",
+    "answer": true,
+    "explanation": "強風時は車が流される危険があります。橋の上やトンネル出口は風が強く吹き抜けるため、速度を落としてしっかりハンドルを握ります。",
+    "tags": [
+      "悪天候",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_116",
+    "chapter": 5,
+    "category": "危険予測",
+    "type": "truefalse",
+    "question": "「危険予測」とは、危険が起こる前にそれを予測し、対策をとることである。",
+    "answer": true,
+    "explanation": "危険予測運転＝危険が発生する前に予測して回避行動をとること。これが安全運転の最も重要な要素です。",
+    "tags": [
+      "危険予測",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_117",
+    "chapter": 5,
+    "category": "危険予測",
+    "type": "truefalse",
+    "question": "「停まっている車のそばを通るときは、その車のドアが開く可能性を予測する」は危険予測の一例である。",
+    "answer": true,
+    "explanation": "停車中の車のドアが突然開く「ドアオープン事故」を予測し、十分な間隔を開けて通行することが重要です。",
+    "tags": [
+      "危険予測",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_118",
+    "chapter": 5,
+    "category": "危険予測",
+    "type": "truefalse",
+    "question": "交差点で信号が青でも、右折時に歩者が飛び出す可能性を予測して速度を落とすことが大切である。",
+    "answer": true,
+    "explanation": "右折時は対向車と歩者の両方に注意が必要です。信号が青でも歩者が急に走り出す可能性を予測した運転が求められます。",
+    "tags": [
+      "危険予測",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_119",
+    "chapter": 5,
+    "category": "危険予測",
+    "type": "truefalse",
+    "question": "子供が道路端で遊んでいる場合、ボールが道路に飛び出す可能性を予測して通行すべきである。",
+    "answer": true,
+    "explanation": "子供が道路端にいる場合、ボールを追って飛び出す可能性が高いです。減速していつでも停止できる態勢で通行します。",
+    "tags": [
+      "危険予測",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_120",
+    "chapter": 5,
+    "category": "危険予測",
+    "type": "truefalse",
+    "question": "前の車が急ブレーキを踏む可能性は予測不可能であり、対処できない。",
+    "answer": false,
+    "explanation": "【ひっかけ】前車の急ブレーキは十分予測可能です。適切な車間距離を保ち、前車だけでなく2〜3台先の状況も見ることで対応できます。",
+    "tags": [
+      "危険予測",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "005_121",
+    "chapter": 5,
+    "category": "危険予測",
+    "type": "truefalse",
+    "question": "バスが停留所に停まっている場合、バスの乗客が飛び出す可能性を予測して通行する。",
+    "answer": true,
+    "explanation": "バス停留所では乗客がバスの前後から飛び出す可能性があります。バスの後ろを通る際は特に注意が必要です。",
+    "tags": [
+      "危険予測",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_122",
+    "chapter": 5,
+    "category": "危険予測",
+    "type": "truefalse",
+    "question": "カーブの先に何があるか分からない場合、対向車や歩者がいることを予測して徐行する。",
+    "answer": true,
+    "explanation": "見通しのきかないカーブでは、対向車や落下物、歩者を予測して徐行します。カーブの手前で減速するのが鉄則です。",
+    "tags": [
+      "危険予測",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_123",
+    "chapter": 5,
+    "category": "危険予測",
+    "type": "truefalse",
+    "question": "夜間の住宅街では、人や自転車が飛び出す可能性を予測して速度を落とす。",
+    "answer": true,
+    "explanation": "住宅街の夜間は、街灯が少なく人や自転車が見えにくいです。飛び出しを予測し、いつでも停止できる速度で通行します。",
+    "tags": [
+      "危険予測",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_124",
+    "chapter": 5,
+    "category": "危険予測",
+    "type": "truefalse",
+    "question": "横断歩道のない場所でも、歩者が道路を横断する可能性を予測して通行する。",
+    "answer": true,
+    "explanation": "横断歩道がなくても、歩者が道路を横断することはあり得ます。常に歩者の存在を予測した運転が求められます。",
+    "tags": [
+      "危険予測",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_125",
+    "chapter": 5,
+    "category": "標識の見落とし防止",
+    "type": "truefalse",
+    "question": "標識は運転中に見落としやすいため、常に標識に注意を払う必要がある。",
+    "answer": true,
+    "explanation": "標識は安全運転の重要な情報源です。見落とすと違反や事故の原因になるため、常に注意して確認する必要があります。",
+    "tags": [
+      "標識",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_126",
+    "chapter": 5,
+    "category": "標識の見落とし防止",
+    "type": "truefalse",
+    "question": "一時停止の標識を見落とした場合でも、安全確認していれば違反にならない。",
+    "answer": false,
+    "explanation": "【ひっかけ】一時停止標識がある場所では、標識に従って完全停止が義務です。安全確認だけでは不十分で、一時停止違反になります。",
+    "tags": [
+      "標識",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "005_127",
+    "chapter": 5,
+    "category": "標識の見落とし防止",
+    "type": "truefalse",
+    "question": "「ここから」の補助標識がある場合、その標識の規制がここから開始される。",
+    "answer": true,
+    "explanation": "「ここから」の補助標識は、規制の開始地点を示します。「ここまで」の標識まで規制が続きます。",
+    "tags": [
+      "標識",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_128",
+    "chapter": 5,
+    "category": "標識の見落とし防止",
+    "type": "truefalse",
+    "question": "規制標識は、赤色が使われている四角形の標識である。",
+    "answer": false,
+    "explanation": "【ひっかけ】規制標識は基本的に「丸形」や「逆三角」です。四角形は案内標識や警戒標識に使われます。形の区別は試験によく出ます。",
+    "tags": [
+      "標識",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "reversed_meaning"
+  },
+  {
+    "id": "005_129",
+    "chapter": 5,
+    "category": "標識の見落とし防止",
+    "type": "truefalse",
+    "question": "警戒標識は、危険箇所を知らせる黄色い菱形の標識である。",
+    "answer": true,
+    "explanation": "警戒標識は黄色の菱形で、危険な場所（カーブ、勾配、落石等）を知らせます。見たら速度を落として注意する必要があります。",
+    "tags": [
+      "標識",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_130",
+    "chapter": 5,
+    "category": "標識の見落とし防止",
+    "type": "truefalse",
+    "question": "案内標識は、緑色や青色で目的地や方向を知らせる標識である。",
+    "answer": true,
+    "explanation": "案内標識は緑や青で、目的地・方面・距離等を知らせます。一般道路は青、高速道路は緑が基本です。",
+    "tags": [
+      "標識",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_131",
+    "chapter": 5,
+    "category": "合図・合図図示",
+    "type": "truefalse",
+    "question": "進路変更の合図は、その変更の30m手前で行わなければならない。",
+    "answer": true,
+    "explanation": "進路変更（車線変更）のウインカーは30m手前で点灯する義務です。早めの合図で周囲に意図を伝えます。",
+    "tags": [
+      "合図",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_132",
+    "chapter": 5,
+    "category": "合図・合図図示",
+    "type": "truefalse",
+    "question": "右折の合図は、交差点の30m手前で行わなければならない。",
+    "answer": true,
+    "explanation": "右折時も30m手前で右ウインカーを点灯します。進路変更の合図と同じ距離です。",
+    "tags": [
+      "合図",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_133",
+    "chapter": 5,
+    "category": "合図・合図図示",
+    "type": "truefalse",
+    "question": "左折の合図は、交差点の30m手前で行わなければならない。",
+    "answer": true,
+    "explanation": "左折も30m手前で左ウインカーを点灯します。30mは進路変更・右折・左折すべてに共通する距離です。",
+    "tags": [
+      "合図",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_134",
+    "chapter": 5,
+    "category": "合図・合図図示",
+    "type": "truefalse",
+    "question": "転回（Uターン）の合図は、その場所の30m手前で行わなければならない。",
+    "answer": true,
+    "explanation": "転回も30m手前で合図を出します。転回方向（左から回るか右から回るか）に応じたウインカーを出します。",
+    "tags": [
+      "合図",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "005_135",
+    "chapter": 5,
+    "category": "合図・合図図示",
+    "type": "truefalse",
+    "question": "合図は、進路変更や転回が終わった後もしばらく点灯したままにするのがよい。",
+    "answer": false,
+    "explanation": "【ひっかけ】進路変更や転回が終わったら、速やかに合図を消さなければなりません。点灯したままだと、後続車に誤解を与えます。",
+    "tags": [
+      "合図",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "reversed_meaning"
+  },
+  {
+    "id": "005_136",
+    "chapter": 5,
+    "category": "合図・合図図示",
+    "type": "truefalse",
+    "question": "徐行や停止の合図は、手で行うことはできない。",
+    "answer": false,
+    "explanation": "【ひっかけ】方向指示器が故障している場合などは、手で合図を行うことができます（腕を水平に伸ばす等）。手信号での合図も有効です。",
+    "tags": [
+      "合図",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "005_137",
+    "chapter": 5,
+    "category": "合図・合図図示",
+    "type": "truefalse",
+    "question": "発進の合図は、左ウインカーを点灯して行う。",
+    "answer": true,
+    "explanation": "路肩から発進する場合、左ウインカーを点灯して後続車に合図します。車道に合流する意図を示します。",
+    "tags": [
+      "合図",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_138",
+    "chapter": 5,
+    "category": "合図・合図図示",
+    "type": "truefalse",
+    "question": "停車の合図は、ブレーキランプ（制動灯）の点灯によって行われる。",
+    "answer": true,
+    "explanation": "ブレーキを踏むと制動灯が点灯し、後続車に減速・停止の意図を伝えます。これも合図の一種です。",
+    "tags": [
+      "合図",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_139",
+    "chapter": 5,
+    "category": "合図・合図図示",
+    "type": "truefalse",
+    "question": "バック（後退）の合図は、バックランプの点灯で知らせることができる。",
+    "answer": true,
+    "explanation": "バックランプの点灯は後退の合図です。白い光が点灯することで周囲に後退の意図を伝えます。",
+    "tags": [
+      "合図",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_140",
+    "chapter": 5,
+    "category": "合図・合図図示",
+    "type": "truefalse",
+    "question": "合図を行わずに進路変更をした場合、合図不履行として罰せられる。",
+    "answer": true,
+    "explanation": "進路変更時の合図（ウインカー）は義務です。行わなかった場合は違反点数が加算されます。",
+    "tags": [
+      "合図",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_141",
+    "chapter": 5,
+    "category": "交差点の通行方法",
+    "type": "truefalse",
+    "question": "交差点で右折する場合、交差点の中心の内側を通行する。",
+    "answer": true,
+    "explanation": "右折時は交差点の中心のすぐ内側を回って右折します。外側を大きく回ると対向車と衝突する危険があります。",
+    "tags": [
+      "交差点",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_142",
+    "chapter": 5,
+    "category": "交差点の通行方法",
+    "type": "truefalse",
+    "question": "交差点で左折する場合、あらかじめ道路の左側端に寄り、交差点の角に沿って通行する。",
+    "answer": true,
+    "explanation": "左折時は左側端に寄り、角に沿ってゆっくり曲がります。内輪差に注意し、左後方の歩者・自転車を確認します。",
+    "tags": [
+      "交差点",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_143",
+    "chapter": 5,
+    "category": "交差点の通行方法",
+    "type": "truefalse",
+    "question": "信号のない同格の交差点では、左方から来る車が優先である。",
+    "answer": false,
+    "explanation": "【ひっかけ】同格の交差点では「右方」から来る車が優先です。左方ではありません。右方優先は試験の定番です。",
+    "tags": [
+      "交差点",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "reversed_meaning"
+  },
+  {
+    "id": "005_144",
+    "chapter": 5,
+    "category": "交差点の通行方法",
+    "type": "truefalse",
+    "question": "交差点とその手前30m以内は、追越し禁止である。",
+    "answer": true,
+    "explanation": "交差点とその手前30mは追越し禁止です。交差する車や歩者がいる可能性が高いためです。",
+    "tags": [
+      "交差点",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_145",
+    "chapter": 5,
+    "category": "交差点の通行方法",
+    "type": "truefalse",
+    "question": "交差点内で急に進路を変えることは禁止されている。",
+    "answer": true,
+    "explanation": "交差点内での急な進路変更は禁止です。進路変更は交差点進入前に済ませておく必要があります。",
+    "tags": [
+      "交差点",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_146",
+    "chapter": 5,
+    "category": "交差点の通行方法",
+    "type": "truefalse",
+    "question": "右折待ちの車が交差点内にいる場合、その車の右側を通過してよい。",
+    "answer": false,
+    "explanation": "【ひっかけ】右折待ちの車の右側（対向車側）を通過するのは危険で、原則として行ってはなりません。右折待ち車の後ろで待つのが基本です。",
+    "tags": [
+      "交差点",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "005_147",
+    "chapter": 5,
+    "category": "交差点の通行方法",
+    "type": "truefalse",
+    "question": "左折時に後輪が歩道に乗り上げる現象を「内輪差」という。",
+    "answer": true,
+    "explanation": "内輪差とは、大型車が曲がるとき前輪と後輪の軌跡が異なる現象です。左折時に後輪が歩道側にはみ出すことがあり、歩者を巻き込む危険があります。",
+    "tags": [
+      "交差点",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "005_148",
+    "chapter": 5,
+    "category": "交差点の通行方法",
+    "type": "truefalse",
+    "question": "信号のない交差点で、広い道路と狭い道路が交わる場合、狭い道路から広い道路へ進入する車が優先である。",
+    "answer": false,
+    "explanation": "【ひっかけ】広い道路を通行する車が優先です。狭い道路からは一時停止して広い道路の車を譲らなければなりません。",
+    "tags": [
+      "交差点",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "reversed_meaning"
+  },
+  {
+    "id": "005_149",
+    "chapter": 5,
+    "category": "交差点の通行方法",
+    "type": "truefalse",
+    "question": "右折車と対向の左折車が同時に交差点に入った場合、右折車が左折車の通行を妨げてはならない。",
+    "answer": false,
+    "explanation": "【ひっかけ】実際は「左折車」が「右折車」の通行を妨げてはなりません。右折車は対向直進車の通行を妨げてはならないが、右折車と左折車の関係では左折車が右折車に道を譲る形になります。※正確には、同一方向に進行する右折車と左折車がいる場合、左折車が右折車の進路を妨げてはなりません。",
+    "tags": [
+      "交差点",
+      "ひっかけ"
+    ],
+    "difficulty": 3,
+    "trickType": "reversed_meaning"
+  },
+  {
+    "id": "005_150",
+    "chapter": 5,
+    "category": "交差点の通行方法",
+    "type": "truefalse",
+    "question": "環状交差点（ラウンドアバウト）では、環状部の車が優先である。",
+    "answer": true,
+    "explanation": "環状交差点では、環状部を通行中の車が優先です。進入する車は環状部の車の通行を妨げてはなりません。",
+    "tags": [
+      "交差点",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "005_151",
+    "chapter": 5,
+    "category": "道路標示の詳細",
+    "type": "truefalse",
+    "question": "黄色の実線の中央線は、追越しのためのはみ出し通行が禁止されることを示す。",
+    "answer": true,
+    "explanation": "黄色の実線＝追越しのためのはみ出し通行禁止。ただし、右折等のためのはみ出しは可能です。",
+    "tags": [
+      "標示",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_152",
+    "chapter": 5,
+    "category": "道路標示の詳細",
+    "type": "truefalse",
+    "question": "二条の白い実線の中央線は、追越し禁止のはみ出し通行を示す。",
+    "answer": false,
+    "explanation": "【ひっかけ】二条の白い実線は「追越しのためのはみ出し通行禁止」ですが、黄色の実線も同じ意味です。白い実線＝規制区域のはみ出し禁止で、黄色の実線＝特別なはみ出し禁止。両方とも追越し禁止ですが、黄色の方が重要度が高いという違いはありません。※実際には二条白実線も追越しのはみ出し通行禁止です。",
+    "tags": [
+      "標示",
+      "ひっかけ"
+    ],
+    "difficulty": 3,
+    "trickType": "similar_signs"
+  },
+  {
+    "id": "005_153",
+    "chapter": 5,
+    "category": "道路標示の詳細",
+    "type": "truefalse",
+    "question": "白い破線の中央線は、追越しのためのはみ出し通行が可能であることを示す。",
+    "answer": true,
+    "explanation": "白い破線の中央線では追越しのためのはみ出しが可能です。安全を確認した上で追越しできます。",
+    "tags": [
+      "標示",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_154",
+    "chapter": 5,
+    "category": "道路標示の詳細",
+    "type": "truefalse",
+    "question": "黄色の破線の中央線では、追越しのためのはみ出し通行はできない。",
+    "answer": false,
+    "explanation": "【ひっかけ】黄色の「破線」では追越しのためのはみ出しが可能です。はみ出し禁止なのは黄色の「実線」です。実線と破線の違いに注意。",
+    "tags": [
+      "標示",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "reversed_meaning"
+  },
+  {
+    "id": "005_155",
+    "chapter": 5,
+    "category": "道路標示の詳細",
+    "type": "truefalse",
+    "question": "車線境界線が白い実線の場合、車線変更が禁止されている。",
+    "answer": true,
+    "explanation": "白い実線の車線境界線は車線変更禁止です。ただし、右折・左折のための進入は例外です。",
+    "tags": [
+      "標示",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_156",
+    "chapter": 5,
+    "category": "道路標示の詳細",
+    "type": "truefalse",
+    "question": "車線境界線が白い破線の場合、自由に車線変更ができる。",
+    "answer": true,
+    "explanation": "白い破線の車線境界線は車線変更が可能です。ただし、安全確認は必須で、後方車に危険を及ぼす変更は禁止です。",
+    "tags": [
+      "標示",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_157",
+    "chapter": 5,
+    "category": "道路標示の詳細",
+    "type": "truefalse",
+    "question": "停止線は、信号が赤のときや一時停止標識がある場所で車が停止すべき位置を示す。",
+    "answer": true,
+    "explanation": "停止線は車が停止すべき位置を示します。信号待ちや一時停止時は、この線の手前で停止します。",
+    "tags": [
+      "標示",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_158",
+    "chapter": 5,
+    "category": "道路標示の詳細",
+    "type": "truefalse",
+    "question": "路面の矢印標示（進行方向標示）に従わなかった場合、進行方向違反となる。",
+    "answer": true,
+    "explanation": "進行方向標示（路面の矢印）は進行方向を指定するもので、これに従わないと違反になります。直進車線で右折するなどは違反です。",
+    "tags": [
+      "標示",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_159",
+    "chapter": 5,
+    "category": "道路標示の詳細",
+    "type": "truefalse",
+    "question": "横断歩道の白い太い線は、車が停止すべき位置を示す。",
+    "answer": false,
+    "explanation": "【ひっかけ】横断歩道の白い線は歩者の横断場所を示すもので、車の停止位置ではありません。車の停止位置は停止線です。",
+    "tags": [
+      "標示",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "reversed_meaning"
+  },
+  {
+    "id": "005_160",
+    "chapter": 5,
+    "category": "道路標示の詳細",
+    "type": "truefalse",
+    "question": "中央分離帯を越えて通行することは禁止されている。",
+    "answer": true,
+    "explanation": "中央分離帯は左右を分離するもので、越えての通行は禁止です。ただし、警察官の指示がある場合は例外です。",
+    "tags": [
+      "標示",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_161",
+    "chapter": 5,
+    "category": "緊急自動車",
+    "type": "truefalse",
+    "question": "緊急自動車（消防車・救急車等）が接近してきたら、道路の左側に寄って一時停止しなければならない。",
+    "answer": true,
+    "explanation": "緊急自動車が接近した場合、道路の左側に寄り、一時停止して進路を譲る義務があります。",
+    "tags": [
+      "緊急車",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_162",
+    "chapter": 5,
+    "category": "緊急自動車",
+    "type": "truefalse",
+    "question": "緊急自動車は、すべての交通規制を無視して通行できる。",
+    "answer": false,
+    "explanation": "【ひっかけ】緊急自動車も法令の定めるところにより通行します。信号無視や速度超過は「緊急の用務」がある場合に限り認められますが、無条件にすべての規制を無視できるわけではありません。",
+    "tags": [
+      "緊急車",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "005_163",
+    "chapter": 5,
+    "category": "緊急自動車",
+    "type": "truefalse",
+    "question": "交差点内にいる緊急自動車は、他の車が進路を譲らなければならない。",
+    "answer": true,
+    "explanation": "交差点内の緊急自動車に対しても、他車は進路を譲らなければなりません。交差点から退出して道を譲ります。",
+    "tags": [
+      "緊急車",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_164",
+    "chapter": 5,
+    "category": "緊急自動車",
+    "type": "truefalse",
+    "question": "緊急自動車を譲るために、赤信号の交差点に進入してもよい。",
+    "answer": false,
+    "explanation": "【ひっかけ】緊急自動車を譲るために赤信号に進入すると、交差する車と衝突する危険があります。信号に従いつつ、左に寄るなど安全な方法で譲ります。",
+    "tags": [
+      "緊急車",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "005_165",
+    "chapter": 5,
+    "category": "緊急自動車",
+    "type": "truefalse",
+    "question": "緊急自動車がサイレンを鳴らして接近してこなければ、通常の車と同じ扱いでよい。",
+    "answer": true,
+    "explanation": "緊急自動車がサイレンや赤色灯を使用していない場合は、通常の車と同じ扱いです。特別な譲る義務はありません。",
+    "tags": [
+      "緊急車",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_166",
+    "chapter": 5,
+    "category": "緊急自動車",
+    "type": "truefalse",
+    "question": "緊急自動車が通行するための「応急車両通行帯」がある場合、一般車は通行してはならない。",
+    "answer": false,
+    "explanation": "【ひっかけ】応急車両退避帯は緊急車両の通行確保のためのものですが、緊急車両が接近していないときは一般車も通行できます。",
+    "tags": [
+      "緊急車",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "005_167",
+    "chapter": 5,
+    "category": "高速道路での運転",
+    "type": "truefalse",
+    "question": "高速道路の本線車道に入るには、加速車線で十分に加速してから合流する。",
+    "answer": true,
+    "explanation": "加速車線で本線車道の車と同じ速度まで加速してから合流するのが基本です。低速のまま合流すると追突の危険があります。",
+    "tags": [
+      "高速道路",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_168",
+    "chapter": 5,
+    "category": "高速道路での運転",
+    "type": "truefalse",
+    "question": "高速道路から降りる場合、減速車線に入ってから減速を始める。",
+    "answer": true,
+    "explanation": "減速車線に入ってから減速します。本線車道上で減速すると後続車に追突される危険があります。",
+    "tags": [
+      "高速道路",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_169",
+    "chapter": 5,
+    "category": "高速道路での運転",
+    "type": "truefalse",
+    "question": "高速道路での最低速度は時速50kmである。",
+    "answer": true,
+    "explanation": "高速道路の本線車道の最低速度は時速50kmです。これを下回ると通行帯違反になる場合があります。",
+    "tags": [
+      "高速道路",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_170",
+    "chapter": 5,
+    "category": "高速道路での運転",
+    "type": "truefalse",
+    "question": "高速道路では、追い越し車線（右側車線）を通行し続けてもよい。",
+    "answer": false,
+    "explanation": "【ひっかけ】追い越し車線は追い越しの目的でのみ使用します。追い越しが終わったら速やかに走行車線（左側）に戻らなければなりません。",
+    "tags": [
+      "高速道路",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "005_171",
+    "chapter": 5,
+    "category": "高速道路での運転",
+    "type": "truefalse",
+    "question": "高速道路では、路肩（路側帯）に駐停車してはならない。",
+    "answer": true,
+    "explanation": "高速道路の路肩は駐停車禁止です。故障等やむを得ない場合は、応急車両退避帯等の安全な場所に移動します。",
+    "tags": [
+      "高速道路",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_172",
+    "chapter": 5,
+    "category": "高速道路での運転",
+    "type": "truefalse",
+    "question": "高速道路で故障した場合、すべての乗員はガードレールの外に避難する。",
+    "answer": true,
+    "explanation": "高速道路での故障時は、全員をガードレールの外（安全な場所）に避難させ、非常電話で通報します。車内に留まるのは非常に危険です。",
+    "tags": [
+      "高速道路",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_173",
+    "chapter": 5,
+    "category": "高速道路での運転",
+    "type": "truefalse",
+    "question": "高速道路では、バック（後退）や転回（Uターン）は禁止されている。",
+    "answer": true,
+    "explanation": "高速道路でのバックやUターンは禁止です。インターチェンジを通り過ぎた場合は、次のインターチェンジで降ります。",
+    "tags": [
+      "高速道路",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_174",
+    "chapter": 5,
+    "category": "高速道路での運転",
+    "type": "truefalse",
+    "question": "高速道路のトンネル内は、一般のトンネルより速い速度で通行できる。",
+    "answer": false,
+    "explanation": "【ひっかけ】高速道路のトンネル内も法定速度を遵守します。トンネル内は見通しが限られるため、かえって速度を落とす必要がある場合もあります。",
+    "tags": [
+      "高速道路",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "reversed_meaning"
+  },
+  {
+    "id": "005_175",
+    "chapter": 5,
+    "category": "高速道路での運転",
+    "type": "truefalse",
+    "question": "高速道路で車間距離が不足していると、車間距離不保持違反になる。",
+    "answer": true,
+    "explanation": "高速道路では適切な車間距離の保持が義務です。車間距離標識を目安に、十分な距離を保ちます。",
+    "tags": [
+      "高速道路",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_176",
+    "chapter": 5,
+    "category": "高速道路での運転",
+    "type": "truefalse",
+    "question": "高速道路では、電話で通報しなければならない事態が発生した場合、非常電話を利用する。",
+    "answer": true,
+    "explanation": "高速道路には1kmおきに非常電話が設置されています。故障・事故時は非常電話で道路公団に通報します。携帯電話も使えますが、非常電話が確実です。",
+    "tags": [
+      "高速道路",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_177",
+    "chapter": 5,
+    "category": "高速道路での運転",
+    "type": "truefalse",
+    "question": "高速道路でタイヤがパンクした場合、急ブレーキを踏んで停止する。",
+    "answer": false,
+    "explanation": "【ひっかけ】パンク時に急ブレーキは車がスピンする危険があります。ハンドルをしっかり握り、エンジンブレーキで徐々に減速し、路肩に停止します。",
+    "tags": [
+      "高速道路",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "reversed_meaning"
+  },
+  {
+    "id": "005_178",
+    "chapter": 5,
+    "category": "高速道路での運転",
+    "type": "truefalse",
+    "question": "高速道路のSA（サービスエリア）やPA（パーキングエリア）では、長時間の駐車は禁止されている。",
+    "answer": false,
+    "explanation": "【ひっかけ】SAやPAでの長時間駐車は推奨されませんが、法律で禁止されているわけではありません。ただし、疲労回復のための適度な休息は推奨されます。",
+    "tags": [
+      "高速道路",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "005_179",
+    "chapter": 5,
+    "category": "高速道路での運転",
+    "type": "truefalse",
+    "question": "高速道路で渋滞に遭遇した場合、追い越し車線に変更して抜けようとする。",
+    "answer": false,
+    "explanation": "【ひっかけ】渋滞時の車線変更は逆効果です。車線を変えても渋滞を抜けられず、かえって渋滞を悪化させます。走行車線を維持し、車間距離を保ちます。",
+    "tags": [
+      "高速道路",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "reversed_meaning"
+  },
+  {
+    "id": "005_180",
+    "chapter": 5,
+    "category": "高速道路での運転",
+    "type": "truefalse",
+    "question": "本線車道に合流するときは、合図（ウインカー）を出す必要はない。",
+    "answer": false,
+    "explanation": "【ひっかけ】加速車線から本線車道に合流する際も、左ウインカーで合図が必要です。合図なしの合流は違反です。",
+    "tags": [
+      "高速道路",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "005_181",
+    "chapter": 5,
+    "category": "応急救護",
+    "type": "truefalse",
+    "question": "交通事故で負傷者がいる場合、運転者は直ちに救護措置をとらなければならない。",
+    "answer": true,
+    "explanation": "事故発生時は負傷者の救護が最優先です。救急車の手配と応急処置を速やかに行います。",
+    "tags": [
+      "応急救護",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_182",
+    "chapter": 5,
+    "category": "応急救護",
+    "type": "truefalse",
+    "question": "交通事故で負傷者がいる場合、必ず負傷者を動かさなければならない。",
+    "answer": false,
+    "explanation": "【ひっかけ】首や背骨の怪我が疑われる場合は、不用意に動かすと症状を悪化させます。動かすべきかどうかは状況判断が必要です。「必ず動かす」は誤りです。",
+    "tags": [
+      "応急救護",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "005_183",
+    "chapter": 5,
+    "category": "応急救護",
+    "type": "truefalse",
+    "question": "交通事故現場を通過する車は、徐行して安全に通行しなければならない。",
+    "answer": true,
+    "explanation": "事故現場付近を通過する車は徐行し、警察官の指示に従います。二次事故を防ぐためです。",
+    "tags": [
+      "応救護",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_184",
+    "chapter": 5,
+    "category": "応急救護",
+    "type": "truefalse",
+    "question": "ひき逃げ（救護義務違反）の罰則は、5年以下の懲役又は50万円以下の罰金である。",
+    "answer": true,
+    "explanation": "ひき逃げは救護義務違反で、5年以下の懲役又は50万円以下の罰金です。人身事故を起こして逃走した場合に適用されます。",
+    "tags": [
+      "応急救護",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "005_185",
+    "chapter": 5,
+    "category": "応急救護",
+    "type": "truefalse",
+    "question": "物損事故（車同士の接触等）では、警察への通報は不要である。",
+    "answer": false,
+    "explanation": "【ひっかけ】物損事故でも警察への報告義務があります。双方が現場を離れると「当て逃げ」になる可能性があります。",
+    "tags": [
+      "応急救護",
+      "ひっかけ"
+    ],
+    "difficulty": 1,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "005_186",
+    "chapter": 5,
+    "category": "応急救護",
+    "type": "truefalse",
+    "question": "出血している負傷者には、清潔な布で傷口を押さえて止血する。",
+    "answer": true,
+    "explanation": "出血時の応急処置は、清潔な布やガーゼで傷口を直接押さえて止血します。出血がひどい場合は患部を心臓より高くします。",
+    "tags": [
+      "応急救護",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_187",
+    "chapter": 5,
+    "category": "応急救護",
+    "type": "truefalse",
+    "question": "意識のない負傷者は、回復体位（横向き）にして気道を確保する。",
+    "answer": true,
+    "explanation": "意識のない人は舌が喉に落ち込んで窒息する危険があります。横向きにして気道を確保します。",
+    "tags": [
+      "応急救護",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_188",
+    "chapter": 5,
+    "category": "応急救護",
+    "type": "truefalse",
+    "question": "AEDは、心停止の際に使用する医療機器で、一般の人でも使用できる。",
+    "answer": true,
+    "explanation": "AEDは自動体外式除細動器で、音声ガイドに従えば一般の人でも使用できます。心停止時に早期に使用すると生存率が大幅に上がります。",
+    "tags": [
+      "応急救護",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_189",
+    "chapter": 5,
+    "category": "応急救護",
+    "type": "truefalse",
+    "question": "交通事故で首に怪我をしている可能性がある場合は、首を支えて動かさないようにする。",
+    "answer": true,
+    "explanation": "頸椎損傷の疑いがある場合は、首を動かさずに固定します。マットや毛布で首を支え、専門家の到着を待ちます。",
+    "tags": [
+      "応救護",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_190",
+    "chapter": 5,
+    "category": "応急救護",
+    "type": "truefalse",
+    "question": "やけどをした負傷者には、氷水で冷やすのが最も効果的である。",
+    "answer": false,
+    "explanation": "【ひっかけ】やけどは流水で15〜30分冷やすのが正解です。氷水は冷やしすぎて組織を傷つける危険があります。水道水などの流水が適切です。",
+    "tags": [
+      "応急救護",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "reversed_meaning"
+  },
+  {
+    "id": "005_191",
+    "chapter": 5,
+    "category": "総合問題",
+    "type": "truefalse",
+    "question": "交差点で右折待ちをしている車の右側（対向車側）を通行してはならない。",
+    "answer": true,
+    "explanation": "右折待ち車の右側を通行すると対向車と衝突する危険があります。右折待ち車の後ろで待つのが基本です。",
+    "tags": [
+      "総合",
+      "基本"
+    ],
+    "difficulty": 2,
+    "trickType": null
+  },
+  {
+    "id": "005_192",
+    "chapter": 5,
+    "category": "総合問題",
+    "type": "truefalse",
+    "question": "雨天時の高速道路では、ハイドロプレーニング現象に注意し、速度を落とす必要がある。",
+    "answer": true,
+    "explanation": "ハイドロプレーニングは高速走行時にタイヤが浮く現象です。雨天時は速度を落とし、水たまりを避けるか低速で通過します。",
+    "tags": [
+      "総合",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_193",
+    "chapter": 5,
+    "category": "総合問題",
+    "type": "truefalse",
+    "question": "夜間に横断歩道で歩者がいる場合、歩者が見えにくいため一層の注意が必要である。",
+    "answer": true,
+    "explanation": "夜間の横断歩道は歩者が見えにくいため、速度を落とし、前照灯で歩者を早期発見するよう努めます。",
+    "tags": [
+      "総合",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_194",
+    "chapter": 5,
+    "category": "総合問題",
+    "type": "truefalse",
+    "question": "初心運転者標識（若葉マーク）の車を見たら、幅寄せや割り込みをしてはならない。",
+    "answer": true,
+    "explanation": "初心者マークの車に対する幅寄せ等は、通常より重い罰則が科されます。初心者を保護するための制度です。",
+    "tags": [
+      "総合",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_195",
+    "chapter": 5,
+    "category": "総合問題",
+    "type": "truefalse",
+    "question": "安全運転管理者の選任義務があるのは、事業用自動車を5台以上使用する事業者である。",
+    "answer": false,
+    "explanation": "【ひっかけ】安全運転管理者の選任義務は「5台以上」ではなく、事業用自動車を「1台でも」使用する事業者にあります。",
+    "tags": [
+      "総合",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "wrong_number"
+  },
+  {
+    "id": "005_196",
+    "chapter": 5,
+    "category": "総合問題",
+    "type": "truefalse",
+    "question": "二種免許の運転者は、一種免許にはない厳しい義務が課せられる。",
+    "answer": true,
+    "explanation": "二種免許（営業運転者）には、点呼義務、乗務員台帳、定期点検など、一種免許にはない義務があります。",
+    "tags": [
+      "総合",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_197",
+    "chapter": 5,
+    "category": "総合問題",
+    "type": "truefalse",
+    "question": "道路の曲がり角付近では、ホーン（クラクション）を鳴らさなければならない。",
+    "answer": false,
+    "explanation": "【ひっかけ】曲がり角付近でのクラクションは任意ではなく、法令で定められた場所に限ります。すべての曲がり角で義務ではありません。",
+    "tags": [
+      "総合",
+      "ひっかけ"
+    ],
+    "difficulty": 2,
+    "trickType": "absolute_expression"
+  },
+  {
+    "id": "005_198",
+    "chapter": 5,
+    "category": "総合問題",
+    "type": "truefalse",
+    "question": "交差点で信号が赤から青に変わった直後は、交差点内に残っている車に注意する必要がある。",
+    "answer": true,
+    "explanation": "信号変直後は前の信号で交差点に入った車がまだ残っている可能性があります。直ちに発進せず、安全確認が必要です。",
+    "tags": [
+      "総合",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_199",
+    "chapter": 5,
+    "category": "総合問題",
+    "type": "truefalse",
+    "question": "道路工事中の区間では、誘導員の指示に従って通行する。",
+    "answer": true,
+    "explanation": "道路工事区間では誘導員（旗振り等）の指示に従います。誘導員の指示は一時的に交通規制に優先します。",
+    "tags": [
+      "総合",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  },
+  {
+    "id": "005_200",
+    "chapter": 5,
+    "category": "総合問題",
+    "type": "truefalse",
+    "question": "車両通行帯が指定されている道路では、その通行帯を通行しなければならない。",
+    "answer": true,
+    "explanation": "車両通行帯の指定がある場合、指定された通行帯を通行します。通行帯違反は罰則の対象になります。",
+    "tags": [
+      "総合",
+      "基本"
+    ],
+    "difficulty": 1,
+    "trickType": null
+  }
+]
