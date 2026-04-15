@@ -330,6 +330,13 @@
         } catch { return new Set(); }
       });
 
+      const [answeredIds, setAnsweredIds] = useState(() => {
+        try {
+          const saved = localStorage.getItem('answeredIds');
+          return saved ? new Set(JSON.parse(saved)) : new Set();
+        } catch { return new Set(); }
+      });
+
       const [flaggedIds, setFlaggedIds] = useState(() => {
         try {
           const saved = localStorage.getItem('flaggedIds');
@@ -513,10 +520,30 @@
       const handleAnswer = (userAnswer) => {
         const isCorrectAnswer = userAnswer === currentQuestion.answer;
         setIsCorrect(isCorrectAnswer);
+
+        // 解答済みとして記録
+        setAnsweredIds(prev => {
+          const next = new Set(prev);
+          next.add(currentQuestion.id);
+          localStorage.setItem('answeredIds', JSON.stringify([...next]));
+          return next;
+        });
+
         if (!isCorrectAnswer) {
           setBookmarkedIds(prev => {
             const next = new Set(prev);
             next.add(currentQuestion.id);
+            const idsArray = [...next];
+            localStorage.setItem('bookmarkedIds', JSON.stringify(idsArray));
+            pushBookmarks(idsArray);
+            return next;
+          });
+        } else {
+          // 正解したら苦手リストから外す
+          setBookmarkedIds(prev => {
+            if (!prev.has(currentQuestion.id)) return prev;
+            const next = new Set(prev);
+            next.delete(currentQuestion.id);
             const idsArray = [...next];
             localStorage.setItem('bookmarkedIds', JSON.stringify(idsArray));
             pushBookmarks(idsArray);
@@ -566,19 +593,19 @@
                       </div>
                       <div className="flex items-center space-x-2 text-emerald-text bg-emerald-soft/20 px-4 py-2 rounded-2xl border border-emerald-soft/30 backdrop-blur-sm">
                         <i className="ph ph-target text-lg"></i>
-                        <span className="text-xs font-black">{questionsData.length > 0 ? Math.round(((questionsData.length - bookmarkedIds.size) / questionsData.length) * 100) : 0}%</span>
+                        <span className="text-xs font-black">{questionsData.length > 0 ? Math.round(([...answeredIds].filter(id => !bookmarkedIds.has(id)).length / questionsData.length) * 100) : 0}%</span>
                       </div>
                     </div>
                     
                     <div className="space-y-3">
                       <div className="flex justify-between text-[11px] font-bold text-ink-muted tracking-widest uppercase">
-                        <span>学習済み項目</span>
-                        <span className="text-ink">{questionsData.length - bookmarkedIds.size} / {questionsData.length}</span>
+                        <span>正解済み項目</span>
+                        <span className="text-ink">{[...answeredIds].filter(id => !bookmarkedIds.has(id)).length} / {questionsData.length}</span>
                       </div>
                       <div className="h-3 w-full bg-black/5 rounded-full overflow-hidden p-0.5 border border-white/20">
                         <div 
                           className="h-full bg-ink rounded-full transition-all duration-1000 ease-out relative"
-                          style={{ width: `${Math.max(5, ((questionsData.length - bookmarkedIds.size) / questionsData.length) * 100)}%` }}
+                          style={{ width: `${Math.max(0, ([...answeredIds].filter(id => !bookmarkedIds.has(id)).length / questionsData.length) * 100)}%` }}
                         >
                           <div className="absolute inset-0 bg-gradient-to-r from-transparent to-white/20"></div>
                         </div>
