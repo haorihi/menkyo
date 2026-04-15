@@ -321,12 +321,27 @@
       const [mode, setMode] = useState('random'); 
       const [currentQuestion, setCurrentQuestion] = useState(null);
       const [isCorrect, setIsCorrect] = useState(null);
+      const [flagMenuOpen, setFlagMenuOpen] = useState(false);
       
       const [bookmarkedIds, setBookmarkedIds] = useState(() => {
         try {
           const saved = localStorage.getItem('bookmarkedIds');
           return saved ? new Set(JSON.parse(saved)) : new Set();
         } catch { return new Set(); }
+      });
+
+      const [flaggedIds, setFlaggedIds] = useState(() => {
+        try {
+          const saved = localStorage.getItem('flaggedIds');
+          return saved ? new Set(JSON.parse(saved)) : new Set();
+        } catch { return new Set(); }
+      });
+
+      const [flagNotes, setFlagNotes] = useState(() => {
+        try {
+          const saved = localStorage.getItem('flagNotes');
+          return saved ? JSON.parse(saved) : {};
+        } catch { return {}; }
       });
 
       const [syncToken, setSyncToken] = useState(() => {
@@ -351,7 +366,20 @@
             body: JSON.stringify(idsArray)
           });
         } catch (e) {
-          console.error('Failed to sync to cloud', e);
+          console.error('Failed to sync bookmarks to cloud', e);
+        }
+      };
+
+      const pushFlags = async (idsArray) => {
+        if (!syncToken) return;
+        try {
+          await fetch('/api/flags', {
+            method: 'POST',
+            headers: { 'Authorization': `Bearer ${syncToken}`, 'Content-Type': 'application/json' },
+            body: JSON.stringify(idsArray)
+          });
+        } catch (e) {
+          console.error('Failed to sync flags to cloud', e);
         }
       };
 
@@ -385,6 +413,14 @@
               localStorage.setItem('bookmarkedIds', JSON.stringify(data));
             }
           }).catch(e => console.error('Cloud sync fetch failed', e));
+        fetch('/api/flags', { headers: { 'Authorization': `Bearer ${syncToken}` } })
+          .then(res => res.ok ? res.json() : null)
+          .then(data => {
+            if (data && Array.isArray(data)) {
+              setFlaggedIds(new Set(data));
+              localStorage.setItem('flaggedIds', JSON.stringify(data));
+            }
+          }).catch(e => console.error('Cloud flags sync failed', e));
       }, [syncToken]);
 
       const toggleBookmark = (id) => {
@@ -396,6 +432,45 @@
           localStorage.setItem('bookmarkedIds', JSON.stringify(idsArray));
           pushBookmarks(idsArray);
           return next;
+        });
+      };
+
+      const toggleFlag = (id) => {
+        setFlaggedIds(prev => {
+          const next = new Set(prev);
+          if (next.has(id)) next.delete(id);
+          else next.add(id);
+          const idsArray = [...next];
+          localStorage.setItem('flaggedIds', JSON.stringify(idsArray));
+          pushFlags(idsArray);
+          return next;
+        });
+      };
+
+      const saveFlagNote = (id, note) => {
+        setFlagNotes(prev => {
+          const next = { ...prev, [id]: note };
+          localStorage.setItem('flagNotes', JSON.stringify(next));
+          return next;
+        });
+      };
+
+      // Export flagged questions as JSON for AI review
+      const exportFlagged = () => {
+        const flaggedQuestions = questionsData
+          .filter(q => flaggedIds.has(q.id))
+          .map(q => ({
+            id: q.id,
+            chapter: q.chapter,
+            question: q.question || q.text,
+            answer: q.answer,
+            explanation: q.explanation,
+            trickPoint: q.trickPoint || null,
+            reviewNote: flagNotes[q.id] || ''
+          }));
+        const json = JSON.stringify(flaggedQuestions, null, 2);
+        navigator.clipboard.writeText(json).then(() => {
+          alert(`${flaggedQuestions.length}問のデータをコピーしました！\nAIに貼り付けて精査を依頼できます。`);
         });
       };
 
@@ -565,6 +640,29 @@
                           <p className="text-[10px] text-ink-muted font-bold">{bookmarkedIds.size}問を復習中</p>
                         </div>
                       </button>
+
+                      {/* Flagged Review */}
+                      <button 
+                        onClick={() => setCurrentView('flag-list')}
+                        className="col-span-2 glass-surface rounded-[2.5rem] p-5 shadow-inner-white text-left hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 group border border-amber-200/50 bg-amber-50/30"
+                      >
+                        <div className="flex items-center justify-between">
+                          <div className="flex items-center space-x-4">
+                            <div className="w-12 h-12 rounded-2xl bg-amber-100/60 flex items-center justify-center shadow-sm text-amber-600 group-hover:bg-amber-500 group-hover:text-white transition-all duration-500">
+                              <i className="ph ph-flag text-xl"></i>
+                            </div>
+                            <div>
+                              <h4 className="text-sm font-black text-ink">要確認リスト</h4>
+                              <p className="text-[10px] text-ink-muted font-bold">
+                                {flaggedIds.size > 0 ? `${flaggedIds.size}問にフラグ中 · AI精査対応` : 'フラグした問題はここへ'}
+                              </p>
+                            </div>
+                          </div>
+                          {flaggedIds.size > 0 && (
+                            <span className="text-xs font-black text-amber-600 bg-amber-100 px-3 py-1 rounded-full border border-amber-200">{flaggedIds.size}</span>
+                          )}
+                        </div>
+                      </button>
                     </div>
                   </div>
 
@@ -608,12 +706,17 @@
                     <span className="text-[10px] font-black text-ink-muted tracking-[0.2em] block mb-1 uppercase">EXERCISING</span>
                     <div className="text-sm font-black text-ink tracking-widest"><span className="text-2xl">{currentIndex + 1}</span> / {shuffledIndices.length}</div>
                   </div>
-                  <button 
-                    onClick={() => toggleBookmark(currentQuestion.id)}
-                    className={`w-12 h-12 rounded-full glass-surface flex items-center justify-center transition-all border-2 border-white/50 ${bookmarkedIds.has(currentQuestion.id) ? 'bg-coral-soft text-white border-coral-soft' : 'text-ink hover:bg-white'}`}
-                  >
-                    <i className={`ph ph-bookmark-simple text-xl ${bookmarkedIds.has(currentQuestion.id) ? 'ph-fill' : ''}`}></i>
-                  </button>
+                  <div className="flex items-center gap-2">
+                    {flaggedIds.has(currentQuestion.id) && (
+                      <span className="text-[9px] font-black text-amber-600 bg-amber-100 px-2 py-0.5 rounded-full border border-amber-200 tracking-wider">要確認</span>
+                    )}
+                    <button 
+                      onClick={() => toggleBookmark(currentQuestion.id)}
+                      className={`w-12 h-12 rounded-full glass-surface flex items-center justify-center transition-all border-2 border-white/50 ${bookmarkedIds.has(currentQuestion.id) ? 'bg-coral-soft text-white border-coral-soft' : 'text-ink hover:bg-white'}`}
+                    >
+                      <i className={`ph ph-bookmark-simple text-xl ${bookmarkedIds.has(currentQuestion.id) ? 'ph-fill' : ''}`}></i>
+                    </button>
+                  </div>
                 </header>
 
                 <div className="absolute top-0 left-0 w-full h-1.5 bg-black/5 z-20">
@@ -712,6 +815,19 @@
                   )}
                 </div>
 
+                {/* Flag Button */}
+                <button
+                  onClick={() => toggleFlag(currentQuestion.id)}
+                  className={`w-full py-4 rounded-[2rem] font-black text-xs tracking-[.15em] transition-all flex items-center justify-center gap-2 border-2 ${
+                    flaggedIds.has(currentQuestion.id)
+                      ? 'bg-amber-100 text-amber-700 border-amber-300 hover:bg-amber-200'
+                      : 'bg-white/30 text-ink/50 border-white/60 hover:border-amber-300 hover:text-amber-600 hover:bg-amber-50'
+                  }`}
+                >
+                  <i className={`ph ph-flag text-base ${flaggedIds.has(currentQuestion.id) ? 'ph-fill' : ''}`}></i>
+                  {flaggedIds.has(currentQuestion.id) ? '要確認マーク済み（タップで解除）' : 'この問題に要確認フラグを立てる'}
+                </button>
+
                 <div className="space-y-4">
                   <button
                     onClick={handleNext}
@@ -728,6 +844,105 @@
                     BACK TO HOME
                   </button>
                 </div>
+              </main>
+            )}
+
+            {/* --- FLAG LIST VIEW --- */}
+            {currentView === 'flag-list' && (
+              <main className="flex-grow flex flex-col pt-12 pb-12 px-6 overflow-y-auto no-scrollbar animate-fade-in-up view-transition">
+                {/* Header */}
+                <header className="flex items-center justify-between mb-8">
+                  <button onClick={() => setCurrentView('home')} className="w-12 h-12 rounded-full glass-surface flex items-center justify-center text-ink hover:bg-white transition-colors border-2 border-white/50">
+                    <i className="ph ph-house text-xl"></i>
+                  </button>
+                  <div className="text-center">
+                    <span className="text-[10px] font-black text-ink-muted tracking-[0.2em] block mb-1 uppercase">Review Queue</span>
+                    <div className="text-sm font-black text-ink tracking-widest"><span className="text-2xl">{flaggedIds.size}</span> 問</div>
+                  </div>
+                  <button
+                    onClick={exportFlagged}
+                    disabled={flaggedIds.size === 0}
+                    className="w-12 h-12 rounded-full glass-surface flex items-center justify-center text-amber-600 hover:bg-amber-100 transition-colors border-2 border-amber-200/50 disabled:opacity-30 disabled:pointer-events-none"
+                    title="AIレビュー用JSONをコピー"
+                  >
+                    <i className="ph ph-export text-xl"></i>
+                  </button>
+                </header>
+
+                {flaggedIds.size === 0 ? (
+                  <div className="flex-1 flex flex-col items-center justify-center gap-4 text-center">
+                    <div className="w-20 h-20 rounded-[2rem] glass-surface flex items-center justify-center text-amber-400 border border-amber-200/50">
+                      <i className="ph ph-flag text-4xl"></i>
+                    </div>
+                    <div>
+                      <p className="font-black text-ink/50 text-sm tracking-wide">フラグされた問題はありません</p>
+                      <p className="text-[11px] text-ink/30 font-bold mt-1">解答後の画面でフラグを立てられます</p>
+                    </div>
+                  </div>
+                ) : (
+                  <div className="space-y-4">
+                    {/* AI Export Banner */}
+                    <div className="glass-surface rounded-[2rem] p-5 border border-amber-200/40 bg-amber-50/20 flex items-start gap-3">
+                      <div className="w-9 h-9 rounded-xl bg-amber-100 flex items-center justify-center text-amber-600 shrink-0 mt-0.5">
+                        <i className="ph ph-robot text-lg"></i>
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <p className="text-[11px] font-black text-amber-700 tracking-wider mb-1">AI精査エクスポート</p>
+                        <p className="text-[10px] text-ink/50 font-bold leading-relaxed">右上のボタンでフラグ問題をJSONコピー。ClaudeやGeminiに貼り付けて法令チェックを依頼できます。</p>
+                      </div>
+                    </div>
+
+                    {/* Flagged Question List */}
+                    {questionsData
+                      .filter(q => flaggedIds.has(q.id))
+                      .map(q => (
+                        <details key={q.id} className="glass-surface rounded-[2rem] border border-white group">
+                          <summary className="list-none cursor-pointer p-5 flex items-start gap-3">
+                            <div className="w-8 h-8 rounded-xl bg-amber-100 flex items-center justify-center text-amber-600 shrink-0 mt-0.5">
+                              <i className="ph ph-flag-pennant ph-fill text-sm"></i>
+                            </div>
+                            <div className="flex-1 min-w-0">
+                              <p className="text-[10px] font-black text-ink-muted tracking-widest uppercase mb-1">Ch{q.chapter} · {q.id}</p>
+                              <p className="text-sm font-bold text-ink leading-snug line-clamp-2 group-open:line-clamp-none">{q.question || q.text}</p>
+                            </div>
+                            <i className="ph ph-caret-down text-ink/20 shrink-0 mt-1 transition-transform group-open:rotate-180"></i>
+                          </summary>
+                          <div className="px-5 pb-5 space-y-3">
+                            <div className="pt-3 border-t border-black/5 space-y-3">
+                              <div className="flex items-center gap-2">
+                                <span className="text-[9px] font-black text-ink-muted tracking-widest uppercase">正解</span>
+                                <span className={`text-sm font-black flex items-center gap-1 ${q.answer ? 'text-emerald-text' : 'text-coral-text'}`}>
+                                  <i className={`ph ${q.answer ? 'ph-circle' : 'ph-x'} font-bold`}></i>
+                                  {q.answer ? '正しい' : '誤り'}
+                                </span>
+                              </div>
+                              <p className="text-xs font-bold text-ink/70 leading-relaxed">{q.explanation}</p>
+                              {q.trickPoint && (
+                                <p className="text-[10px] font-bold text-amber-700 bg-amber-50 rounded-2xl px-3 py-2 border border-amber-100 leading-relaxed">
+                                  💡 {q.trickPoint}
+                                </p>
+                              )}
+                              {/* Memo field */}
+                              <textarea
+                                placeholder="精査メモ（任意）..."
+                                defaultValue={flagNotes[q.id] || ''}
+                                onBlur={e => saveFlagNote(q.id, e.target.value)}
+                                className="w-full text-xs font-bold text-ink/60 bg-white/60 border border-white/60 rounded-2xl px-3 py-2 resize-none outline-none focus:border-amber-300 transition-colors placeholder:text-ink/20"
+                                rows={2}
+                              />
+                              <button
+                                onClick={() => toggleFlag(q.id)}
+                                className="w-full text-[10px] font-black text-coral-text tracking-wider py-2 rounded-2xl hover:bg-coral-soft/20 transition-colors border border-coral-soft/30"
+                              >
+                                フラグを解除する
+                              </button>
+                            </div>
+                          </div>
+                        </details>
+                      ))
+                    }
+                  </div>
+                )}
               </main>
             )}
           </div>
