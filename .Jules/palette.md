@@ -1,0 +1,3 @@
+## 2024-03-24 - [Accessible Icon-Only Buttons]
+**Learning:** Discovered that several critical navigation and action buttons (like Home, Bookmark, Export) in the Driver's Prep app were icon-only without proper ARIA labels or keyboard focus visible states. This makes the app inaccessible to screen readers and difficult to navigate for keyboard users.
+**Action:** Added `aria-label` attributes to these icon-only buttons to provide context, used dynamic `aria-label` for toggles (like the bookmark button), and added `focus-visible:ring-2 focus-visible:ring-emerald-soft focus-visible:outline-none` classes to ensure keyboard navigation is clear and visible.
