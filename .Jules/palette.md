@@ -1,0 +1,3 @@
+## 2026-04-20 - Added missing ARIA labels and focus states to icon buttons
+**Learning:** Found that multiple critical icon-only buttons (Home, Bookmark, Export) were missing accessible names, and relying only on generic React classnames. When adding dynamic states like the bookmark toggle, the aria-label needs to reflect the current active state (e.g. 'ブックマークに追加' vs 'ブックマークを解除'). Focus visible styles using Tailwind are essential for keyboard navigation on custom designed buttons.
+**Action:** When creating new icon buttons, always check that an explicit aria-label is present if there is no visible text. Use Tailwind's focus-visible utility classes (e.g., focus-visible:ring-2) to ensure keyboard users have a clear visual focus indicator.
