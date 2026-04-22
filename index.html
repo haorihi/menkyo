@@ -729,8 +729,8 @@
               <main className="flex-grow flex flex-col pt-12 pb-8 px-6 animate-scale-in view-transition">
                 {/* Header */}
                 <header className="flex items-center justify-between mb-10 z-10 relative">
-                  <button onClick={() => setCurrentView('home')} className="w-12 h-12 rounded-full glass-surface flex items-center justify-center text-ink hover:bg-white transition-colors border-2 border-white/50">
-                    <i className="ph ph-house text-xl"></i>
+                  <button onClick={() => setCurrentView('home')} aria-label="ホームに戻る" className="w-12 h-12 rounded-full glass-surface flex items-center justify-center text-ink hover:bg-white transition-colors border-2 border-white/50 focus-visible:ring-2 focus-visible:ring-ink focus-visible:outline-none">
+                    <i className="ph ph-house text-xl" aria-hidden="true"></i>
                   </button>
                   <div className="text-center">
                     <span className="text-[10px] font-black text-ink-muted tracking-[0.2em] block mb-1 uppercase">EXERCISING</span>
@@ -742,9 +742,10 @@
                     )}
                     <button 
                       onClick={() => toggleBookmark(currentQuestion.id)}
-                      className={`w-12 h-12 rounded-full glass-surface flex items-center justify-center transition-all border-2 border-white/50 ${bookmarkedIds.has(currentQuestion.id) ? 'bg-coral-soft text-white border-coral-soft' : 'text-ink hover:bg-white'}`}
+                      aria-label={bookmarkedIds.has(currentQuestion.id) ? 'ブックマークを解除する' : 'ブックマークに追加する'}
+                      className={`w-12 h-12 rounded-full glass-surface flex items-center justify-center transition-all border-2 border-white/50 focus-visible:ring-2 focus-visible:ring-ink focus-visible:outline-none ${bookmarkedIds.has(currentQuestion.id) ? 'bg-coral-soft text-white border-coral-soft' : 'text-ink hover:bg-white'}`}
                     >
-                      <i className={`ph ph-bookmark-simple text-xl ${bookmarkedIds.has(currentQuestion.id) ? 'ph-fill' : ''}`}></i>
+                      <i className={`ph ph-bookmark-simple text-xl ${bookmarkedIds.has(currentQuestion.id) ? 'ph-fill' : ''}`} aria-hidden="true"></i>
                     </button>
                   </div>
                 </header>
@@ -882,8 +883,8 @@
               <main className="flex-grow flex flex-col pt-12 pb-12 px-6 overflow-y-auto no-scrollbar animate-fade-in-up view-transition">
                 {/* Header */}
                 <header className="flex items-center justify-between mb-8">
-                  <button onClick={() => setCurrentView('home')} className="w-12 h-12 rounded-full glass-surface flex items-center justify-center text-ink hover:bg-white transition-colors border-2 border-white/50">
-                    <i className="ph ph-house text-xl"></i>
+                  <button onClick={() => setCurrentView('home')} aria-label="ホームに戻る" className="w-12 h-12 rounded-full glass-surface flex items-center justify-center text-ink hover:bg-white transition-colors border-2 border-white/50 focus-visible:ring-2 focus-visible:ring-ink focus-visible:outline-none">
+                    <i className="ph ph-house text-xl" aria-hidden="true"></i>
                   </button>
                   <div className="text-center">
                     <span className="text-[10px] font-black text-ink-muted tracking-[0.2em] block mb-1 uppercase">Review Queue</span>
@@ -892,10 +893,11 @@
                   <button
                     onClick={exportFlagged}
                     disabled={flaggedIds.size === 0}
-                    className="w-12 h-12 rounded-full glass-surface flex items-center justify-center text-amber-600 hover:bg-amber-100 transition-colors border-2 border-amber-200/50 disabled:opacity-30 disabled:pointer-events-none"
+                    aria-label="AIレビュー用JSONをコピー"
+                    className="w-12 h-12 rounded-full glass-surface flex items-center justify-center text-amber-600 hover:bg-amber-100 transition-colors border-2 border-amber-200/50 focus-visible:ring-2 focus-visible:ring-ink focus-visible:outline-none disabled:opacity-30 disabled:pointer-events-none"
                     title="AIレビュー用JSONをコピー"
                   >
-                    <i className="ph ph-export text-xl"></i>
+                    <i className="ph ph-export text-xl" aria-hidden="true"></i>
                   </button>
                 </header>
 
