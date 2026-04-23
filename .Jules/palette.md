@@ -1,0 +1,3 @@
+## 2024-04-23 - Accessibility of icon-only buttons
+**Learning:** Icon-only buttons lack inherent context for screen reader users and can be hard to notice when navigating with keyboards. Relying on default `title` attributes is not sufficient for complete accessibility, as tooltips may not trigger reliably via keyboard or be read perfectly by all AT.
+**Action:** Always add explicit, localized `aria-label` attributes to icon-only buttons (e.g. `aria-label="ホームに戻る"`). Concurrently, ensure you add `aria-hidden="true"` to the inner `<i>` tags to hide visual noise. Finally, combine this with explicit `focus-visible` classes to ensure focus visibility.
