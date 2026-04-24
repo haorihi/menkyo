@@ -1,0 +1,3 @@
+## 2026-04-24 - [Add ARIA labels to icon-only buttons]
+**Learning:** Icon-only buttons in this app must include explicitly localized `aria-label`s for screen readers since there is no text content. The inner icon tag (e.g., `<i>`) must have `aria-hidden="true"` to prevent screen reader misinterpretation. Also, keyboard accessibility requires explicit focus styles because the app clears default outlines, which can be fixed with utility classes like `focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink/40` or equivalent.
+**Action:** When adding or modifying icon-only buttons, ensure they have a localized `aria-label`, add `aria-hidden="true"` to their inner icons, and define explicit `focus-visible` ring classes so they are keyboard accessible.
