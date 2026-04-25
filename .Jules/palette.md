@@ -1,0 +1,3 @@
+## 2024-05-24 - [Accessible Icon-Only Navigation Buttons]
+**Learning:** The application uses circular, glass-morphism style icon-only buttons for primary navigation and actions (Home, Bookmark, Export) across multiple views. These were missing accessible names (`aria-label`) and visible keyboard focus indicators (`focus-visible`), presenting a pattern of inaccessibility for screen reader and keyboard users.
+**Action:** Add localized `aria-label`s (Japanese) to all icon-only buttons and implement `focus-visible:ring-2 focus-visible:outline-none` classes to ensure they are perceivable and operable for all users.
