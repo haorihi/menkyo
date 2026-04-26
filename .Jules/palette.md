@@ -1,0 +1,3 @@
+## 2026-04-26 - [Glassmorphism UI and ARIA Accessibility]
+**Learning:** Icon-only buttons embedded in glassmorphic/semi-transparent UI containers inherently risk losing visible focus states if relying strictly on browser defaults. Furthermore, these buttons lack accessible text for screen readers.
+**Action:** When working with glassmorphic UIs (like those using `glass-surface` utility classes), manually define explicit `focus-visible` styles with sufficient contrast (e.g., `focus-visible:ring-2 focus-visible:ring-ink`) to ensure keyboard navigability. Always pair icon-only buttons with contextual `aria-label`s and `aria-hidden="true"` on the enclosed `<i>` tags.
