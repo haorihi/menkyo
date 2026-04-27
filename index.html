@@ -729,7 +729,7 @@
               <main className="flex-grow flex flex-col pt-12 pb-8 px-6 animate-scale-in view-transition">
                 {/* Header */}
                 <header className="flex items-center justify-between mb-10 z-10 relative">
-                  <button onClick={() => setCurrentView('home')} className="w-12 h-12 rounded-full glass-surface flex items-center justify-center text-ink hover:bg-white transition-colors border-2 border-white/50">
+                  <button aria-label="ホームに戻る" onClick={() => setCurrentView('home')} className="w-12 h-12 rounded-full glass-surface flex items-center justify-center text-ink hover:bg-white transition-colors border-2 border-white/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink/50">
                     <i className="ph ph-house text-xl"></i>
                   </button>
                   <div className="text-center">
@@ -741,8 +741,9 @@
                       <span className="text-[9px] font-black text-amber-600 bg-amber-100 px-2 py-0.5 rounded-full border border-amber-200 tracking-wider">要確認</span>
                     )}
                     <button 
+                      aria-label={bookmarkedIds.has(currentQuestion.id) ? 'ブックマークを解除' : 'ブックマークに追加'}
                       onClick={() => toggleBookmark(currentQuestion.id)}
-                      className={`w-12 h-12 rounded-full glass-surface flex items-center justify-center transition-all border-2 border-white/50 ${bookmarkedIds.has(currentQuestion.id) ? 'bg-coral-soft text-white border-coral-soft' : 'text-ink hover:bg-white'}`}
+                      className={`w-12 h-12 rounded-full glass-surface flex items-center justify-center transition-all border-2 border-white/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink/50 ${bookmarkedIds.has(currentQuestion.id) ? 'bg-coral-soft text-white border-coral-soft' : 'text-ink hover:bg-white'}`}
                     >
                       <i className={`ph ph-bookmark-simple text-xl ${bookmarkedIds.has(currentQuestion.id) ? 'ph-fill' : ''}`}></i>
                     </button>
@@ -882,7 +883,7 @@
               <main className="flex-grow flex flex-col pt-12 pb-12 px-6 overflow-y-auto no-scrollbar animate-fade-in-up view-transition">
                 {/* Header */}
                 <header className="flex items-center justify-between mb-8">
-                  <button onClick={() => setCurrentView('home')} className="w-12 h-12 rounded-full glass-surface flex items-center justify-center text-ink hover:bg-white transition-colors border-2 border-white/50">
+                  <button aria-label="ホームに戻る" onClick={() => setCurrentView('home')} className="w-12 h-12 rounded-full glass-surface flex items-center justify-center text-ink hover:bg-white transition-colors border-2 border-white/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink/50">
                     <i className="ph ph-house text-xl"></i>
                   </button>
                   <div className="text-center">
@@ -890,9 +891,10 @@
                     <div className="text-sm font-black text-ink tracking-widest"><span className="text-2xl">{flaggedIds.size}</span> 問</div>
                   </div>
                   <button
+                    aria-label="AIレビュー用JSONをコピー"
                     onClick={exportFlagged}
                     disabled={flaggedIds.size === 0}
-                    className="w-12 h-12 rounded-full glass-surface flex items-center justify-center text-amber-600 hover:bg-amber-100 transition-colors border-2 border-amber-200/50 disabled:opacity-30 disabled:pointer-events-none"
+                    className="w-12 h-12 rounded-full glass-surface flex items-center justify-center text-amber-600 hover:bg-amber-100 transition-colors border-2 border-amber-200/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink/50 disabled:opacity-30 disabled:pointer-events-none"
                     title="AIレビュー用JSONをコピー"
                   >
                     <i className="ph ph-export text-xl"></i>
