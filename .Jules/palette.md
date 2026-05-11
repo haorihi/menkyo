@@ -1,0 +1,3 @@
+## 2026-05-11 - Add ARIA Labels and Focus States to Icon-Only Buttons
+**Learning:** Found multiple interactive `<button>` elements (Home, Bookmark, Export) relying entirely on `<i>` tags for Phosphor Icons without accessible names. This violates WCAG 4.1.2 (Name, Role, Value). Also lacked explicit keyboard focus indication. Dynamic elements like bookmarks require state-aware `aria-label` values.
+**Action:** Always verify icon-only buttons have localized `aria-label`s. Ensure dynamic actions (like toggle bookmark) reflect their action contextually (e.g., "add" vs "remove"). Use `focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink` pattern for keyboard focus rings uniformly across interactive elements.
