@@ -1,0 +1,3 @@
+## 2024-05-24 - Missing ARIA Labels and Focus States on Icon-Only Buttons
+**Learning:** Icon-only buttons without `aria-label`s fail to provide context to screen readers, and lacking focus states makes them inaccessible for keyboard navigation, both of which degrade the overall accessibility and user experience in the app.
+**Action:** Always ensure that icon-only interactive elements contain a descriptive `aria-label` (localized to Japanese for this app) and explicit focus styles, specifically adopting the project's Tailwind focus ring pattern (`focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink`).
