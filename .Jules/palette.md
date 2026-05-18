@@ -1,0 +1,3 @@
+## 2024-10-25 - Icon-Only Button Accessibility Pattern
+**Learning:** Icon-only buttons (like those using Phosphor Icons without accompanying text) require explicit ARIA labels localized in Japanese to be accessible to screen readers in this application. Furthermore, the application relies on keyboard focus visibility; applying the specific Tailwind pattern `focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink` ensures a consistent, visible focus ring without polluting styles for pointer users.
+**Action:** Always verify that every `<button>` containing only an `<i class="ph ...">` has a descriptive, localized `aria-label` and incorporates the standard `focus-visible` ring utility classes.
