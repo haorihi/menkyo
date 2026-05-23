@@ -1,0 +1,3 @@
+## 2024-05-23 - Focus Rings and Aria Labels on Icon-only Buttons
+**Learning:** Icon-only buttons often lack accessible names for screen readers and miss visible focus states for keyboard navigation. While Tailwind's basic classes handle mouse interaction well, keyboard users need explicit focus styles to navigate predictably.
+**Action:** Always add an `aria-label` (localized to Japanese for this app) and explicit focus-ring classes (`focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink`) when implementing icon-only buttons to guarantee keyboard and screen reader accessibility.
