@@ -1,0 +1,3 @@
+## 2024-05-24 - Accessible Icon-only Buttons
+**Learning:** Icon-only buttons without `aria-label` and `aria-hidden="true"` on the icon itself create an inaccessible experience for screen reader users, who hear either nothing or confusing element descriptions. Additionally, lacking `focus-visible` styles prevents keyboard-only users from tracking their focus state.
+**Action:** Always add descriptive `aria-label` to the button, `aria-hidden="true"` to the internal icon, and `focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink` utility classes when creating or modifying icon-only buttons.
