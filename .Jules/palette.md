@@ -1,0 +1,3 @@
+## 2024-06-09 - Accessible Icon-only Buttons Pattern
+**Learning:** Found that when adding accessibility to React-based icon buttons, stateful buttons (like bookmarks) require dynamic `aria-label`s to reflect their current state to screen readers. Adding `aria-hidden="true"` to the internal `<i>` element prevents screen readers from attempting to read the icon class or symbol.
+**Action:** When creating icon-only buttons, always apply: 1) a descriptive or dynamic `aria-label`, 2) `aria-hidden="true"` to the inner icon element, and 3) explicit `focus-visible` ring styling for keyboard navigation.
