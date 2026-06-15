@@ -1,2 +1,4 @@
 .aidesigner/*
 !.aidesigner/.gitkeep
+venv/
+venv/
