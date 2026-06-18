@@ -1,0 +1,3 @@
+## 2026-06-18 - Accessibility on Stateful Icon-Only Buttons
+**Learning:** For icon-only buttons that maintain state (like toggling a bookmark), it's crucial to dynamically update the `aria-label` attribute (e.g., "Add to Bookmarks" vs "Remove from Bookmarks") rather than a static label. Additionally, `focus-visible` classes must be consistently applied alongside `aria-hidden` on internal icons.
+**Action:** When creating or modifying stateful icon-only buttons, dynamically update `aria-label` based on component state to accurately reflect the action, and always include proper focus ring styles for keyboard navigation.
